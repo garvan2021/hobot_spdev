@@ -1,0 +1,3880 @@
+
+/usr/local/lib/python3.8/dist-packages/hobot_spdev/libsppydev.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .init:
+
+0000000000002f28 <_init>:
+    2f28:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    2f2c:	910003fd 	mov	x29, sp
+    2f30:	94000134 	bl	3400 <call_weak_fn>
+    2f34:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    2f38:	d65f03c0 	ret
+
+Disassembly of section .plt:
+
+0000000000002f40 <.plt>:
+    2f40:	a9bf7bf0 	stp	x16, x30, [sp, #-16]!
+    2f44:	b00000b0 	adrp	x16, 17000 <__FRAME_END__+0xf524>
+    2f48:	f947fe11 	ldr	x17, [x16, #4088]
+    2f4c:	913fe210 	add	x16, x16, #0xff8
+    2f50:	d61f0220 	br	x17
+    2f54:	d503201f 	nop
+    2f58:	d503201f 	nop
+    2f5c:	d503201f 	nop
+
+0000000000002f60 <memcpy@plt>:
+    2f60:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2f64:	f9400211 	ldr	x17, [x16]
+    2f68:	91000210 	add	x16, x16, #0x0
+    2f6c:	d61f0220 	br	x17
+
+0000000000002f70 <PyLong_AsLong@plt>:
+    2f70:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2f74:	f9400611 	ldr	x17, [x16, #8]
+    2f78:	91002210 	add	x16, x16, #0x8
+    2f7c:	d61f0220 	br	x17
+
+0000000000002f80 <PyBytes_ConcatAndDel@plt>:
+    2f80:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2f84:	f9400a11 	ldr	x17, [x16, #16]
+    2f88:	91004210 	add	x16, x16, #0x10
+    2f8c:	d61f0220 	br	x17
+
+0000000000002f90 <_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv@plt>:
+    2f90:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2f94:	f9400e11 	ldr	x17, [x16, #24]
+    2f98:	91006210 	add	x16, x16, #0x18
+    2f9c:	d61f0220 	br	x17
+
+0000000000002fa0 <_ZNKSt12__basic_fileIcE7is_openEv@plt>:
+    2fa0:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2fa4:	f9401211 	ldr	x17, [x16, #32]
+    2fa8:	91008210 	add	x16, x16, #0x20
+    2fac:	d61f0220 	br	x17
+
+0000000000002fb0 <_ZNSt8ios_baseC2Ev@plt>:
+    2fb0:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2fb4:	f9401611 	ldr	x17, [x16, #40]
+    2fb8:	9100a210 	add	x16, x16, #0x28
+    2fbc:	d61f0220 	br	x17
+
+0000000000002fc0 <_ZN5spdev9VPPModule13SetModuleTypeENS_12Sdk_Object_eE@plt>:
+    2fc0:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2fc4:	f9401a11 	ldr	x17, [x16, #48]
+    2fc8:	9100c210 	add	x16, x16, #0x30
+    2fcc:	d61f0220 	br	x17
+
+0000000000002fd0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@plt>:
+    2fd0:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2fd4:	f9401e11 	ldr	x17, [x16, #56]
+    2fd8:	9100e210 	add	x16, x16, #0x38
+    2fdc:	d61f0220 	br	x17
+
+0000000000002fe0 <_ZNSt8ios_baseD2Ev@plt>:
+    2fe0:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2fe4:	f9402211 	ldr	x17, [x16, #64]
+    2fe8:	91010210 	add	x16, x16, #0x40
+    2fec:	d61f0220 	br	x17
+
+0000000000002ff0 <__stack_chk_fail@plt>:
+    2ff0:	d00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    2ff4:	f9402611 	ldr	x17, [x16, #72]
+    2ff8:	91012210 	add	x16, x16, #0x48
+    2ffc:	d61f0220 	br	x17
+
+0000000000003000 <_ZN5spdev9VPPDecode5CloseEv@plt>:
+    3000:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3004:	f9402a11 	ldr	x17, [x16, #80]
+    3008:	91014210 	add	x16, x16, #0x50
+    300c:	d61f0220 	br	x17
+
+0000000000003010 <_ZN5spdev9VPPModule6UnBindEPS0_i@plt>:
+    3010:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3014:	f9402e11 	ldr	x17, [x16, #88]
+    3018:	91016210 	add	x16, x16, #0x58
+    301c:	d61f0220 	br	x17
+
+0000000000003020 <__cxa_begin_catch@plt>:
+    3020:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3024:	f9403211 	ldr	x17, [x16, #96]
+    3028:	91018210 	add	x16, x16, #0x60
+    302c:	d61f0220 	br	x17
+
+0000000000003030 <_ZN5spdev9VPPEncode10OpenEncodeEiiii@plt>:
+    3030:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3034:	f9403611 	ldr	x17, [x16, #104]
+    3038:	9101a210 	add	x16, x16, #0x68
+    303c:	d61f0220 	br	x17
+
+0000000000003040 <PyModule_AddObject@plt>:
+    3040:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3044:	f9403a11 	ldr	x17, [x16, #112]
+    3048:	9101c210 	add	x16, x16, #0x70
+    304c:	d61f0220 	br	x17
+
+0000000000003050 <_ZN5spdev10VPPDisplay5CloseEv@plt>:
+    3050:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3054:	f9403e11 	ldr	x17, [x16, #120]
+    3058:	9101e210 	add	x16, x16, #0x78
+    305c:	d61f0220 	br	x17
+
+0000000000003060 <_ZSt20__throw_length_errorPKc@plt>:
+    3060:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3064:	f9404211 	ldr	x17, [x16, #128]
+    3068:	91020210 	add	x16, x16, #0x80
+    306c:	d61f0220 	br	x17
+
+0000000000003070 <memset@plt>:
+    3070:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3074:	f9404611 	ldr	x17, [x16, #136]
+    3078:	91022210 	add	x16, x16, #0x88
+    307c:	d61f0220 	br	x17
+
+0000000000003080 <PyList_Append@plt>:
+    3080:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3084:	f9404a11 	ldr	x17, [x16, #144]
+    3088:	91024210 	add	x16, x16, #0x90
+    308c:	d61f0220 	br	x17
+
+0000000000003090 <PyBytes_FromStringAndSize@plt>:
+    3090:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3094:	f9404e11 	ldr	x17, [x16, #152]
+    3098:	91026210 	add	x16, x16, #0x98
+    309c:	d61f0220 	br	x17
+
+00000000000030a0 <PyArg_ParseTupleAndKeywords@plt>:
+    30a0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    30a4:	f9405211 	ldr	x17, [x16, #160]
+    30a8:	91028210 	add	x16, x16, #0xa0
+    30ac:	d61f0220 	br	x17
+
+00000000000030b0 <__cxa_finalize@plt>:
+    30b0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    30b4:	f9405611 	ldr	x17, [x16, #168]
+    30b8:	9102a210 	add	x16, x16, #0xa8
+    30bc:	d61f0220 	br	x17
+
+00000000000030c0 <PyList_Size@plt>:
+    30c0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    30c4:	f9405a11 	ldr	x17, [x16, #176]
+    30c8:	9102c210 	add	x16, x16, #0xb0
+    30cc:	d61f0220 	br	x17
+
+00000000000030d0 <_ZN5spdev9VPPCamera10OpenCameraEiiPiS1_P21sp_sensors_parameters@plt>:
+    30d0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    30d4:	f9405e11 	ldr	x17, [x16, #184]
+    30d8:	9102e210 	add	x16, x16, #0xb8
+    30dc:	d61f0220 	br	x17
+
+00000000000030e0 <Py_BuildValue@plt>:
+    30e0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    30e4:	f9406211 	ldr	x17, [x16, #192]
+    30e8:	91030210 	add	x16, x16, #0xc0
+    30ec:	d61f0220 	br	x17
+
+00000000000030f0 <PyList_New@plt>:
+    30f0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    30f4:	f9406611 	ldr	x17, [x16, #200]
+    30f8:	91032210 	add	x16, x16, #0xc8
+    30fc:	d61f0220 	br	x17
+
+0000000000003100 <PyBytes_Size@plt>:
+    3100:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3104:	f9406a11 	ldr	x17, [x16, #208]
+    3108:	91034210 	add	x16, x16, #0xd0
+    310c:	d61f0220 	br	x17
+
+0000000000003110 <_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode@plt>:
+    3110:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3114:	f9406e11 	ldr	x17, [x16, #216]
+    3118:	91036210 	add	x16, x16, #0xd8
+    311c:	d61f0220 	br	x17
+
+0000000000003120 <PyList_GetItem@plt>:
+    3120:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3124:	f9407211 	ldr	x17, [x16, #224]
+    3128:	91038210 	add	x16, x16, #0xe0
+    312c:	d61f0220 	br	x17
+
+0000000000003130 <_ZdlPv@plt>:
+    3130:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3134:	f9407611 	ldr	x17, [x16, #232]
+    3138:	9103a210 	add	x16, x16, #0xe8
+    313c:	d61f0220 	br	x17
+
+0000000000003140 <_Znwm@plt>:
+    3140:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3144:	f9407a11 	ldr	x17, [x16, #240]
+    3148:	9103c210 	add	x16, x16, #0xf0
+    314c:	d61f0220 	br	x17
+
+0000000000003150 <_ZdlPvm@plt>:
+    3150:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3154:	f9407e11 	ldr	x17, [x16, #248]
+    3158:	9103e210 	add	x16, x16, #0xf8
+    315c:	d61f0220 	br	x17
+
+0000000000003160 <_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev@plt>:
+    3160:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3164:	f9408211 	ldr	x17, [x16, #256]
+    3168:	91040210 	add	x16, x16, #0x100
+    316c:	d61f0220 	br	x17
+
+0000000000003170 <_ZN5spdev9VPPModule6BindToEPS0_i@plt>:
+    3170:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3174:	f9408611 	ldr	x17, [x16, #264]
+    3178:	91042210 	add	x16, x16, #0x108
+    317c:	d61f0220 	br	x17
+
+0000000000003180 <_ZN5spdev9VPPCamera7OpenVPSEiiiPiS1_S1_S1_S1_S1_S1_@plt>:
+    3180:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3184:	f9408a11 	ldr	x17, [x16, #272]
+    3188:	91044210 	add	x16, x16, #0x110
+    318c:	d61f0220 	br	x17
+
+0000000000003190 <_ZN5spdev9VPPModule14GetModuleWidthEv@plt>:
+    3190:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3194:	f9408e11 	ldr	x17, [x16, #280]
+    3198:	91046210 	add	x16, x16, #0x118
+    319c:	d61f0220 	br	x17
+
+00000000000031a0 <log_ctrl_print@plt>:
+    31a0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    31a4:	f9409211 	ldr	x17, [x16, #288]
+    31a8:	91048210 	add	x16, x16, #0x120
+    31ac:	d61f0220 	br	x17
+
+00000000000031b0 <PyErr_SetString@plt>:
+    31b0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    31b4:	f9409611 	ldr	x17, [x16, #296]
+    31b8:	9104a210 	add	x16, x16, #0x128
+    31bc:	d61f0220 	br	x17
+
+00000000000031c0 <__cxa_atexit@plt>:
+    31c0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    31c4:	f9409a11 	ldr	x17, [x16, #304]
+    31c8:	9104c210 	add	x16, x16, #0x130
+    31cc:	d61f0220 	br	x17
+
+00000000000031d0 <_ZN5spdev10VPPDisplay12SetGraphRectEiiiiiji@plt>:
+    31d0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    31d4:	f9409e11 	ldr	x17, [x16, #312]
+    31d8:	9104e210 	add	x16, x16, #0x138
+    31dc:	d61f0220 	br	x17
+
+00000000000031e0 <_ZN5spdev9VPPCamera5CloseEv@plt>:
+    31e0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    31e4:	f940a211 	ldr	x17, [x16, #320]
+    31e8:	91050210 	add	x16, x16, #0x140
+    31ec:	d61f0220 	br	x17
+
+00000000000031f0 <__vsnprintf_chk@plt>:
+    31f0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    31f4:	f940a611 	ldr	x17, [x16, #328]
+    31f8:	91052210 	add	x16, x16, #0x148
+    31fc:	d61f0220 	br	x17
+
+0000000000003200 <_ZNSo5writeEPKcl@plt>:
+    3200:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3204:	f940aa11 	ldr	x17, [x16, #336]
+    3208:	91054210 	add	x16, x16, #0x150
+    320c:	d61f0220 	br	x17
+
+0000000000003210 <PyBytes_AsString@plt>:
+    3210:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3214:	f940ae11 	ldr	x17, [x16, #344]
+    3218:	91056210 	add	x16, x16, #0x158
+    321c:	d61f0220 	br	x17
+
+0000000000003220 <_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@plt>:
+    3220:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3224:	f940b211 	ldr	x17, [x16, #352]
+    3228:	91058210 	add	x16, x16, #0x160
+    322c:	d61f0220 	br	x17
+
+0000000000003230 <_ZN5spdev9VPPModuleD2Ev@plt>:
+    3230:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3234:	f940b611 	ldr	x17, [x16, #360]
+    3238:	9105a210 	add	x16, x16, #0x168
+    323c:	d61f0220 	br	x17
+
+0000000000003240 <_ZN5spdev9VPPModule15GetModuleHeightEv@plt>:
+    3240:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3244:	f940ba11 	ldr	x17, [x16, #368]
+    3248:	9105c210 	add	x16, x16, #0x170
+    324c:	d61f0220 	br	x17
+
+0000000000003250 <_ZNSt6localeD1Ev@plt>:
+    3250:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3254:	f940be11 	ldr	x17, [x16, #376]
+    3258:	9105e210 	add	x16, x16, #0x178
+    325c:	d61f0220 	br	x17
+
+0000000000003260 <PyType_Ready@plt>:
+    3260:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3264:	f940c211 	ldr	x17, [x16, #384]
+    3268:	91060210 	add	x16, x16, #0x180
+    326c:	d61f0220 	br	x17
+
+0000000000003270 <_ZNSt14basic_ofstreamIcSt11char_traitsIcEED1Ev@plt>:
+    3270:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3274:	f940c611 	ldr	x17, [x16, #392]
+    3278:	91062210 	add	x16, x16, #0x188
+    327c:	d61f0220 	br	x17
+
+0000000000003280 <_ZNSt8ios_base4InitC1Ev@plt>:
+    3280:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3284:	f940ca11 	ldr	x17, [x16, #400]
+    3288:	91064210 	add	x16, x16, #0x190
+    328c:	d61f0220 	br	x17
+
+0000000000003290 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@plt>:
+    3290:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3294:	f940ce11 	ldr	x17, [x16, #408]
+    3298:	91066210 	add	x16, x16, #0x198
+    329c:	d61f0220 	br	x17
+
+00000000000032a0 <_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev@plt>:
+    32a0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    32a4:	f940d211 	ldr	x17, [x16, #416]
+    32a8:	91068210 	add	x16, x16, #0x1a0
+    32ac:	d61f0220 	br	x17
+
+00000000000032b0 <PyModule_Create2@plt>:
+    32b0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    32b4:	f940d611 	ldr	x17, [x16, #424]
+    32b8:	9106a210 	add	x16, x16, #0x1a8
+    32bc:	d61f0220 	br	x17
+
+00000000000032c0 <_ZN5spdev9VPPCamera13GetImageFrameEP10ImageFrameNS_9DevModuleEiii@plt>:
+    32c0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    32c4:	f940da11 	ldr	x17, [x16, #432]
+    32c8:	9106c210 	add	x16, x16, #0x1b0
+    32cc:	d61f0220 	br	x17
+
+00000000000032d0 <_ZN5spdev9VPPDecode10OpenDecodeEiiiPKcPi@plt>:
+    32d0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    32d4:	f940de11 	ldr	x17, [x16, #440]
+    32d8:	9106e210 	add	x16, x16, #0x1b8
+    32dc:	d61f0220 	br	x17
+
+00000000000032e0 <__cxa_end_catch@plt>:
+    32e0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    32e4:	f940e211 	ldr	x17, [x16, #448]
+    32e8:	91070210 	add	x16, x16, #0x1c0
+    32ec:	d61f0220 	br	x17
+
+00000000000032f0 <__gxx_personality_v0@plt>:
+    32f0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    32f4:	f940e611 	ldr	x17, [x16, #456]
+    32f8:	91072210 	add	x16, x16, #0x1c8
+    32fc:	d61f0220 	br	x17
+
+0000000000003300 <_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@plt>:
+    3300:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3304:	f940ea11 	ldr	x17, [x16, #464]
+    3308:	91074210 	add	x16, x16, #0x1d0
+    330c:	d61f0220 	br	x17
+
+0000000000003310 <_ZN5spdev10VPPDisplay11OpenDisplayEii@plt>:
+    3310:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3314:	f940ee11 	ldr	x17, [x16, #472]
+    3318:	91076210 	add	x16, x16, #0x1d8
+    331c:	d61f0220 	br	x17
+
+0000000000003320 <_Unwind_Resume@plt>:
+    3320:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3324:	f940f211 	ldr	x17, [x16, #480]
+    3328:	91078210 	add	x16, x16, #0x1e0
+    332c:	d61f0220 	br	x17
+
+0000000000003330 <_ZN5spdev9VPPCamera16ReturnImageFrameEP10ImageFrameNS_9DevModuleEii@plt>:
+    3330:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3334:	f940f611 	ldr	x17, [x16, #488]
+    3338:	9107a210 	add	x16, x16, #0x1e8
+    333c:	d61f0220 	br	x17
+
+0000000000003340 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm@plt>:
+    3340:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3344:	f940fa11 	ldr	x17, [x16, #496]
+    3348:	9107c210 	add	x16, x16, #0x1f0
+    334c:	d61f0220 	br	x17
+
+0000000000003350 <_ZN5spdev9VPPModule19SetModuleTypeStringEPc@plt>:
+    3350:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3354:	f940fe11 	ldr	x17, [x16, #504]
+    3358:	9107e210 	add	x16, x16, #0x1f8
+    335c:	d61f0220 	br	x17
+
+0000000000003360 <__printf_chk@plt>:
+    3360:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3364:	f9410211 	ldr	x17, [x16, #512]
+    3368:	91080210 	add	x16, x16, #0x200
+    336c:	d61f0220 	br	x17
+
+0000000000003370 <_ZNSt12__basic_fileIcED1Ev@plt>:
+    3370:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3374:	f9410611 	ldr	x17, [x16, #520]
+    3378:	91082210 	add	x16, x16, #0x208
+    337c:	d61f0220 	br	x17
+
+0000000000003380 <_ZN5spdev10VPPDisplay12SetGraphWordEiiPciji@plt>:
+    3380:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3384:	f9410a11 	ldr	x17, [x16, #528]
+    3388:	91084210 	add	x16, x16, #0x210
+    338c:	d61f0220 	br	x17
+
+0000000000003390 <_ZN5spdev9VPPEncode5CloseEv@plt>:
+    3390:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    3394:	f9410e11 	ldr	x17, [x16, #536]
+    3398:	91086210 	add	x16, x16, #0x218
+    339c:	d61f0220 	br	x17
+
+00000000000033a0 <__gmon_start__@plt>:
+    33a0:	b00000b0 	adrp	x16, 18000 <memcpy@GLIBC_2.17>
+    33a4:	f9411211 	ldr	x17, [x16, #544]
+    33a8:	91088210 	add	x16, x16, #0x220
+    33ac:	d61f0220 	br	x17
+
+Disassembly of section .text:
+
+00000000000033b0 <_GLOBAL__sub_I_sp_python.cpp>:
+    33b0:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    33b4:	910003fd 	mov	x29, sp
+    33b8:	f9000bf3 	str	x19, [sp, #16]
+    33bc:	b00000b3 	adrp	x19, 18000 <memcpy@GLIBC_2.17>
+    33c0:	91356273 	add	x19, x19, #0xd58
+    33c4:	aa1303e0 	mov	x0, x19
+    33c8:	97ffffae 	bl	3280 <_ZNSt8ios_base4InitC1Ev@plt>
+    33cc:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    33d0:	aa1303e1 	mov	x1, x19
+    33d4:	b00000a2 	adrp	x2, 18000 <memcpy@GLIBC_2.17>
+    33d8:	9108a042 	add	x2, x2, #0x228
+    33dc:	f947f000 	ldr	x0, [x0, #4064]
+    33e0:	97ffff78 	bl	31c0 <__cxa_atexit@plt>
+    33e4:	b00000a0 	adrp	x0, 18000 <memcpy@GLIBC_2.17>
+    33e8:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    33ec:	91304021 	add	x1, x1, #0xc10
+    33f0:	f9023801 	str	x1, [x0, #1136]
+    33f4:	f9400bf3 	ldr	x19, [sp, #16]
+    33f8:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    33fc:	d65f03c0 	ret
+
+0000000000003400 <call_weak_fn>:
+    3400:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    3404:	f947e800 	ldr	x0, [x0, #4048]
+    3408:	b4000040 	cbz	x0, 3410 <call_weak_fn+0x10>
+    340c:	17ffffe5 	b	33a0 <__gmon_start__@plt>
+    3410:	d65f03c0 	ret
+    3414:	d503201f 	nop
+
+0000000000003418 <deregister_tm_clones>:
+    3418:	b00000a0 	adrp	x0, 18000 <memcpy@GLIBC_2.17>
+    341c:	91354000 	add	x0, x0, #0xd50
+    3420:	b00000a1 	adrp	x1, 18000 <memcpy@GLIBC_2.17>
+    3424:	91354021 	add	x1, x1, #0xd50
+    3428:	eb00003f 	cmp	x1, x0
+    342c:	540000c0 	b.eq	3444 <deregister_tm_clones+0x2c>  // b.none
+    3430:	900000a1 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    3434:	f947e421 	ldr	x1, [x1, #4040]
+    3438:	b4000061 	cbz	x1, 3444 <deregister_tm_clones+0x2c>
+    343c:	aa0103f0 	mov	x16, x1
+    3440:	d61f0200 	br	x16
+    3444:	d65f03c0 	ret
+
+0000000000003448 <register_tm_clones>:
+    3448:	b00000a0 	adrp	x0, 18000 <memcpy@GLIBC_2.17>
+    344c:	91354000 	add	x0, x0, #0xd50
+    3450:	b00000a1 	adrp	x1, 18000 <memcpy@GLIBC_2.17>
+    3454:	91354021 	add	x1, x1, #0xd50
+    3458:	cb000021 	sub	x1, x1, x0
+    345c:	d37ffc22 	lsr	x2, x1, #63
+    3460:	8b810c41 	add	x1, x2, x1, asr #3
+    3464:	eb8107ff 	cmp	xzr, x1, asr #1
+    3468:	9341fc21 	asr	x1, x1, #1
+    346c:	540000c0 	b.eq	3484 <register_tm_clones+0x3c>  // b.none
+    3470:	900000a2 	adrp	x2, 17000 <__FRAME_END__+0xf524>
+    3474:	f947ec42 	ldr	x2, [x2, #4056]
+    3478:	b4000062 	cbz	x2, 3484 <register_tm_clones+0x3c>
+    347c:	aa0203f0 	mov	x16, x2
+    3480:	d61f0200 	br	x16
+    3484:	d65f03c0 	ret
+
+0000000000003488 <__do_global_dtors_aux>:
+    3488:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    348c:	910003fd 	mov	x29, sp
+    3490:	f9000bf3 	str	x19, [sp, #16]
+    3494:	b00000b3 	adrp	x19, 18000 <memcpy@GLIBC_2.17>
+    3498:	39754260 	ldrb	w0, [x19, #3408]
+    349c:	35000140 	cbnz	w0, 34c4 <__do_global_dtors_aux+0x3c>
+    34a0:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    34a4:	f947b000 	ldr	x0, [x0, #3936]
+    34a8:	b4000080 	cbz	x0, 34b8 <__do_global_dtors_aux+0x30>
+    34ac:	b00000a0 	adrp	x0, 18000 <memcpy@GLIBC_2.17>
+    34b0:	f9411400 	ldr	x0, [x0, #552]
+    34b4:	97fffeff 	bl	30b0 <__cxa_finalize@plt>
+    34b8:	97ffffd8 	bl	3418 <deregister_tm_clones>
+    34bc:	52800020 	mov	w0, #0x1                   	// #1
+    34c0:	39354260 	strb	w0, [x19, #3408]
+    34c4:	f9400bf3 	ldr	x19, [sp, #16]
+    34c8:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    34cc:	d65f03c0 	ret
+
+00000000000034d0 <frame_dummy>:
+    34d0:	17ffffde 	b	3448 <register_tm_clones>
+    34d4:	d503201f 	nop
+    34d8:	d503201f 	nop
+    34dc:	d503201f 	nop
+
+00000000000034e0 <Camera_new>:
+    34e0:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    34e4:	d2800001 	mov	x1, #0x0                   	// #0
+    34e8:	910003fd 	mov	x29, sp
+    34ec:	f9409802 	ldr	x2, [x0, #304]
+    34f0:	d63f0040 	blr	x2
+    34f4:	a9017c1f 	stp	xzr, xzr, [x0, #16]
+    34f8:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    34fc:	d65f03c0 	ret
+
+0000000000003500 <Encoder_get_frame>:
+    3500:	a9bd7bfd 	stp	x29, x30, [sp, #-48]!
+    3504:	910003fd 	mov	x29, sp
+    3508:	a90153f3 	stp	x19, x20, [sp, #16]
+    350c:	f9400814 	ldr	x20, [x0, #16]
+    3510:	f90013f5 	str	x21, [sp, #32]
+    3514:	b40004d4 	cbz	x20, 35ac <Encoder_get_frame+0xac>
+    3518:	aa0003f3 	mov	x19, x0
+    351c:	52817703 	mov	w3, #0xbb8                 	// #3000
+    3520:	f9400c01 	ldr	x1, [x0, #24]
+    3524:	52800002 	mov	w2, #0x0                   	// #0
+    3528:	f9400280 	ldr	x0, [x20]
+    352c:	f9400004 	ldr	x4, [x0]
+    3530:	aa1403e0 	mov	x0, x20
+    3534:	d63f0080 	blr	x4
+    3538:	34000180 	cbz	w0, 3568 <Encoder_get_frame+0x68>
+    353c:	900000a1 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    3540:	a94153f3 	ldp	x19, x20, [sp, #16]
+    3544:	f947a821 	ldr	x1, [x1, #3920]
+    3548:	aa0103f5 	mov	x21, x1
+    354c:	f9400022 	ldr	x2, [x1]
+    3550:	aa1503e0 	mov	x0, x21
+    3554:	f94013f5 	ldr	x21, [sp, #32]
+    3558:	91000442 	add	x2, x2, #0x1
+    355c:	f9000022 	str	x2, [x1]
+    3560:	a8c37bfd 	ldp	x29, x30, [sp], #48
+    3564:	d65f03c0 	ret
+    3568:	f9400e60 	ldr	x0, [x19, #24]
+    356c:	b4fffe80 	cbz	x0, 353c <Encoder_get_frame+0x3c>
+    3570:	b9405801 	ldr	w1, [x0, #88]
+    3574:	f9401c00 	ldr	x0, [x0, #56]
+    3578:	97fffec6 	bl	3090 <PyBytes_FromStringAndSize@plt>
+    357c:	aa0003f5 	mov	x21, x0
+    3580:	f9400282 	ldr	x2, [x20]
+    3584:	aa1403e0 	mov	x0, x20
+    3588:	f9400e61 	ldr	x1, [x19, #24]
+    358c:	f9400443 	ldr	x3, [x2, #8]
+    3590:	52800002 	mov	w2, #0x0                   	// #0
+    3594:	d63f0060 	blr	x3
+    3598:	aa1503e0 	mov	x0, x21
+    359c:	a94153f3 	ldp	x19, x20, [sp, #16]
+    35a0:	f94013f5 	ldr	x21, [sp, #32]
+    35a4:	a8c37bfd 	ldp	x29, x30, [sp], #48
+    35a8:	d65f03c0 	ret
+    35ac:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    35b0:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    35b4:	9122e021 	add	x1, x1, #0x8b8
+    35b8:	f947c400 	ldr	x0, [x0, #3976]
+    35bc:	f9400000 	ldr	x0, [x0]
+    35c0:	97fffefc 	bl	31b0 <PyErr_SetString@plt>
+    35c4:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    35c8:	a94153f3 	ldp	x19, x20, [sp, #16]
+    35cc:	f947a800 	ldr	x0, [x0, #3920]
+    35d0:	aa0003f5 	mov	x21, x0
+    35d4:	f9400001 	ldr	x1, [x0]
+    35d8:	91000421 	add	x1, x1, #0x1
+    35dc:	f9000001 	str	x1, [x0]
+    35e0:	aa1503e0 	mov	x0, x21
+    35e4:	f94013f5 	ldr	x21, [sp, #32]
+    35e8:	a8c37bfd 	ldp	x29, x30, [sp], #48
+    35ec:	d65f03c0 	ret
+
+00000000000035f0 <Decoder_get_frame>:
+    35f0:	a9bc7bfd 	stp	x29, x30, [sp, #-64]!
+    35f4:	910003fd 	mov	x29, sp
+    35f8:	a90153f3 	stp	x19, x20, [sp, #16]
+    35fc:	900000b4 	adrp	x20, 17000 <__FRAME_END__+0xf524>
+    3600:	aa0003f3 	mov	x19, x0
+    3604:	f947a680 	ldr	x0, [x20, #3912]
+    3608:	f9400001 	ldr	x1, [x0]
+    360c:	f9001fe1 	str	x1, [sp, #56]
+    3610:	d2800001 	mov	x1, #0x0                   	// #0
+    3614:	f90013f5 	str	x21, [sp, #32]
+    3618:	f9400a75 	ldr	x21, [x19, #16]
+    361c:	b4000595 	cbz	x21, 36cc <Decoder_get_frame+0xdc>
+    3620:	f94002a0 	ldr	x0, [x21]
+    3624:	52817703 	mov	w3, #0xbb8                 	// #3000
+    3628:	f9400e61 	ldr	x1, [x19, #24]
+    362c:	52800002 	mov	w2, #0x0                   	// #0
+    3630:	f9400004 	ldr	x4, [x0]
+    3634:	f9001bff 	str	xzr, [sp, #48]
+    3638:	aa1503e0 	mov	x0, x21
+    363c:	d63f0080 	blr	x4
+    3640:	34000220 	cbz	w0, 3684 <Decoder_get_frame+0x94>
+    3644:	900000a1 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    3648:	f947a821 	ldr	x1, [x1, #3920]
+    364c:	aa0103e0 	mov	x0, x1
+    3650:	f9400022 	ldr	x2, [x1]
+    3654:	91000442 	add	x2, x2, #0x1
+    3658:	f9000022 	str	x2, [x1]
+    365c:	f947a694 	ldr	x20, [x20, #3912]
+    3660:	f9401fe1 	ldr	x1, [sp, #56]
+    3664:	f9400282 	ldr	x2, [x20]
+    3668:	eb020021 	subs	x1, x1, x2
+    366c:	d2800002 	mov	x2, #0x0                   	// #0
+    3670:	54000541 	b.ne	3718 <Decoder_get_frame+0x128>  // b.any
+    3674:	a94153f3 	ldp	x19, x20, [sp, #16]
+    3678:	f94013f5 	ldr	x21, [sp, #32]
+    367c:	a8c47bfd 	ldp	x29, x30, [sp], #64
+    3680:	d65f03c0 	ret
+    3684:	f9400e60 	ldr	x0, [x19, #24]
+    3688:	b4fffde0 	cbz	x0, 3644 <Decoder_get_frame+0x54>
+    368c:	b9405801 	ldr	w1, [x0, #88]
+    3690:	f9401c00 	ldr	x0, [x0, #56]
+    3694:	97fffe7f 	bl	3090 <PyBytes_FromStringAndSize@plt>
+    3698:	f9001be0 	str	x0, [sp, #48]
+    369c:	f9400e62 	ldr	x2, [x19, #24]
+    36a0:	b9403040 	ldr	w0, [x2, #48]
+    36a4:	7100081f 	cmp	w0, #0x2
+    36a8:	54000280 	b.eq	36f8 <Decoder_get_frame+0x108>  // b.none
+    36ac:	f94002a3 	ldr	x3, [x21]
+    36b0:	aa0203e1 	mov	x1, x2
+    36b4:	aa1503e0 	mov	x0, x21
+    36b8:	52800002 	mov	w2, #0x0                   	// #0
+    36bc:	f9400463 	ldr	x3, [x3, #8]
+    36c0:	d63f0060 	blr	x3
+    36c4:	f9401be0 	ldr	x0, [sp, #48]
+    36c8:	17ffffe5 	b	365c <Decoder_get_frame+0x6c>
+    36cc:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    36d0:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    36d4:	91234021 	add	x1, x1, #0x8d0
+    36d8:	f947c400 	ldr	x0, [x0, #3976]
+    36dc:	f9400000 	ldr	x0, [x0]
+    36e0:	97fffeb4 	bl	31b0 <PyErr_SetString@plt>
+    36e4:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    36e8:	12800001 	mov	w1, #0xffffffff            	// #-1
+    36ec:	9123a000 	add	x0, x0, #0x8e8
+    36f0:	97fffe7c 	bl	30e0 <Py_BuildValue@plt>
+    36f4:	17ffffda 	b	365c <Decoder_get_frame+0x6c>
+    36f8:	b9405c41 	ldr	w1, [x2, #92]
+    36fc:	f9402040 	ldr	x0, [x2, #64]
+    3700:	97fffe64 	bl	3090 <PyBytes_FromStringAndSize@plt>
+    3704:	aa0003e1 	mov	x1, x0
+    3708:	9100c3e0 	add	x0, sp, #0x30
+    370c:	97fffe1d 	bl	2f80 <PyBytes_ConcatAndDel@plt>
+    3710:	f9400e62 	ldr	x2, [x19, #24]
+    3714:	17ffffe6 	b	36ac <Decoder_get_frame+0xbc>
+    3718:	97fffe36 	bl	2ff0 <__stack_chk_fail@plt>
+    371c:	d503201f 	nop
+
+0000000000003720 <Camera_send_frame>:
+    3720:	a9ba7bfd 	stp	x29, x30, [sp, #-96]!
+    3724:	910003fd 	mov	x29, sp
+    3728:	a90153f3 	stp	x19, x20, [sp, #16]
+    372c:	900000b4 	adrp	x20, 17000 <__FRAME_END__+0xf524>
+    3730:	aa0003f3 	mov	x19, x0
+    3734:	f947a680 	ldr	x0, [x20, #3912]
+    3738:	a9025bf5 	stp	x21, x22, [sp, #32]
+    373c:	f9400a75 	ldr	x21, [x19, #16]
+    3740:	f9400003 	ldr	x3, [x0]
+    3744:	f9002fe3 	str	x3, [sp, #88]
+    3748:	d2800003 	mov	x3, #0x0                   	// #0
+    374c:	b4000735 	cbz	x21, 3830 <Camera_send_frame+0x110>
+    3750:	aa0103e0 	mov	x0, x1
+    3754:	f9400e61 	ldr	x1, [x19, #24]
+    3758:	b40006c1 	cbz	x1, 3830 <Camera_send_frame+0x110>
+    375c:	f0000005 	adrp	x5, 6000 <__save_fame+0x340>
+    3760:	912420a5 	add	x5, x5, #0x908
+    3764:	aa0203e1 	mov	x1, x2
+    3768:	910103e4 	add	x4, sp, #0x40
+    376c:	f0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    3770:	910123e3 	add	x3, sp, #0x48
+    3774:	91244042 	add	x2, x2, #0x910
+    3778:	a90417ff 	stp	xzr, x5, [sp, #64]
+    377c:	f9002bff 	str	xzr, [sp, #80]
+    3780:	97fffe48 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    3784:	34000620 	cbz	w0, 3848 <Camera_send_frame+0x128>
+    3788:	f9001bf7 	str	x23, [sp, #48]
+    378c:	aa1503e0 	mov	x0, x21
+    3790:	f9400e77 	ldr	x23, [x19, #24]
+    3794:	97fffe7f 	bl	3190 <_ZN5spdev9VPPModule14GetModuleWidthEv@plt>
+    3798:	f9400e76 	ldr	x22, [x19, #24]
+    379c:	b90002e0 	str	w0, [x23]
+    37a0:	aa1503e0 	mov	x0, x21
+    37a4:	97fffea7 	bl	3240 <_ZN5spdev9VPPModule15GetModuleHeightEv@plt>
+    37a8:	b90006c0 	str	w0, [x22, #4]
+    37ac:	f9400e76 	ldr	x22, [x19, #24]
+    37b0:	aa1503e0 	mov	x0, x21
+    37b4:	97fffe77 	bl	3190 <_ZN5spdev9VPPModule14GetModuleWidthEv@plt>
+    37b8:	2a0003e1 	mov	w1, w0
+    37bc:	f94023e0 	ldr	x0, [sp, #64]
+    37c0:	b9000ac1 	str	w1, [x22, #8]
+    37c4:	97fffe93 	bl	3210 <PyBytes_AsString@plt>
+    37c8:	aa0003f6 	mov	x22, x0
+    37cc:	f94023e0 	ldr	x0, [sp, #64]
+    37d0:	97fffe4c 	bl	3100 <PyBytes_Size@plt>
+    37d4:	f9400e61 	ldr	x1, [x19, #24]
+    37d8:	29408823 	ldp	w3, w2, [x1, #4]
+    37dc:	1b037c42 	mul	w2, w2, w3
+    37e0:	0b020443 	add	w3, w2, w2, lsl #1
+    37e4:	0b437c63 	add	w3, w3, w3, lsr #31
+    37e8:	6b83041f 	cmp	w0, w3, asr #1
+    37ec:	540004eb 	b.lt	3888 <Camera_send_frame+0x168>  // b.tstop
+    37f0:	f94002a3 	ldr	x3, [x21]
+    37f4:	8b2242c5 	add	x5, x22, w2, uxtw
+    37f8:	53017c44 	lsr	w4, w2, #1
+    37fc:	52800040 	mov	w0, #0x2                   	// #2
+    3800:	f9400863 	ldr	x3, [x3, #16]
+    3804:	b9003020 	str	w0, [x1, #48]
+    3808:	a9039436 	stp	x22, x5, [x1, #56]
+    380c:	aa1503e0 	mov	x0, x21
+    3810:	290b1022 	stp	w2, w4, [x1, #88]
+    3814:	d63f0060 	blr	x3
+    3818:	2a0003e1 	mov	w1, w0
+    381c:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3820:	9123a000 	add	x0, x0, #0x8e8
+    3824:	97fffe2f 	bl	30e0 <Py_BuildValue@plt>
+    3828:	f9401bf7 	ldr	x23, [sp, #48]
+    382c:	1400000d 	b	3860 <Camera_send_frame+0x140>
+    3830:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    3834:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    3838:	9123c021 	add	x1, x1, #0x8f0
+    383c:	f947c400 	ldr	x0, [x0, #3976]
+    3840:	f9400000 	ldr	x0, [x0]
+    3844:	97fffe5b 	bl	31b0 <PyErr_SetString@plt>
+    3848:	900000a1 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    384c:	f947a821 	ldr	x1, [x1, #3920]
+    3850:	aa0103e0 	mov	x0, x1
+    3854:	f9400022 	ldr	x2, [x1]
+    3858:	91000442 	add	x2, x2, #0x1
+    385c:	f9000022 	str	x2, [x1]
+    3860:	f947a694 	ldr	x20, [x20, #3912]
+    3864:	f9402fe1 	ldr	x1, [sp, #88]
+    3868:	f9400282 	ldr	x2, [x20]
+    386c:	eb020021 	subs	x1, x1, x2
+    3870:	d2800002 	mov	x2, #0x0                   	// #0
+    3874:	54000221 	b.ne	38b8 <Camera_send_frame+0x198>  // b.any
+    3878:	a94153f3 	ldp	x19, x20, [sp, #16]
+    387c:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    3880:	a8c67bfd 	ldp	x29, x30, [sp], #96
+    3884:	d65f03c0 	ret
+    3888:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    388c:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    3890:	91246021 	add	x1, x1, #0x918
+    3894:	f947c400 	ldr	x0, [x0, #3976]
+    3898:	f9400000 	ldr	x0, [x0]
+    389c:	97fffe45 	bl	31b0 <PyErr_SetString@plt>
+    38a0:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    38a4:	12800001 	mov	w1, #0xffffffff            	// #-1
+    38a8:	9123a000 	add	x0, x0, #0x8e8
+    38ac:	97fffe0d 	bl	30e0 <Py_BuildValue@plt>
+    38b0:	f9401bf7 	ldr	x23, [sp, #48]
+    38b4:	17ffffeb 	b	3860 <Camera_send_frame+0x140>
+    38b8:	f9001bf7 	str	x23, [sp, #48]
+    38bc:	97fffdcd 	bl	2ff0 <__stack_chk_fail@plt>
+
+00000000000038c0 <Display_send_frame>:
+    38c0:	a9bb7bfd 	stp	x29, x30, [sp, #-80]!
+    38c4:	910003fd 	mov	x29, sp
+    38c8:	a90153f3 	stp	x19, x20, [sp, #16]
+    38cc:	900000b3 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    38d0:	aa0003f4 	mov	x20, x0
+    38d4:	f947a663 	ldr	x3, [x19, #3912]
+    38d8:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    38dc:	91252000 	add	x0, x0, #0x948
+    38e0:	a9025bf5 	stp	x21, x22, [sp, #32]
+    38e4:	f9400a95 	ldr	x21, [x20, #16]
+    38e8:	a90303ff 	stp	xzr, x0, [sp, #48]
+    38ec:	f9400060 	ldr	x0, [x3]
+    38f0:	f90027e0 	str	x0, [sp, #72]
+    38f4:	d2800000 	mov	x0, #0x0                   	// #0
+    38f8:	f90023ff 	str	xzr, [sp, #64]
+    38fc:	b4000595 	cbz	x21, 39ac <Display_send_frame+0xec>
+    3900:	aa0103e0 	mov	x0, x1
+    3904:	9100c3e4 	add	x4, sp, #0x30
+    3908:	aa0203e1 	mov	x1, x2
+    390c:	9100e3e3 	add	x3, sp, #0x38
+    3910:	f0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    3914:	91244042 	add	x2, x2, #0x910
+    3918:	97fffde2 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    391c:	340003e0 	cbz	w0, 3998 <Display_send_frame+0xd8>
+    3920:	f9401be0 	ldr	x0, [sp, #48]
+    3924:	f9400e96 	ldr	x22, [x20, #24]
+    3928:	97fffe3a 	bl	3210 <PyBytes_AsString@plt>
+    392c:	aa0003e1 	mov	x1, x0
+    3930:	f9401be0 	ldr	x0, [sp, #48]
+    3934:	f9001ec1 	str	x1, [x22, #56]
+    3938:	97fffdf2 	bl	3100 <PyBytes_Size@plt>
+    393c:	aa0003e3 	mov	x3, x0
+    3940:	f94002a2 	ldr	x2, [x21]
+    3944:	52800024 	mov	w4, #0x1                   	// #1
+    3948:	f9400e81 	ldr	x1, [x20, #24]
+    394c:	aa1503e0 	mov	x0, x21
+    3950:	f9400842 	ldr	x2, [x2, #16]
+    3954:	b9003024 	str	w4, [x1, #48]
+    3958:	b9005823 	str	w3, [x1, #88]
+    395c:	d63f0040 	blr	x2
+    3960:	2a0003e1 	mov	w1, w0
+    3964:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3968:	9123a000 	add	x0, x0, #0x8e8
+    396c:	97fffddd 	bl	30e0 <Py_BuildValue@plt>
+    3970:	f947a673 	ldr	x19, [x19, #3912]
+    3974:	f94027e1 	ldr	x1, [sp, #72]
+    3978:	f9400262 	ldr	x2, [x19]
+    397c:	eb020021 	subs	x1, x1, x2
+    3980:	d2800002 	mov	x2, #0x0                   	// #0
+    3984:	540002a1 	b.ne	39d8 <Display_send_frame+0x118>  // b.any
+    3988:	a94153f3 	ldp	x19, x20, [sp, #16]
+    398c:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    3990:	a8c57bfd 	ldp	x29, x30, [sp], #80
+    3994:	d65f03c0 	ret
+    3998:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    399c:	12800001 	mov	w1, #0xffffffff            	// #-1
+    39a0:	9123a000 	add	x0, x0, #0x8e8
+    39a4:	97fffdcf 	bl	30e0 <Py_BuildValue@plt>
+    39a8:	17fffff2 	b	3970 <Display_send_frame+0xb0>
+    39ac:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    39b0:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    39b4:	91254021 	add	x1, x1, #0x950
+    39b8:	f947c400 	ldr	x0, [x0, #3976]
+    39bc:	f9400000 	ldr	x0, [x0]
+    39c0:	97fffdfc 	bl	31b0 <PyErr_SetString@plt>
+    39c4:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    39c8:	12800001 	mov	w1, #0xffffffff            	// #-1
+    39cc:	9123a000 	add	x0, x0, #0x8e8
+    39d0:	97fffdc4 	bl	30e0 <Py_BuildValue@plt>
+    39d4:	17ffffe7 	b	3970 <Display_send_frame+0xb0>
+    39d8:	97fffd86 	bl	2ff0 <__stack_chk_fail@plt>
+    39dc:	d503201f 	nop
+
+00000000000039e0 <Decoder_send_frame>:
+    39e0:	a9bb7bfd 	stp	x29, x30, [sp, #-80]!
+    39e4:	910003fd 	mov	x29, sp
+    39e8:	a90153f3 	stp	x19, x20, [sp, #16]
+    39ec:	900000b3 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    39f0:	aa0003f4 	mov	x20, x0
+    39f4:	f947a663 	ldr	x3, [x19, #3912]
+    39f8:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    39fc:	91252000 	add	x0, x0, #0x948
+    3a00:	a9025bf5 	stp	x21, x22, [sp, #32]
+    3a04:	f9400a95 	ldr	x21, [x20, #16]
+    3a08:	a90303ff 	stp	xzr, x0, [sp, #48]
+    3a0c:	f9400060 	ldr	x0, [x3]
+    3a10:	f90027e0 	str	x0, [sp, #72]
+    3a14:	d2800000 	mov	x0, #0x0                   	// #0
+    3a18:	f90023ff 	str	xzr, [sp, #64]
+    3a1c:	b4000595 	cbz	x21, 3acc <Decoder_send_frame+0xec>
+    3a20:	aa0103e0 	mov	x0, x1
+    3a24:	9100c3e4 	add	x4, sp, #0x30
+    3a28:	aa0203e1 	mov	x1, x2
+    3a2c:	9100e3e3 	add	x3, sp, #0x38
+    3a30:	f0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    3a34:	91244042 	add	x2, x2, #0x910
+    3a38:	97fffd9a 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    3a3c:	340003e0 	cbz	w0, 3ab8 <Decoder_send_frame+0xd8>
+    3a40:	f9401be0 	ldr	x0, [sp, #48]
+    3a44:	f9400e96 	ldr	x22, [x20, #24]
+    3a48:	97fffdf2 	bl	3210 <PyBytes_AsString@plt>
+    3a4c:	aa0003e1 	mov	x1, x0
+    3a50:	f9401be0 	ldr	x0, [sp, #48]
+    3a54:	f9001ec1 	str	x1, [x22, #56]
+    3a58:	97fffdaa 	bl	3100 <PyBytes_Size@plt>
+    3a5c:	aa0003e3 	mov	x3, x0
+    3a60:	f94002a2 	ldr	x2, [x21]
+    3a64:	52800024 	mov	w4, #0x1                   	// #1
+    3a68:	f9400e81 	ldr	x1, [x20, #24]
+    3a6c:	aa1503e0 	mov	x0, x21
+    3a70:	f9400842 	ldr	x2, [x2, #16]
+    3a74:	b9003024 	str	w4, [x1, #48]
+    3a78:	b9005823 	str	w3, [x1, #88]
+    3a7c:	d63f0040 	blr	x2
+    3a80:	2a0003e1 	mov	w1, w0
+    3a84:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3a88:	9123a000 	add	x0, x0, #0x8e8
+    3a8c:	97fffd95 	bl	30e0 <Py_BuildValue@plt>
+    3a90:	f947a673 	ldr	x19, [x19, #3912]
+    3a94:	f94027e1 	ldr	x1, [sp, #72]
+    3a98:	f9400262 	ldr	x2, [x19]
+    3a9c:	eb020021 	subs	x1, x1, x2
+    3aa0:	d2800002 	mov	x2, #0x0                   	// #0
+    3aa4:	540002a1 	b.ne	3af8 <Decoder_send_frame+0x118>  // b.any
+    3aa8:	a94153f3 	ldp	x19, x20, [sp, #16]
+    3aac:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    3ab0:	a8c57bfd 	ldp	x29, x30, [sp], #80
+    3ab4:	d65f03c0 	ret
+    3ab8:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3abc:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3ac0:	9123a000 	add	x0, x0, #0x8e8
+    3ac4:	97fffd87 	bl	30e0 <Py_BuildValue@plt>
+    3ac8:	17fffff2 	b	3a90 <Decoder_send_frame+0xb0>
+    3acc:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    3ad0:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    3ad4:	9125a021 	add	x1, x1, #0x968
+    3ad8:	f947c400 	ldr	x0, [x0, #3976]
+    3adc:	f9400000 	ldr	x0, [x0]
+    3ae0:	97fffdb4 	bl	31b0 <PyErr_SetString@plt>
+    3ae4:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3ae8:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3aec:	9123a000 	add	x0, x0, #0x8e8
+    3af0:	97fffd7c 	bl	30e0 <Py_BuildValue@plt>
+    3af4:	17ffffe7 	b	3a90 <Decoder_send_frame+0xb0>
+    3af8:	97fffd3e 	bl	2ff0 <__stack_chk_fail@plt>
+    3afc:	d503201f 	nop
+
+0000000000003b00 <Encoder_send_frame>:
+    3b00:	a9ba7bfd 	stp	x29, x30, [sp, #-96]!
+    3b04:	910003fd 	mov	x29, sp
+    3b08:	a90153f3 	stp	x19, x20, [sp, #16]
+    3b0c:	900000b4 	adrp	x20, 17000 <__FRAME_END__+0xf524>
+    3b10:	aa0003f3 	mov	x19, x0
+    3b14:	f947a680 	ldr	x0, [x20, #3912]
+    3b18:	a9025bf5 	stp	x21, x22, [sp, #32]
+    3b1c:	f9400a75 	ldr	x21, [x19, #16]
+    3b20:	f9400003 	ldr	x3, [x0]
+    3b24:	f9002fe3 	str	x3, [sp, #88]
+    3b28:	d2800003 	mov	x3, #0x0                   	// #0
+    3b2c:	b40008d5 	cbz	x21, 3c44 <Encoder_send_frame+0x144>
+    3b30:	f0000005 	adrp	x5, 6000 <__save_fame+0x340>
+    3b34:	912520a5 	add	x5, x5, #0x948
+    3b38:	aa0103e0 	mov	x0, x1
+    3b3c:	910103e4 	add	x4, sp, #0x40
+    3b40:	aa0203e1 	mov	x1, x2
+    3b44:	910123e3 	add	x3, sp, #0x48
+    3b48:	f0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    3b4c:	91244042 	add	x2, x2, #0x910
+    3b50:	a90417ff 	stp	xzr, x5, [sp, #64]
+    3b54:	f9002bff 	str	xzr, [sp, #80]
+    3b58:	97fffd52 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    3b5c:	350001e0 	cbnz	w0, 3b98 <Encoder_send_frame+0x98>
+    3b60:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3b64:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3b68:	9123a000 	add	x0, x0, #0x8e8
+    3b6c:	97fffd5d 	bl	30e0 <Py_BuildValue@plt>
+    3b70:	f947a694 	ldr	x20, [x20, #3912]
+    3b74:	f9402fe1 	ldr	x1, [sp, #88]
+    3b78:	f9400282 	ldr	x2, [x20]
+    3b7c:	eb020021 	subs	x1, x1, x2
+    3b80:	d2800002 	mov	x2, #0x0                   	// #0
+    3b84:	54000a41 	b.ne	3ccc <Encoder_send_frame+0x1cc>  // b.any
+    3b88:	a94153f3 	ldp	x19, x20, [sp, #16]
+    3b8c:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    3b90:	a8c67bfd 	ldp	x29, x30, [sp], #96
+    3b94:	d65f03c0 	ret
+    3b98:	f9001bf7 	str	x23, [sp, #48]
+    3b9c:	aa1503e0 	mov	x0, x21
+    3ba0:	f9400e77 	ldr	x23, [x19, #24]
+    3ba4:	97fffd7b 	bl	3190 <_ZN5spdev9VPPModule14GetModuleWidthEv@plt>
+    3ba8:	f9400e76 	ldr	x22, [x19, #24]
+    3bac:	b90002e0 	str	w0, [x23]
+    3bb0:	aa1503e0 	mov	x0, x21
+    3bb4:	97fffda3 	bl	3240 <_ZN5spdev9VPPModule15GetModuleHeightEv@plt>
+    3bb8:	b90006c0 	str	w0, [x22, #4]
+    3bbc:	f9400e76 	ldr	x22, [x19, #24]
+    3bc0:	aa1503e0 	mov	x0, x21
+    3bc4:	97fffd73 	bl	3190 <_ZN5spdev9VPPModule14GetModuleWidthEv@plt>
+    3bc8:	2a0003e1 	mov	w1, w0
+    3bcc:	f94023e0 	ldr	x0, [sp, #64]
+    3bd0:	b9000ac1 	str	w1, [x22, #8]
+    3bd4:	97fffd4b 	bl	3100 <PyBytes_Size@plt>
+    3bd8:	f9400e76 	ldr	x22, [x19, #24]
+    3bdc:	294086c2 	ldp	w2, w1, [x22, #4]
+    3be0:	1b027c21 	mul	w1, w1, w2
+    3be4:	0b010421 	add	w1, w1, w1, lsl #1
+    3be8:	0b417c21 	add	w1, w1, w1, lsr #31
+    3bec:	13017c21 	asr	w1, w1, #1
+    3bf0:	eb21c01f 	cmp	x0, w1, sxtw
+    3bf4:	f94023e0 	ldr	x0, [sp, #64]
+    3bf8:	540003ca 	b.ge	3c70 <Encoder_send_frame+0x170>  // b.tcont
+    3bfc:	97fffd41 	bl	3100 <PyBytes_Size@plt>
+    3c00:	aa0003e5 	mov	x5, x0
+    3c04:	f9400e61 	ldr	x1, [x19, #24]
+    3c08:	f0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    3c0c:	f0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    3c10:	91260063 	add	x3, x3, #0x980
+    3c14:	91266042 	add	x2, x2, #0x998
+    3c18:	528044a4 	mov	w4, #0x225                 	// #549
+    3c1c:	29409827 	ldp	w7, w6, [x1, #4]
+    3c20:	d2800000 	mov	x0, #0x0                   	// #0
+    3c24:	52800021 	mov	w1, #0x1                   	// #1
+    3c28:	97fffd5e 	bl	31a0 <log_ctrl_print@plt>
+    3c2c:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3c30:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3c34:	9123a000 	add	x0, x0, #0x8e8
+    3c38:	97fffd2a 	bl	30e0 <Py_BuildValue@plt>
+    3c3c:	f9401bf7 	ldr	x23, [sp, #48]
+    3c40:	17ffffcc 	b	3b70 <Encoder_send_frame+0x70>
+    3c44:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    3c48:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    3c4c:	9122e021 	add	x1, x1, #0x8b8
+    3c50:	f947c400 	ldr	x0, [x0, #3976]
+    3c54:	f9400000 	ldr	x0, [x0]
+    3c58:	97fffd56 	bl	31b0 <PyErr_SetString@plt>
+    3c5c:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3c60:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3c64:	9123a000 	add	x0, x0, #0x8e8
+    3c68:	97fffd1e 	bl	30e0 <Py_BuildValue@plt>
+    3c6c:	17ffffc1 	b	3b70 <Encoder_send_frame+0x70>
+    3c70:	97fffd68 	bl	3210 <PyBytes_AsString@plt>
+    3c74:	f9400e61 	ldr	x1, [x19, #24]
+    3c78:	52800046 	mov	w6, #0x2                   	// #2
+    3c7c:	f94002a4 	ldr	x4, [x21]
+    3c80:	29408825 	ldp	w5, w2, [x1, #4]
+    3c84:	f9400884 	ldr	x4, [x4, #16]
+    3c88:	f9001ec0 	str	x0, [x22, #56]
+    3c8c:	1b057c42 	mul	w2, w2, w5
+    3c90:	b9003026 	str	w6, [x1, #48]
+    3c94:	f9401c23 	ldr	x3, [x1, #56]
+    3c98:	b9005822 	str	w2, [x1, #88]
+    3c9c:	aa1503e0 	mov	x0, x21
+    3ca0:	8b224063 	add	x3, x3, w2, uxtw
+    3ca4:	53017c42 	lsr	w2, w2, #1
+    3ca8:	f9002023 	str	x3, [x1, #64]
+    3cac:	b9005c22 	str	w2, [x1, #92]
+    3cb0:	d63f0080 	blr	x4
+    3cb4:	2a0003e1 	mov	w1, w0
+    3cb8:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3cbc:	9123a000 	add	x0, x0, #0x8e8
+    3cc0:	97fffd08 	bl	30e0 <Py_BuildValue@plt>
+    3cc4:	f9401bf7 	ldr	x23, [sp, #48]
+    3cc8:	17ffffaa 	b	3b70 <Encoder_send_frame+0x70>
+    3ccc:	f9001bf7 	str	x23, [sp, #48]
+    3cd0:	97fffcc8 	bl	2ff0 <__stack_chk_fail@plt>
+    3cd4:	d503201f 	nop
+    3cd8:	d503201f 	nop
+    3cdc:	d503201f 	nop
+
+0000000000003ce0 <Display_SetGraphWord>:
+    3ce0:	d10283ff 	sub	sp, sp, #0xa0
+    3ce4:	b00000a3 	adrp	x3, 18000 <memcpy@GLIBC_2.17>
+    3ce8:	9108c063 	add	x3, x3, #0x230
+    3cec:	52800024 	mov	w4, #0x1                   	// #1
+    3cf0:	a9017bfd 	stp	x29, x30, [sp, #16]
+    3cf4:	910043fd 	add	x29, sp, #0x10
+    3cf8:	a9402c6a 	ldp	x10, x11, [x3]
+    3cfc:	a90253f3 	stp	x19, x20, [sp, #32]
+    3d00:	900000b3 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    3d04:	f9400814 	ldr	x20, [x0, #16]
+    3d08:	290913ff 	stp	wzr, w4, [sp, #72]
+    3d0c:	f947a665 	ldr	x5, [x19, #3912]
+    3d10:	a9062fea 	stp	x10, x11, [sp, #96]
+    3d14:	f94000a0 	ldr	x0, [x5]
+    3d18:	f9004fe0 	str	x0, [sp, #152]
+    3d1c:	d2800000 	mov	x0, #0x0                   	// #0
+    3d20:	a9412468 	ldp	x8, x9, [x3, #16]
+    3d24:	d2bfffe0 	mov	x0, #0xffff0000            	// #4294901760
+    3d28:	a9421c66 	ldp	x6, x7, [x3, #32]
+    3d2c:	a9057fe0 	stp	x0, xzr, [sp, #80]
+    3d30:	f9401864 	ldr	x4, [x3, #48]
+    3d34:	a90727e8 	stp	x8, x9, [sp, #112]
+    3d38:	a9081fe6 	stp	x6, x7, [sp, #128]
+    3d3c:	f9004be4 	str	x4, [sp, #144]
+    3d40:	b40005d4 	cbz	x20, 3df8 <Display_SetGraphWord+0x118>
+    3d44:	910143e4 	add	x4, sp, #0x50
+    3d48:	aa0103e0 	mov	x0, x1
+    3d4c:	aa0203e1 	mov	x1, x2
+    3d50:	910133e2 	add	x2, sp, #0x4c
+    3d54:	a9000be4 	stp	x4, x2, [sp]
+    3d58:	910183e3 	add	x3, sp, #0x60
+    3d5c:	f0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    3d60:	9127a042 	add	x2, x2, #0x9e8
+    3d64:	910123e7 	add	x7, sp, #0x48
+    3d68:	910163e6 	add	x6, sp, #0x58
+    3d6c:	910113e5 	add	x5, sp, #0x44
+    3d70:	910103e4 	add	x4, sp, #0x40
+    3d74:	97fffccb 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    3d78:	34000360 	cbz	w0, 3de4 <Display_SetGraphWord+0x104>
+    3d7c:	f9402fe0 	ldr	x0, [sp, #88]
+    3d80:	a9035bf5 	stp	x21, x22, [sp, #48]
+    3d84:	29485bf5 	ldp	w21, w22, [sp, #64]
+    3d88:	97fffd22 	bl	3210 <PyBytes_AsString@plt>
+    3d8c:	29491be4 	ldp	w4, w6, [sp, #72]
+    3d90:	2a1603e2 	mov	w2, w22
+    3d94:	b94053e5 	ldr	w5, [sp, #80]
+    3d98:	aa0003e3 	mov	x3, x0
+    3d9c:	2a1503e1 	mov	w1, w21
+    3da0:	aa1403e0 	mov	x0, x20
+    3da4:	97fffd77 	bl	3380 <_ZN5spdev10VPPDisplay12SetGraphWordEiiPciji@plt>
+    3da8:	2a0003e1 	mov	w1, w0
+    3dac:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3db0:	9123a000 	add	x0, x0, #0x8e8
+    3db4:	97fffccb 	bl	30e0 <Py_BuildValue@plt>
+    3db8:	a9435bf5 	ldp	x21, x22, [sp, #48]
+    3dbc:	f947a673 	ldr	x19, [x19, #3912]
+    3dc0:	f9404fe1 	ldr	x1, [sp, #152]
+    3dc4:	f9400262 	ldr	x2, [x19]
+    3dc8:	eb020021 	subs	x1, x1, x2
+    3dcc:	d2800002 	mov	x2, #0x0                   	// #0
+    3dd0:	540002a1 	b.ne	3e24 <Display_SetGraphWord+0x144>  // b.any
+    3dd4:	a9417bfd 	ldp	x29, x30, [sp, #16]
+    3dd8:	a94253f3 	ldp	x19, x20, [sp, #32]
+    3ddc:	910283ff 	add	sp, sp, #0xa0
+    3de0:	d65f03c0 	ret
+    3de4:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3de8:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3dec:	9123a000 	add	x0, x0, #0x8e8
+    3df0:	97fffcbc 	bl	30e0 <Py_BuildValue@plt>
+    3df4:	17fffff2 	b	3dbc <Display_SetGraphWord+0xdc>
+    3df8:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    3dfc:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    3e00:	91254021 	add	x1, x1, #0x950
+    3e04:	f947c400 	ldr	x0, [x0, #3976]
+    3e08:	f9400000 	ldr	x0, [x0]
+    3e0c:	97fffce9 	bl	31b0 <PyErr_SetString@plt>
+    3e10:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3e14:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3e18:	9123a000 	add	x0, x0, #0x8e8
+    3e1c:	97fffcb1 	bl	30e0 <Py_BuildValue@plt>
+    3e20:	17ffffe7 	b	3dbc <Display_SetGraphWord+0xdc>
+    3e24:	a9035bf5 	stp	x21, x22, [sp, #48]
+    3e28:	97fffc72 	bl	2ff0 <__stack_chk_fail@plt>
+    3e2c:	d503201f 	nop
+
+0000000000003e30 <Display_SetGraphRect>:
+    3e30:	d10303ff 	sub	sp, sp, #0xc0
+    3e34:	b00000a3 	adrp	x3, 18000 <memcpy@GLIBC_2.17>
+    3e38:	9108c063 	add	x3, x3, #0x230
+    3e3c:	52800085 	mov	w5, #0x4                   	// #4
+    3e40:	d2bfffe8 	mov	x8, #0xffff0000            	// #4294901760
+    3e44:	a9027bfd 	stp	x29, x30, [sp, #32]
+    3e48:	910083fd 	add	x29, sp, #0x20
+    3e4c:	a944ac6a 	ldp	x10, x11, [x3, #72]
+    3e50:	a90353f3 	stp	x19, x20, [sp, #48]
+    3e54:	900000b3 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    3e58:	f9400814 	ldr	x20, [x0, #16]
+    3e5c:	290d17ff 	stp	wzr, w5, [sp, #104]
+    3e60:	f947a666 	ldr	x6, [x19, #3912]
+    3e64:	f9003be8 	str	x8, [sp, #112]
+    3e68:	a943a468 	ldp	x8, x9, [x3, #56]
+    3e6c:	f94000c0 	ldr	x0, [x6]
+    3e70:	f9005fe0 	str	x0, [sp, #184]
+    3e74:	d2800000 	mov	x0, #0x0                   	// #0
+    3e78:	a9459c66 	ldp	x6, x7, [x3, #88]
+    3e7c:	a907a7e8 	stp	x8, x9, [sp, #120]
+    3e80:	a9469464 	ldp	x4, x5, [x3, #104]
+    3e84:	a908afea 	stp	x10, x11, [sp, #136]
+    3e88:	a9099fe6 	stp	x6, x7, [sp, #152]
+    3e8c:	a90a97e4 	stp	x4, x5, [sp, #168]
+    3e90:	b4000554 	cbz	x20, 3f38 <Display_SetGraphRect+0x108>
+    3e94:	9101c3e4 	add	x4, sp, #0x70
+    3e98:	9101a3e5 	add	x5, sp, #0x68
+    3e9c:	aa0103e0 	mov	x0, x1
+    3ea0:	aa0203e1 	mov	x1, x2
+    3ea4:	9101b3e2 	add	x2, sp, #0x6c
+    3ea8:	a90013e5 	stp	x5, x4, [sp]
+    3eac:	9101e3e3 	add	x3, sp, #0x78
+    3eb0:	f9000be2 	str	x2, [sp, #16]
+    3eb4:	910193e7 	add	x7, sp, #0x64
+    3eb8:	f0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    3ebc:	9127c042 	add	x2, x2, #0x9f0
+    3ec0:	910183e6 	add	x6, sp, #0x60
+    3ec4:	910173e5 	add	x5, sp, #0x5c
+    3ec8:	910163e4 	add	x4, sp, #0x58
+    3ecc:	97fffc75 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    3ed0:	340002a0 	cbz	w0, 3f24 <Display_SetGraphRect+0xf4>
+    3ed4:	294b0be1 	ldp	w1, w2, [sp, #88]
+    3ed8:	aa1403e0 	mov	x0, x20
+    3edc:	294c13e3 	ldp	w3, w4, [sp, #96]
+    3ee0:	294d1fe5 	ldp	w5, w7, [sp, #104]
+    3ee4:	b94073e6 	ldr	w6, [sp, #112]
+    3ee8:	97fffcba 	bl	31d0 <_ZN5spdev10VPPDisplay12SetGraphRectEiiiiiji@plt>
+    3eec:	2a0003e1 	mov	w1, w0
+    3ef0:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3ef4:	9123a000 	add	x0, x0, #0x8e8
+    3ef8:	97fffc7a 	bl	30e0 <Py_BuildValue@plt>
+    3efc:	f947a673 	ldr	x19, [x19, #3912]
+    3f00:	f9405fe1 	ldr	x1, [sp, #184]
+    3f04:	f9400262 	ldr	x2, [x19]
+    3f08:	eb020021 	subs	x1, x1, x2
+    3f0c:	d2800002 	mov	x2, #0x0                   	// #0
+    3f10:	540002c1 	b.ne	3f68 <Display_SetGraphRect+0x138>  // b.any
+    3f14:	a9427bfd 	ldp	x29, x30, [sp, #32]
+    3f18:	a94353f3 	ldp	x19, x20, [sp, #48]
+    3f1c:	910303ff 	add	sp, sp, #0xc0
+    3f20:	d65f03c0 	ret
+    3f24:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3f28:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3f2c:	9123a000 	add	x0, x0, #0x8e8
+    3f30:	97fffc6c 	bl	30e0 <Py_BuildValue@plt>
+    3f34:	17fffff2 	b	3efc <Display_SetGraphRect+0xcc>
+    3f38:	900000a0 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    3f3c:	f0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    3f40:	91254021 	add	x1, x1, #0x950
+    3f44:	f947c400 	ldr	x0, [x0, #3976]
+    3f48:	f9400000 	ldr	x0, [x0]
+    3f4c:	97fffc99 	bl	31b0 <PyErr_SetString@plt>
+    3f50:	f0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    3f54:	12800001 	mov	w1, #0xffffffff            	// #-1
+    3f58:	9123a000 	add	x0, x0, #0x8e8
+    3f5c:	97fffc61 	bl	30e0 <Py_BuildValue@plt>
+    3f60:	f90027e0 	str	x0, [sp, #72]
+    3f64:	17ffffe6 	b	3efc <Display_SetGraphRect+0xcc>
+    3f68:	97fffc22 	bl	2ff0 <__stack_chk_fail@plt>
+    3f6c:	d503201f 	nop
+
+0000000000003f70 <py_obj_to_sizes.part.0>:
+    3f70:	a9bc7bfd 	stp	x29, x30, [sp, #-64]!
+    3f74:	910003fd 	mov	x29, sp
+    3f78:	a90153f3 	stp	x19, x20, [sp, #16]
+    3f7c:	aa0003f4 	mov	x20, x0
+    3f80:	a9025bf5 	stp	x21, x22, [sp, #32]
+    3f84:	aa0103f5 	mov	x21, x1
+    3f88:	aa0203f6 	mov	x22, x2
+    3f8c:	a90363f7 	stp	x23, x24, [sp, #48]
+    3f90:	97fffc4c 	bl	30c0 <PyList_Size@plt>
+    3f94:	d2800001 	mov	x1, #0x0                   	// #0
+    3f98:	aa0003f8 	mov	x24, x0
+    3f9c:	aa1403e0 	mov	x0, x20
+    3fa0:	97fffc60 	bl	3120 <PyList_GetItem@plt>
+    3fa4:	f9400401 	ldr	x1, [x0, #8]
+    3fa8:	f9405421 	ldr	x1, [x1, #168]
+    3fac:	36c002c1 	tbz	w1, #24, 4004 <py_obj_to_sizes.part.0+0x94>
+    3fb0:	aa1403e0 	mov	x0, x20
+    3fb4:	97fffc43 	bl	30c0 <PyList_Size@plt>
+    3fb8:	f100041f 	cmp	x0, #0x1
+    3fbc:	540006ad 	b.le	4090 <py_obj_to_sizes.part.0+0x120>
+    3fc0:	d2800001 	mov	x1, #0x0                   	// #0
+    3fc4:	aa1403e0 	mov	x0, x20
+    3fc8:	97fffc56 	bl	3120 <PyList_GetItem@plt>
+    3fcc:	52800037 	mov	w23, #0x1                   	// #1
+    3fd0:	97fffbe8 	bl	2f70 <PyLong_AsLong@plt>
+    3fd4:	b90002a0 	str	w0, [x21]
+    3fd8:	d2800021 	mov	x1, #0x1                   	// #1
+    3fdc:	aa1403e0 	mov	x0, x20
+    3fe0:	97fffc50 	bl	3120 <PyList_GetItem@plt>
+    3fe4:	97fffbe3 	bl	2f70 <PyLong_AsLong@plt>
+    3fe8:	b90002c0 	str	w0, [x22]
+    3fec:	2a1703e0 	mov	w0, w23
+    3ff0:	a94153f3 	ldp	x19, x20, [sp, #16]
+    3ff4:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    3ff8:	a94363f7 	ldp	x23, x24, [sp, #48]
+    3ffc:	a8c47bfd 	ldp	x29, x30, [sp], #64
+    4000:	d65f03c0 	ret
+    4004:	92680033 	and	x19, x1, #0x1000000
+    4008:	aa1403e0 	mov	x0, x20
+    400c:	d2800001 	mov	x1, #0x0                   	// #0
+    4010:	97fffc44 	bl	3120 <PyList_GetItem@plt>
+    4014:	f9400400 	ldr	x0, [x0, #8]
+    4018:	2a1803f7 	mov	w23, w24
+    401c:	f9405400 	ldr	x0, [x0, #168]
+    4020:	36cffe60 	tbz	w0, #25, 3fec <py_obj_to_sizes.part.0+0x7c>
+    4024:	7100031f 	cmp	w24, #0x0
+    4028:	5400022c 	b.gt	406c <py_obj_to_sizes.part.0+0xfc>
+    402c:	17fffff0 	b	3fec <py_obj_to_sizes.part.0+0x7c>
+    4030:	97fffc3c 	bl	3120 <PyList_GetItem@plt>
+    4034:	d2800001 	mov	x1, #0x0                   	// #0
+    4038:	97fffc3a 	bl	3120 <PyList_GetItem@plt>
+    403c:	97fffbcd 	bl	2f70 <PyLong_AsLong@plt>
+    4040:	b8337aa0 	str	w0, [x21, x19, lsl #2]
+    4044:	aa1303e1 	mov	x1, x19
+    4048:	aa1403e0 	mov	x0, x20
+    404c:	97fffc35 	bl	3120 <PyList_GetItem@plt>
+    4050:	d2800021 	mov	x1, #0x1                   	// #1
+    4054:	97fffc33 	bl	3120 <PyList_GetItem@plt>
+    4058:	97fffbc6 	bl	2f70 <PyLong_AsLong@plt>
+    405c:	b8337ac0 	str	w0, [x22, x19, lsl #2]
+    4060:	91000673 	add	x19, x19, #0x1
+    4064:	6b1302ff 	cmp	w23, w19
+    4068:	54fffc2d 	b.le	3fec <py_obj_to_sizes.part.0+0x7c>
+    406c:	aa1303e1 	mov	x1, x19
+    4070:	aa1403e0 	mov	x0, x20
+    4074:	97fffc2b 	bl	3120 <PyList_GetItem@plt>
+    4078:	97fffc12 	bl	30c0 <PyList_Size@plt>
+    407c:	aa0003e2 	mov	x2, x0
+    4080:	aa1303e1 	mov	x1, x19
+    4084:	aa1403e0 	mov	x0, x20
+    4088:	f100045f 	cmp	x2, #0x1
+    408c:	54fffd2c 	b.gt	4030 <py_obj_to_sizes.part.0+0xc0>
+    4090:	12800017 	mov	w23, #0xffffffff            	// #-1
+    4094:	2a1703e0 	mov	w0, w23
+    4098:	a94153f3 	ldp	x19, x20, [sp, #16]
+    409c:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    40a0:	a94363f7 	ldp	x23, x24, [sp, #48]
+    40a4:	a8c47bfd 	ldp	x29, x30, [sp], #64
+    40a8:	d65f03c0 	ret
+    40ac:	d503201f 	nop
+
+00000000000040b0 <py_obj_to_size>:
+    40b0:	a9bd7bfd 	stp	x29, x30, [sp, #-48]!
+    40b4:	910003fd 	mov	x29, sp
+    40b8:	a9025bf5 	stp	x21, x22, [sp, #32]
+    40bc:	52800016 	mov	w22, #0x0                   	// #0
+    40c0:	b4000120 	cbz	x0, 40e4 <py_obj_to_size+0x34>
+    40c4:	a90153f3 	stp	x19, x20, [sp, #16]
+    40c8:	aa0203f4 	mov	x20, x2
+    40cc:	aa0003f3 	mov	x19, x0
+    40d0:	f9400402 	ldr	x2, [x0, #8]
+    40d4:	52800016 	mov	w22, #0x0                   	// #0
+    40d8:	f9405442 	ldr	x2, [x2, #168]
+    40dc:	36c000c2 	tbz	w2, #24, 40f4 <py_obj_to_size+0x44>
+    40e0:	a94153f3 	ldp	x19, x20, [sp, #16]
+    40e4:	2a1603e0 	mov	w0, w22
+    40e8:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    40ec:	a8c37bfd 	ldp	x29, x30, [sp], #48
+    40f0:	d65f03c0 	ret
+    40f4:	36cfff62 	tbz	w2, #25, 40e0 <py_obj_to_size+0x30>
+    40f8:	aa0103f5 	mov	x21, x1
+    40fc:	97fffbf1 	bl	30c0 <PyList_Size@plt>
+    4100:	d2800001 	mov	x1, #0x0                   	// #0
+    4104:	aa0003f6 	mov	x22, x0
+    4108:	aa1303e0 	mov	x0, x19
+    410c:	97fffc05 	bl	3120 <PyList_GetItem@plt>
+    4110:	f9400400 	ldr	x0, [x0, #8]
+    4114:	f9405400 	ldr	x0, [x0, #168]
+    4118:	36c7fe40 	tbz	w0, #24, 40e0 <py_obj_to_size+0x30>
+    411c:	aa1303e0 	mov	x0, x19
+    4120:	97fffbe8 	bl	30c0 <PyList_Size@plt>
+    4124:	f100041f 	cmp	x0, #0x1
+    4128:	540001cd 	b.le	4160 <py_obj_to_size+0xb0>
+    412c:	d2800001 	mov	x1, #0x0                   	// #0
+    4130:	aa1303e0 	mov	x0, x19
+    4134:	97fffbfb 	bl	3120 <PyList_GetItem@plt>
+    4138:	52800036 	mov	w22, #0x1                   	// #1
+    413c:	97fffb8d 	bl	2f70 <PyLong_AsLong@plt>
+    4140:	b90002a0 	str	w0, [x21]
+    4144:	d2800021 	mov	x1, #0x1                   	// #1
+    4148:	aa1303e0 	mov	x0, x19
+    414c:	97fffbf5 	bl	3120 <PyList_GetItem@plt>
+    4150:	97fffb88 	bl	2f70 <PyLong_AsLong@plt>
+    4154:	b9000280 	str	w0, [x20]
+    4158:	a94153f3 	ldp	x19, x20, [sp, #16]
+    415c:	17ffffe2 	b	40e4 <py_obj_to_size+0x34>
+    4160:	12800016 	mov	w22, #0xffffffff            	// #-1
+    4164:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4168:	17ffffdf 	b	40e4 <py_obj_to_size+0x34>
+    416c:	d503201f 	nop
+
+0000000000004170 <Camera_get_frame>:
+    4170:	a9b97bfd 	stp	x29, x30, [sp, #-112]!
+    4174:	910003fd 	mov	x29, sp
+    4178:	a90153f3 	stp	x19, x20, [sp, #16]
+    417c:	f0000094 	adrp	x20, 17000 <__FRAME_END__+0xf524>
+    4180:	aa0003f3 	mov	x19, x0
+    4184:	f947a680 	ldr	x0, [x20, #3912]
+    4188:	f9400003 	ldr	x3, [x0]
+    418c:	f90037e3 	str	x3, [sp, #104]
+    4190:	d2800003 	mov	x3, #0x0                   	// #0
+    4194:	f90013f5 	str	x21, [sp, #32]
+    4198:	f9400a75 	ldr	x21, [x19, #16]
+    419c:	b40007d5 	cbz	x21, 4294 <Camera_get_frame+0x124>
+    41a0:	aa0103e0 	mov	x0, x1
+    41a4:	f9400e61 	ldr	x1, [x19, #24]
+    41a8:	b4000761 	cbz	x1, 4294 <Camera_get_frame+0x124>
+    41ac:	900000a3 	adrp	x3, 18000 <memcpy@GLIBC_2.17>
+    41b0:	9108c063 	add	x3, x3, #0x230
+    41b4:	52800047 	mov	w7, #0x2                   	// #2
+    41b8:	aa0203e1 	mov	x1, x2
+    41bc:	910103e5 	add	x5, sp, #0x40
+    41c0:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    41c4:	a947a468 	ldp	x8, x9, [x3, #120]
+    41c8:	91280042 	add	x2, x2, #0xa00
+    41cc:	f9404466 	ldr	x6, [x3, #136]
+    41d0:	9100d3e4 	add	x4, sp, #0x34
+    41d4:	910143e3 	add	x3, sp, #0x50
+    41d8:	2906ffe7 	stp	w7, wzr, [sp, #52]
+    41dc:	b9003fff 	str	wzr, [sp, #60]
+    41e0:	a9047fff 	stp	xzr, xzr, [sp, #64]
+    41e4:	a90527e8 	stp	x8, x9, [sp, #80]
+    41e8:	f90033e6 	str	x6, [sp, #96]
+    41ec:	97fffbad 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    41f0:	340005e0 	cbz	w0, 42ac <Camera_get_frame+0x13c>
+    41f4:	f94023e0 	ldr	x0, [sp, #64]
+    41f8:	b4000080 	cbz	x0, 4208 <Camera_get_frame+0x98>
+    41fc:	9100f3e2 	add	x2, sp, #0x3c
+    4200:	9100e3e1 	add	x1, sp, #0x38
+    4204:	97ffffab 	bl	40b0 <py_obj_to_size>
+    4208:	b9403be3 	ldr	w3, [sp, #56]
+    420c:	34000063 	cbz	w3, 4218 <Camera_get_frame+0xa8>
+    4210:	b9403fe4 	ldr	w4, [sp, #60]
+    4214:	35000144 	cbnz	w4, 423c <Camera_get_frame+0xcc>
+    4218:	aa1503e0 	mov	x0, x21
+    421c:	97fffbdd 	bl	3190 <_ZN5spdev9VPPModule14GetModuleWidthEv@plt>
+    4220:	2a0003e1 	mov	w1, w0
+    4224:	aa1503e0 	mov	x0, x21
+    4228:	b9003be1 	str	w1, [sp, #56]
+    422c:	97fffc05 	bl	3240 <_ZN5spdev9VPPModule15GetModuleHeightEv@plt>
+    4230:	2a0003e4 	mov	w4, w0
+    4234:	b9403be3 	ldr	w3, [sp, #56]
+    4238:	b9003fe0 	str	w0, [sp, #60]
+    423c:	b94037e2 	ldr	w2, [sp, #52]
+    4240:	aa1503e0 	mov	x0, x21
+    4244:	f9400e61 	ldr	x1, [x19, #24]
+    4248:	52817705 	mov	w5, #0xbb8                 	// #3000
+    424c:	97fffc1d 	bl	32c0 <_ZN5spdev9VPPCamera13GetImageFrameEP10ImageFrameNS_9DevModuleEiii@plt>
+    4250:	350002e0 	cbnz	w0, 42ac <Camera_get_frame+0x13c>
+    4254:	f9400e60 	ldr	x0, [x19, #24]
+    4258:	b9405801 	ldr	w1, [x0, #88]
+    425c:	f9401c00 	ldr	x0, [x0, #56]
+    4260:	97fffb8c 	bl	3090 <PyBytes_FromStringAndSize@plt>
+    4264:	f90027e0 	str	x0, [sp, #72]
+    4268:	f9400e62 	ldr	x2, [x19, #24]
+    426c:	b9403040 	ldr	w0, [x2, #48]
+    4270:	7100081f 	cmp	w0, #0x2
+    4274:	540003c0 	b.eq	42ec <Camera_get_frame+0x17c>  // b.none
+    4278:	aa0203e1 	mov	x1, x2
+    427c:	b9403fe4 	ldr	w4, [sp, #60]
+    4280:	29468fe2 	ldp	w2, w3, [sp, #52]
+    4284:	aa1503e0 	mov	x0, x21
+    4288:	97fffc2a 	bl	3330 <_ZN5spdev9VPPCamera16ReturnImageFrameEP10ImageFrameNS_9DevModuleEii@plt>
+    428c:	f94027e0 	ldr	x0, [sp, #72]
+    4290:	1400000d 	b	42c4 <Camera_get_frame+0x154>
+    4294:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4298:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    429c:	9123c021 	add	x1, x1, #0x8f0
+    42a0:	f947c400 	ldr	x0, [x0, #3976]
+    42a4:	f9400000 	ldr	x0, [x0]
+    42a8:	97fffbc2 	bl	31b0 <PyErr_SetString@plt>
+    42ac:	f0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    42b0:	f947a821 	ldr	x1, [x1, #3920]
+    42b4:	aa0103e0 	mov	x0, x1
+    42b8:	f9400022 	ldr	x2, [x1]
+    42bc:	91000442 	add	x2, x2, #0x1
+    42c0:	f9000022 	str	x2, [x1]
+    42c4:	f947a694 	ldr	x20, [x20, #3912]
+    42c8:	f94037e1 	ldr	x1, [sp, #104]
+    42cc:	f9400282 	ldr	x2, [x20]
+    42d0:	eb020021 	subs	x1, x1, x2
+    42d4:	d2800002 	mov	x2, #0x0                   	// #0
+    42d8:	540001a1 	b.ne	430c <Camera_get_frame+0x19c>  // b.any
+    42dc:	a94153f3 	ldp	x19, x20, [sp, #16]
+    42e0:	f94013f5 	ldr	x21, [sp, #32]
+    42e4:	a8c77bfd 	ldp	x29, x30, [sp], #112
+    42e8:	d65f03c0 	ret
+    42ec:	b9405c41 	ldr	w1, [x2, #92]
+    42f0:	f9402040 	ldr	x0, [x2, #64]
+    42f4:	97fffb67 	bl	3090 <PyBytes_FromStringAndSize@plt>
+    42f8:	aa0003e1 	mov	x1, x0
+    42fc:	910123e0 	add	x0, sp, #0x48
+    4300:	97fffb20 	bl	2f80 <PyBytes_ConcatAndDel@plt>
+    4304:	f9400e62 	ldr	x2, [x19, #24]
+    4308:	17ffffdc 	b	4278 <Camera_get_frame+0x108>
+    430c:	97fffb39 	bl	2ff0 <__stack_chk_fail@plt>
+
+0000000000004310 <Display_display>:
+    4310:	a9bb7bfd 	stp	x29, x30, [sp, #-80]!
+    4314:	d0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    4318:	911f4063 	add	x3, x3, #0x7d0
+    431c:	910003fd 	mov	x29, sp
+    4320:	a90153f3 	stp	x19, x20, [sp, #16]
+    4324:	f0000093 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    4328:	aa0003f4 	mov	x20, x0
+    432c:	f947a666 	ldr	x6, [x19, #3912]
+    4330:	5280f005 	mov	w5, #0x780                 	// #1920
+    4334:	f9400a84 	ldr	x4, [x20, #16]
+    4338:	f94000c7 	ldr	x7, [x6]
+    433c:	f90027e7 	str	x7, [sp, #72]
+    4340:	d2800007 	mov	x7, #0x0                   	// #0
+    4344:	52808700 	mov	w0, #0x438                 	// #1080
+    4348:	290503e5 	stp	w5, w0, [sp, #40]
+    434c:	a9030fff 	stp	xzr, x3, [sp, #48]
+    4350:	f90023ff 	str	xzr, [sp, #64]
+    4354:	b4000464 	cbz	x4, 43e0 <Display_display+0xd0>
+    4358:	aa0103e0 	mov	x0, x1
+    435c:	9100c3e4 	add	x4, sp, #0x30
+    4360:	aa0203e1 	mov	x1, x2
+    4364:	9100e3e3 	add	x3, sp, #0x38
+    4368:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    436c:	91282042 	add	x2, x2, #0xa08
+    4370:	97fffb4c 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    4374:	340002c0 	cbz	w0, 43cc <Display_display+0xbc>
+    4378:	f9401be0 	ldr	x0, [sp, #48]
+    437c:	b4000080 	cbz	x0, 438c <Display_display+0x7c>
+    4380:	9100b3e2 	add	x2, sp, #0x2c
+    4384:	9100a3e1 	add	x1, sp, #0x28
+    4388:	97ffff4a 	bl	40b0 <py_obj_to_size>
+    438c:	29450be1 	ldp	w1, w2, [sp, #40]
+    4390:	f9400a80 	ldr	x0, [x20, #16]
+    4394:	97fffbdf 	bl	3310 <_ZN5spdev10VPPDisplay11OpenDisplayEii@plt>
+    4398:	2a0003e1 	mov	w1, w0
+    439c:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    43a0:	9123a000 	add	x0, x0, #0x8e8
+    43a4:	97fffb4f 	bl	30e0 <Py_BuildValue@plt>
+    43a8:	f947a673 	ldr	x19, [x19, #3912]
+    43ac:	f94027e1 	ldr	x1, [sp, #72]
+    43b0:	f9400262 	ldr	x2, [x19]
+    43b4:	eb020021 	subs	x1, x1, x2
+    43b8:	d2800002 	mov	x2, #0x0                   	// #0
+    43bc:	54000281 	b.ne	440c <Display_display+0xfc>  // b.any
+    43c0:	a94153f3 	ldp	x19, x20, [sp, #16]
+    43c4:	a8c57bfd 	ldp	x29, x30, [sp], #80
+    43c8:	d65f03c0 	ret
+    43cc:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    43d0:	12800001 	mov	w1, #0xffffffff            	// #-1
+    43d4:	9123a000 	add	x0, x0, #0x8e8
+    43d8:	97fffb42 	bl	30e0 <Py_BuildValue@plt>
+    43dc:	17fffff3 	b	43a8 <Display_display+0x98>
+    43e0:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    43e4:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    43e8:	91254021 	add	x1, x1, #0x950
+    43ec:	f947c400 	ldr	x0, [x0, #3976]
+    43f0:	f9400000 	ldr	x0, [x0]
+    43f4:	97fffb6f 	bl	31b0 <PyErr_SetString@plt>
+    43f8:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    43fc:	12800001 	mov	w1, #0xffffffff            	// #-1
+    4400:	9123a000 	add	x0, x0, #0x8e8
+    4404:	97fffb37 	bl	30e0 <Py_BuildValue@plt>
+    4408:	17ffffe8 	b	43a8 <Display_display+0x98>
+    440c:	97fffaf9 	bl	2ff0 <__stack_chk_fail@plt>
+
+0000000000004410 <Decoder_decode>:
+    4410:	a9b87bfd 	stp	x29, x30, [sp, #-128]!
+    4414:	910003fd 	mov	x29, sp
+    4418:	a90153f3 	stp	x19, x20, [sp, #16]
+    441c:	f0000093 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    4420:	aa0003f4 	mov	x20, x0
+    4424:	f947a660 	ldr	x0, [x19, #3912]
+    4428:	f9400a83 	ldr	x3, [x20, #16]
+    442c:	f9400004 	ldr	x4, [x0]
+    4430:	f9003fe4 	str	x4, [sp, #120]
+    4434:	d2800004 	mov	x4, #0x0                   	// #0
+    4438:	b40006e3 	cbz	x3, 4514 <Decoder_decode+0x104>
+    443c:	900000a4 	adrp	x4, 18000 <memcpy@GLIBC_2.17>
+    4440:	9108c084 	add	x4, x4, #0x230
+    4444:	91024084 	add	x4, x4, #0x90
+    4448:	910163e3 	add	x3, sp, #0x58
+    444c:	52800029 	mov	w9, #0x1                   	// #1
+    4450:	5280f008 	mov	w8, #0x780                 	// #1920
+    4454:	52808707 	mov	w7, #0x438                 	// #1080
+    4458:	aa0103e0 	mov	x0, x1
+    445c:	4c40a080 	ld1	{v0.16b, v1.16b}, [x4]
+    4460:	aa0203e1 	mov	x1, x2
+    4464:	910123e6 	add	x6, sp, #0x48
+    4468:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    446c:	910143e5 	add	x5, sp, #0x50
+    4470:	91284042 	add	x2, x2, #0xa10
+    4474:	9100e3e4 	add	x4, sp, #0x38
+    4478:	4c00a060 	st1	{v0.16b, v1.16b}, [x3]
+    447c:	290723e9 	stp	w9, w8, [sp, #56]
+    4480:	29087fe7 	stp	w7, wzr, [sp, #64]
+    4484:	a904ffff 	stp	xzr, xzr, [sp, #72]
+    4488:	97fffb06 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    448c:	34000500 	cbz	w0, 452c <Decoder_decode+0x11c>
+    4490:	f9402be0 	ldr	x0, [sp, #80]
+    4494:	f9400a94 	ldr	x20, [x20, #16]
+    4498:	f90013f5 	str	x21, [sp, #32]
+    449c:	b4000080 	cbz	x0, 44ac <Decoder_decode+0x9c>
+    44a0:	910103e2 	add	x2, sp, #0x40
+    44a4:	9100f3e1 	add	x1, sp, #0x3c
+    44a8:	97ffff02 	bl	40b0 <py_obj_to_size>
+    44ac:	29470be1 	ldp	w1, w2, [sp, #56]
+    44b0:	910113e5 	add	x5, sp, #0x44
+    44b4:	b94043e3 	ldr	w3, [sp, #64]
+    44b8:	aa1403e0 	mov	x0, x20
+    44bc:	f94027e4 	ldr	x4, [sp, #72]
+    44c0:	d0000015 	adrp	x21, 6000 <__save_fame+0x340>
+    44c4:	9123a2b5 	add	x21, x21, #0x8e8
+    44c8:	97fffb82 	bl	32d0 <_ZN5spdev9VPPDecode10OpenDecodeEiiiPKcPi@plt>
+    44cc:	2a0003f4 	mov	w20, w0
+    44d0:	d2800000 	mov	x0, #0x0                   	// #0
+    44d4:	97fffb07 	bl	30f0 <PyList_New@plt>
+    44d8:	2a1403e1 	mov	w1, w20
+    44dc:	aa0003f4 	mov	x20, x0
+    44e0:	aa1503e0 	mov	x0, x21
+    44e4:	97fffaff 	bl	30e0 <Py_BuildValue@plt>
+    44e8:	aa0003e1 	mov	x1, x0
+    44ec:	aa1403e0 	mov	x0, x20
+    44f0:	97fffae4 	bl	3080 <PyList_Append@plt>
+    44f4:	b94047e1 	ldr	w1, [sp, #68]
+    44f8:	aa1503e0 	mov	x0, x21
+    44fc:	97fffaf9 	bl	30e0 <Py_BuildValue@plt>
+    4500:	aa0003e1 	mov	x1, x0
+    4504:	aa1403e0 	mov	x0, x20
+    4508:	97fffade 	bl	3080 <PyList_Append@plt>
+    450c:	f94013f5 	ldr	x21, [sp, #32]
+    4510:	1400000c 	b	4540 <Decoder_decode+0x130>
+    4514:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4518:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    451c:	91234021 	add	x1, x1, #0x8d0
+    4520:	f947c400 	ldr	x0, [x0, #3976]
+    4524:	f9400000 	ldr	x0, [x0]
+    4528:	97fffb22 	bl	31b0 <PyErr_SetString@plt>
+    452c:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    4530:	12800001 	mov	w1, #0xffffffff            	// #-1
+    4534:	9123a000 	add	x0, x0, #0x8e8
+    4538:	97fffaea 	bl	30e0 <Py_BuildValue@plt>
+    453c:	aa0003f4 	mov	x20, x0
+    4540:	f947a673 	ldr	x19, [x19, #3912]
+    4544:	f9403fe0 	ldr	x0, [sp, #120]
+    4548:	f9400261 	ldr	x1, [x19]
+    454c:	eb010000 	subs	x0, x0, x1
+    4550:	d2800001 	mov	x1, #0x0                   	// #0
+    4554:	540000a1 	b.ne	4568 <Decoder_decode+0x158>  // b.any
+    4558:	aa1403e0 	mov	x0, x20
+    455c:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4560:	a8c87bfd 	ldp	x29, x30, [sp], #128
+    4564:	d65f03c0 	ret
+    4568:	f90013f5 	str	x21, [sp, #32]
+    456c:	97fffaa1 	bl	2ff0 <__stack_chk_fail@plt>
+
+0000000000004570 <Encoder_encode>:
+    4570:	a9ba7bfd 	stp	x29, x30, [sp, #-96]!
+    4574:	910003fd 	mov	x29, sp
+    4578:	a90153f3 	stp	x19, x20, [sp, #16]
+    457c:	f0000093 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    4580:	aa0003f4 	mov	x20, x0
+    4584:	f947a660 	ldr	x0, [x19, #3912]
+    4588:	f9400a83 	ldr	x3, [x20, #16]
+    458c:	f9400004 	ldr	x4, [x0]
+    4590:	f9002fe4 	str	x4, [sp, #88]
+    4594:	d2800004 	mov	x4, #0x0                   	// #0
+    4598:	b4000623 	cbz	x3, 465c <Encoder_encode+0xec>
+    459c:	900000a4 	adrp	x4, 18000 <memcpy@GLIBC_2.17>
+    45a0:	9108c084 	add	x4, x4, #0x230
+    45a4:	9102c084 	add	x4, x4, #0xb0
+    45a8:	9100e3e3 	add	x3, sp, #0x38
+    45ac:	52800048 	mov	w8, #0x2                   	// #2
+    45b0:	5283e807 	mov	w7, #0x1f40                	// #8000
+    45b4:	aa0103e0 	mov	x0, x1
+    45b8:	9100b3e6 	add	x6, sp, #0x2c
+    45bc:	4c40a080 	ld1	{v0.16b, v1.16b}, [x4]
+    45c0:	aa0203e1 	mov	x1, x2
+    45c4:	9100c3e5 	add	x5, sp, #0x30
+    45c8:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    45cc:	910083e4 	add	x4, sp, #0x20
+    45d0:	91286042 	add	x2, x2, #0xa18
+    45d4:	4c00a060 	st1	{v0.16b, v1.16b}, [x3]
+    45d8:	29047fe8 	stp	w8, wzr, [sp, #32]
+    45dc:	29051fff 	stp	wzr, w7, [sp, #40]
+    45e0:	f9001bff 	str	xzr, [sp, #48]
+    45e4:	97fffaaf 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    45e8:	34000300 	cbz	w0, 4648 <Encoder_encode+0xd8>
+    45ec:	f9401be0 	ldr	x0, [sp, #48]
+    45f0:	f9400a94 	ldr	x20, [x20, #16]
+    45f4:	b4000080 	cbz	x0, 4604 <Encoder_encode+0x94>
+    45f8:	9100a3e2 	add	x2, sp, #0x28
+    45fc:	910093e1 	add	x1, sp, #0x24
+    4600:	97fffeac 	bl	40b0 <py_obj_to_size>
+    4604:	29440be1 	ldp	w1, w2, [sp, #32]
+    4608:	aa1403e0 	mov	x0, x20
+    460c:	294513e3 	ldp	w3, w4, [sp, #40]
+    4610:	97fffa88 	bl	3030 <_ZN5spdev9VPPEncode10OpenEncodeEiiii@plt>
+    4614:	2a0003e1 	mov	w1, w0
+    4618:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    461c:	9123a000 	add	x0, x0, #0x8e8
+    4620:	97fffab0 	bl	30e0 <Py_BuildValue@plt>
+    4624:	f947a673 	ldr	x19, [x19, #3912]
+    4628:	f9402fe1 	ldr	x1, [sp, #88]
+    462c:	f9400262 	ldr	x2, [x19]
+    4630:	eb020021 	subs	x1, x1, x2
+    4634:	d2800002 	mov	x2, #0x0                   	// #0
+    4638:	54000281 	b.ne	4688 <Encoder_encode+0x118>  // b.any
+    463c:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4640:	a8c67bfd 	ldp	x29, x30, [sp], #96
+    4644:	d65f03c0 	ret
+    4648:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    464c:	12800001 	mov	w1, #0xffffffff            	// #-1
+    4650:	9123a000 	add	x0, x0, #0x8e8
+    4654:	97fffaa3 	bl	30e0 <Py_BuildValue@plt>
+    4658:	17fffff3 	b	4624 <Encoder_encode+0xb4>
+    465c:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4660:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4664:	9122e021 	add	x1, x1, #0x8b8
+    4668:	f947c400 	ldr	x0, [x0, #3976]
+    466c:	f9400000 	ldr	x0, [x0]
+    4670:	97fffad0 	bl	31b0 <PyErr_SetString@plt>
+    4674:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    4678:	12800001 	mov	w1, #0xffffffff            	// #-1
+    467c:	9123a000 	add	x0, x0, #0x8e8
+    4680:	97fffa98 	bl	30e0 <Py_BuildValue@plt>
+    4684:	17ffffe8 	b	4624 <Encoder_encode+0xb4>
+    4688:	97fffa5a 	bl	2ff0 <__stack_chk_fail@plt>
+    468c:	d503201f 	nop
+
+0000000000004690 <Camera_close>:
+    4690:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    4694:	aa0003e1 	mov	x1, x0
+    4698:	910003fd 	mov	x29, sp
+    469c:	f9400800 	ldr	x0, [x0, #16]
+    46a0:	b4000180 	cbz	x0, 46d0 <Camera_close+0x40>
+    46a4:	f9400c21 	ldr	x1, [x1, #24]
+    46a8:	b4000141 	cbz	x1, 46d0 <Camera_close+0x40>
+    46ac:	97fffacd 	bl	31e0 <_ZN5spdev9VPPCamera5CloseEv@plt>
+    46b0:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    46b4:	f947a802 	ldr	x2, [x0, #3920]
+    46b8:	f947a800 	ldr	x0, [x0, #3920]
+    46bc:	f9400041 	ldr	x1, [x2]
+    46c0:	91000421 	add	x1, x1, #0x1
+    46c4:	f9000041 	str	x1, [x2]
+    46c8:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    46cc:	d65f03c0 	ret
+    46d0:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    46d4:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    46d8:	9123c021 	add	x1, x1, #0x8f0
+    46dc:	f947c400 	ldr	x0, [x0, #3976]
+    46e0:	f9400000 	ldr	x0, [x0]
+    46e4:	97fffab3 	bl	31b0 <PyErr_SetString@plt>
+    46e8:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    46ec:	f947a802 	ldr	x2, [x0, #3920]
+    46f0:	f947a800 	ldr	x0, [x0, #3920]
+    46f4:	f9400041 	ldr	x1, [x2]
+    46f8:	91000421 	add	x1, x1, #0x1
+    46fc:	f9000041 	str	x1, [x2]
+    4700:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    4704:	d65f03c0 	ret
+    4708:	d503201f 	nop
+    470c:	d503201f 	nop
+
+0000000000004710 <Display_close>:
+    4710:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    4714:	910003fd 	mov	x29, sp
+    4718:	f9400800 	ldr	x0, [x0, #16]
+    471c:	b40000e0 	cbz	x0, 4738 <Display_close+0x28>
+    4720:	97fffa4c 	bl	3050 <_ZN5spdev10VPPDisplay5CloseEv@plt>
+    4724:	2a0003e1 	mov	w1, w0
+    4728:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    472c:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    4730:	9123a040 	add	x0, x2, #0x8e8
+    4734:	17fffa6b 	b	30e0 <Py_BuildValue@plt>
+    4738:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    473c:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4740:	91254021 	add	x1, x1, #0x950
+    4744:	f947c400 	ldr	x0, [x0, #3976]
+    4748:	f9400000 	ldr	x0, [x0]
+    474c:	97fffa99 	bl	31b0 <PyErr_SetString@plt>
+    4750:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    4754:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    4758:	12800001 	mov	w1, #0xffffffff            	// #-1
+    475c:	9123a000 	add	x0, x0, #0x8e8
+    4760:	17fffa60 	b	30e0 <Py_BuildValue@plt>
+    4764:	d503201f 	nop
+    4768:	d503201f 	nop
+    476c:	d503201f 	nop
+
+0000000000004770 <Decoder_close>:
+    4770:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    4774:	910003fd 	mov	x29, sp
+    4778:	f9400800 	ldr	x0, [x0, #16]
+    477c:	b40000e0 	cbz	x0, 4798 <Decoder_close+0x28>
+    4780:	97fffa20 	bl	3000 <_ZN5spdev9VPPDecode5CloseEv@plt>
+    4784:	2a0003e1 	mov	w1, w0
+    4788:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    478c:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    4790:	9123a040 	add	x0, x2, #0x8e8
+    4794:	17fffa53 	b	30e0 <Py_BuildValue@plt>
+    4798:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    479c:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    47a0:	91234021 	add	x1, x1, #0x8d0
+    47a4:	f947c400 	ldr	x0, [x0, #3976]
+    47a8:	f9400000 	ldr	x0, [x0]
+    47ac:	97fffa81 	bl	31b0 <PyErr_SetString@plt>
+    47b0:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    47b4:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    47b8:	12800001 	mov	w1, #0xffffffff            	// #-1
+    47bc:	9123a000 	add	x0, x0, #0x8e8
+    47c0:	17fffa48 	b	30e0 <Py_BuildValue@plt>
+    47c4:	d503201f 	nop
+    47c8:	d503201f 	nop
+    47cc:	d503201f 	nop
+
+00000000000047d0 <Encoder_close>:
+    47d0:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    47d4:	910003fd 	mov	x29, sp
+    47d8:	f9400800 	ldr	x0, [x0, #16]
+    47dc:	b40000e0 	cbz	x0, 47f8 <Encoder_close+0x28>
+    47e0:	97fffaec 	bl	3390 <_ZN5spdev9VPPEncode5CloseEv@plt>
+    47e4:	2a0003e1 	mov	w1, w0
+    47e8:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    47ec:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    47f0:	9123a040 	add	x0, x2, #0x8e8
+    47f4:	17fffa3b 	b	30e0 <Py_BuildValue@plt>
+    47f8:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    47fc:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4800:	9122e021 	add	x1, x1, #0x8b8
+    4804:	f947c400 	ldr	x0, [x0, #3976]
+    4808:	f9400000 	ldr	x0, [x0]
+    480c:	97fffa69 	bl	31b0 <PyErr_SetString@plt>
+    4810:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    4814:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    4818:	12800001 	mov	w1, #0xffffffff            	// #-1
+    481c:	9123a000 	add	x0, x0, #0x8e8
+    4820:	17fffa30 	b	30e0 <Py_BuildValue@plt>
+    4824:	d503201f 	nop
+    4828:	d503201f 	nop
+    482c:	d503201f 	nop
+
+0000000000004830 <Module_unbind>:
+    4830:	a9bb7bfd 	stp	x29, x30, [sp, #-80]!
+    4834:	900000a3 	adrp	x3, 18000 <memcpy@GLIBC_2.17>
+    4838:	9108c063 	add	x3, x3, #0x230
+    483c:	910003fd 	mov	x29, sp
+    4840:	f9000bf3 	str	x19, [sp, #16]
+    4844:	f0000093 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    4848:	a94d2468 	ldp	x8, x9, [x3, #208]
+    484c:	aa0103e0 	mov	x0, x1
+    4850:	f947a664 	ldr	x4, [x19, #3912]
+    4854:	aa0203e1 	mov	x1, x2
+    4858:	f9407066 	ldr	x6, [x3, #224]
+    485c:	f9400082 	ldr	x2, [x4]
+    4860:	f90027e2 	str	x2, [sp, #72]
+    4864:	d2800002 	mov	x2, #0x0                   	// #0
+    4868:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    486c:	91288042 	add	x2, x2, #0xa20
+    4870:	9100a3e5 	add	x5, sp, #0x28
+    4874:	9100c3e3 	add	x3, sp, #0x30
+    4878:	910083e4 	add	x4, sp, #0x20
+    487c:	a9027fff 	stp	xzr, xzr, [sp, #32]
+    4880:	a90327e8 	stp	x8, x9, [sp, #48]
+    4884:	f90023e6 	str	x6, [sp, #64]
+    4888:	97fffa06 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    488c:	350001c0 	cbnz	w0, 48c4 <Module_unbind+0x94>
+    4890:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    4894:	12800001 	mov	w1, #0xffffffff            	// #-1
+    4898:	9123a000 	add	x0, x0, #0x8e8
+    489c:	97fffa11 	bl	30e0 <Py_BuildValue@plt>
+    48a0:	f947a673 	ldr	x19, [x19, #3912]
+    48a4:	f94027e1 	ldr	x1, [sp, #72]
+    48a8:	f9400262 	ldr	x2, [x19]
+    48ac:	eb020021 	subs	x1, x1, x2
+    48b0:	d2800002 	mov	x2, #0x0                   	// #0
+    48b4:	540001c1 	b.ne	48ec <Module_unbind+0xbc>  // b.any
+    48b8:	f9400bf3 	ldr	x19, [sp, #16]
+    48bc:	a8c57bfd 	ldp	x29, x30, [sp], #80
+    48c0:	d65f03c0 	ret
+    48c4:	a94203e1 	ldp	x1, x0, [sp, #32]
+    48c8:	12800002 	mov	w2, #0xffffffff            	// #-1
+    48cc:	f9400821 	ldr	x1, [x1, #16]
+    48d0:	f9400800 	ldr	x0, [x0, #16]
+    48d4:	97fff9cf 	bl	3010 <_ZN5spdev9VPPModule6UnBindEPS0_i@plt>
+    48d8:	2a0003e1 	mov	w1, w0
+    48dc:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    48e0:	9123a000 	add	x0, x0, #0x8e8
+    48e4:	97fff9ff 	bl	30e0 <Py_BuildValue@plt>
+    48e8:	17ffffee 	b	48a0 <Module_unbind+0x70>
+    48ec:	97fff9c1 	bl	2ff0 <__stack_chk_fail@plt>
+
+00000000000048f0 <Decoder_new>:
+    48f0:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    48f4:	d2800001 	mov	x1, #0x0                   	// #0
+    48f8:	910003fd 	mov	x29, sp
+    48fc:	f9409802 	ldr	x2, [x0, #304]
+    4900:	d63f0040 	blr	x2
+    4904:	a9017c1f 	stp	xzr, xzr, [x0, #16]
+    4908:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    490c:	d65f03c0 	ret
+
+0000000000004910 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0>:
+    4910:	a9aa7bfd 	stp	x29, x30, [sp, #-352]!
+    4914:	91003c20 	add	x0, x1, #0xf
+    4918:	9270bc09 	and	x9, x0, #0xffffffffffff0000
+    491c:	910003fd 	mov	x29, sp
+    4920:	a9025bf5 	stp	x21, x22, [sp, #32]
+    4924:	f0000095 	adrp	x21, 17000 <__FRAME_END__+0xf524>
+    4928:	927cec00 	and	x0, x0, #0xfffffffffffffff0
+    492c:	f947a6aa 	ldr	x10, [x21, #3912]
+    4930:	a90153f3 	stp	x19, x20, [sp, #16]
+    4934:	aa0803f3 	mov	x19, x8
+    4938:	f9400148 	ldr	x8, [x10]
+    493c:	f90057a8 	str	x8, [x29, #168]
+    4940:	d2800008 	mov	x8, #0x0                   	// #0
+    4944:	f9001bf7 	str	x23, [sp, #48]
+    4948:	d10043ff 	sub	sp, sp, #0x10
+    494c:	3d802fa0 	str	q0, [x29, #176]
+    4950:	cb2963e9 	sub	x9, sp, x9
+    4954:	3d8033a1 	str	q1, [x29, #192]
+    4958:	eb2963ff 	cmp	sp, x9
+    495c:	3d8037a2 	str	q2, [x29, #208]
+    4960:	3d803ba3 	str	q3, [x29, #224]
+    4964:	3d803fa4 	str	q4, [x29, #240]
+    4968:	3d8043a5 	str	q5, [x29, #256]
+    496c:	3d8047a6 	str	q6, [x29, #272]
+    4970:	3d804ba7 	str	q7, [x29, #288]
+    4974:	a91393a3 	stp	x3, x4, [x29, #312]
+    4978:	a9149ba5 	stp	x5, x6, [x29, #328]
+    497c:	f900afa7 	str	x7, [x29, #344]
+    4980:	540000a0 	b.eq	4994 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x84>  // b.none
+    4984:	d14043ff 	sub	sp, sp, #0x10, lsl #12
+    4988:	eb2963ff 	cmp	sp, x9
+    498c:	f90203ff 	str	xzr, [sp, #1024]
+    4990:	54ffffa1 	b.ne	4984 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x74>  // b.any
+    4994:	92403c00 	and	x0, x0, #0xffff
+    4998:	cb2063ff 	sub	sp, sp, x0
+    499c:	f110001f 	cmp	x0, #0x400
+    49a0:	f90003ff 	str	xzr, [sp]
+    49a4:	540007c2 	b.cs	4a9c <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x18c>  // b.hs, b.nlast
+    49a8:	9104c3a4 	add	x4, x29, #0x130
+    49ac:	910583a5 	add	x5, x29, #0x160
+    49b0:	128004e3 	mov	w3, #0xffffffd8            	// #-40
+    49b4:	12800fe0 	mov	w0, #0xffffff80            	// #-128
+    49b8:	a90697a5 	stp	x5, x5, [x29, #104]
+    49bc:	910043f6 	add	x22, sp, #0x10
+    49c0:	910103a5 	add	x5, x29, #0x40
+    49c4:	f9003fa4 	str	x4, [x29, #120]
+    49c8:	aa0203e4 	mov	x4, x2
+    49cc:	291003a3 	stp	w3, w0, [x29, #128]
+    49d0:	52800022 	mov	w2, #0x1                   	// #1
+    49d4:	a946a7a8 	ldp	x8, x9, [x29, #104]
+    49d8:	aa1603e0 	mov	x0, x22
+    49dc:	a9479fa6 	ldp	x6, x7, [x29, #120]
+    49e0:	92800003 	mov	x3, #0xffffffffffffffff    	// #-1
+    49e4:	a90427a8 	stp	x8, x9, [x29, #64]
+    49e8:	910223b7 	add	x23, x29, #0x88
+    49ec:	a9051fa6 	stp	x6, x7, [x29, #80]
+    49f0:	a908a7a8 	stp	x8, x9, [x29, #136]
+    49f4:	a9099fa6 	stp	x6, x7, [x29, #152]
+    49f8:	97fff9fe 	bl	31f0 <__vsnprintf_chk@plt>
+    49fc:	93407c14 	sxtw	x20, w0
+    4a00:	91004260 	add	x0, x19, #0x10
+    4a04:	f9000260 	str	x0, [x19]
+    4a08:	f90047b4 	str	x20, [x29, #136]
+    4a0c:	f1003e9f 	cmp	x20, #0xf
+    4a10:	540002c8 	b.hi	4a68 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x158>  // b.pmore
+    4a14:	f100069f 	cmp	x20, #0x1
+    4a18:	54000241 	b.ne	4a60 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x150>  // b.any
+    4a1c:	394002c1 	ldrb	w1, [x22]
+    4a20:	39004261 	strb	w1, [x19, #16]
+    4a24:	f947a6a1 	ldr	x1, [x21, #3912]
+    4a28:	f9000674 	str	x20, [x19, #8]
+    4a2c:	3834681f 	strb	wzr, [x0, x20]
+    4a30:	f94057a0 	ldr	x0, [x29, #168]
+    4a34:	f9400022 	ldr	x2, [x1]
+    4a38:	eb020000 	subs	x0, x0, x2
+    4a3c:	d2800002 	mov	x2, #0x0                   	// #0
+    4a40:	54000321 	b.ne	4aa4 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x194>  // b.any
+    4a44:	910003bf 	mov	sp, x29
+    4a48:	aa1303e0 	mov	x0, x19
+    4a4c:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4a50:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    4a54:	f9401bf7 	ldr	x23, [sp, #48]
+    4a58:	a8d67bfd 	ldp	x29, x30, [sp], #352
+    4a5c:	d65f03c0 	ret
+    4a60:	b4fffe34 	cbz	x20, 4a24 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x114>
+    4a64:	14000008 	b	4a84 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x174>
+    4a68:	aa1703e1 	mov	x1, x23
+    4a6c:	aa1303e0 	mov	x0, x19
+    4a70:	d2800002 	mov	x2, #0x0                   	// #0
+    4a74:	97fffa33 	bl	3340 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm@plt>
+    4a78:	f94047a1 	ldr	x1, [x29, #136]
+    4a7c:	f9000260 	str	x0, [x19]
+    4a80:	f9000a61 	str	x1, [x19, #16]
+    4a84:	aa1403e2 	mov	x2, x20
+    4a88:	aa1603e1 	mov	x1, x22
+    4a8c:	97fff935 	bl	2f60 <memcpy@plt>
+    4a90:	f9400260 	ldr	x0, [x19]
+    4a94:	f94047b4 	ldr	x20, [x29, #136]
+    4a98:	17ffffe3 	b	4a24 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x114>
+    4a9c:	f90203ff 	str	xzr, [sp, #1024]
+    4aa0:	17ffffc2 	b	49a8 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0+0x98>
+    4aa4:	97fff953 	bl	2ff0 <__stack_chk_fail@plt>
+    4aa8:	d503201f 	nop
+    4aac:	d503201f 	nop
+
+0000000000004ab0 <Display_new>:
+    4ab0:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    4ab4:	d2800001 	mov	x1, #0x0                   	// #0
+    4ab8:	910003fd 	mov	x29, sp
+    4abc:	f9409802 	ldr	x2, [x0, #304]
+    4ac0:	d63f0040 	blr	x2
+    4ac4:	a9017c1f 	stp	xzr, xzr, [x0, #16]
+    4ac8:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    4acc:	d65f03c0 	ret
+
+0000000000004ad0 <Encoder_new>:
+    4ad0:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    4ad4:	d2800001 	mov	x1, #0x0                   	// #0
+    4ad8:	910003fd 	mov	x29, sp
+    4adc:	f9409802 	ldr	x2, [x0, #304]
+    4ae0:	d63f0040 	blr	x2
+    4ae4:	a9017c1f 	stp	xzr, xzr, [x0, #16]
+    4ae8:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    4aec:	d65f03c0 	ret
+
+0000000000004af0 <Module_bind>:
+    4af0:	a9bb7bfd 	stp	x29, x30, [sp, #-80]!
+    4af4:	900000a3 	adrp	x3, 18000 <memcpy@GLIBC_2.17>
+    4af8:	9108c063 	add	x3, x3, #0x230
+    4afc:	910003fd 	mov	x29, sp
+    4b00:	f9000bf3 	str	x19, [sp, #16]
+    4b04:	f0000093 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    4b08:	a94d2468 	ldp	x8, x9, [x3, #208]
+    4b0c:	aa0103e0 	mov	x0, x1
+    4b10:	f947a664 	ldr	x4, [x19, #3912]
+    4b14:	aa0203e1 	mov	x1, x2
+    4b18:	f9407066 	ldr	x6, [x3, #224]
+    4b1c:	f9400082 	ldr	x2, [x4]
+    4b20:	f90027e2 	str	x2, [sp, #72]
+    4b24:	d2800002 	mov	x2, #0x0                   	// #0
+    4b28:	d0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    4b2c:	91288042 	add	x2, x2, #0xa20
+    4b30:	9100a3e5 	add	x5, sp, #0x28
+    4b34:	9100c3e3 	add	x3, sp, #0x30
+    4b38:	910083e4 	add	x4, sp, #0x20
+    4b3c:	a9027fff 	stp	xzr, xzr, [sp, #32]
+    4b40:	a90327e8 	stp	x8, x9, [sp, #48]
+    4b44:	f90023e6 	str	x6, [sp, #64]
+    4b48:	97fff956 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    4b4c:	350001c0 	cbnz	w0, 4b84 <Module_bind+0x94>
+    4b50:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    4b54:	12800001 	mov	w1, #0xffffffff            	// #-1
+    4b58:	9123a000 	add	x0, x0, #0x8e8
+    4b5c:	97fff961 	bl	30e0 <Py_BuildValue@plt>
+    4b60:	f947a673 	ldr	x19, [x19, #3912]
+    4b64:	f94027e1 	ldr	x1, [sp, #72]
+    4b68:	f9400262 	ldr	x2, [x19]
+    4b6c:	eb020021 	subs	x1, x1, x2
+    4b70:	d2800002 	mov	x2, #0x0                   	// #0
+    4b74:	540001c1 	b.ne	4bac <Module_bind+0xbc>  // b.any
+    4b78:	f9400bf3 	ldr	x19, [sp, #16]
+    4b7c:	a8c57bfd 	ldp	x29, x30, [sp], #80
+    4b80:	d65f03c0 	ret
+    4b84:	a94203e1 	ldp	x1, x0, [sp, #32]
+    4b88:	12800002 	mov	w2, #0xffffffff            	// #-1
+    4b8c:	f9400821 	ldr	x1, [x1, #16]
+    4b90:	f9400800 	ldr	x0, [x0, #16]
+    4b94:	97fff977 	bl	3170 <_ZN5spdev9VPPModule6BindToEPS0_i@plt>
+    4b98:	2a0003e1 	mov	w1, w0
+    4b9c:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    4ba0:	9123a000 	add	x0, x0, #0x8e8
+    4ba4:	97fff94f 	bl	30e0 <Py_BuildValue@plt>
+    4ba8:	17ffffee 	b	4b60 <Module_bind+0x70>
+    4bac:	97fff911 	bl	2ff0 <__stack_chk_fail@plt>
+
+0000000000004bb0 <Decoder_dealloc>:
+    4bb0:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    4bb4:	910003fd 	mov	x29, sp
+    4bb8:	a90153f3 	stp	x19, x20, [sp, #16]
+    4bbc:	aa0003f3 	mov	x19, x0
+    4bc0:	f9400814 	ldr	x20, [x0, #16]
+    4bc4:	b4000234 	cbz	x20, 4c08 <Decoder_dealloc+0x58>
+    4bc8:	f9400281 	ldr	x1, [x20]
+    4bcc:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4bd0:	f947ac00 	ldr	x0, [x0, #3928]
+    4bd4:	f9401821 	ldr	x1, [x1, #48]
+    4bd8:	eb00003f 	cmp	x1, x0
+    4bdc:	540002e1 	b.ne	4c38 <Decoder_dealloc+0x88>  // b.any
+    4be0:	f0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    4be4:	aa1403e0 	mov	x0, x20
+    4be8:	f9479c21 	ldr	x1, [x1, #3896]
+    4bec:	91004021 	add	x1, x1, #0x10
+    4bf0:	f9000281 	str	x1, [x20]
+    4bf4:	97fff98f 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    4bf8:	aa1403e0 	mov	x0, x20
+    4bfc:	d280a501 	mov	x1, #0x528                 	// #1320
+    4c00:	97fff954 	bl	3150 <_ZdlPvm@plt>
+    4c04:	f9000a7f 	str	xzr, [x19, #16]
+    4c08:	f9400e60 	ldr	x0, [x19, #24]
+    4c0c:	b4000080 	cbz	x0, 4c1c <Decoder_dealloc+0x6c>
+    4c10:	d2800d01 	mov	x1, #0x68                  	// #104
+    4c14:	97fff94f 	bl	3150 <_ZdlPvm@plt>
+    4c18:	f9000e7f 	str	xzr, [x19, #24]
+    4c1c:	f9400661 	ldr	x1, [x19, #8]
+    4c20:	aa1303e0 	mov	x0, x19
+    4c24:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4c28:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    4c2c:	f940a021 	ldr	x1, [x1, #320]
+    4c30:	aa0103f0 	mov	x16, x1
+    4c34:	d61f0200 	br	x16
+    4c38:	aa1403e0 	mov	x0, x20
+    4c3c:	d63f0020 	blr	x1
+    4c40:	17fffff1 	b	4c04 <Decoder_dealloc+0x54>
+    4c44:	d503201f 	nop
+    4c48:	d503201f 	nop
+    4c4c:	d503201f 	nop
+
+0000000000004c50 <Display_dealloc>:
+    4c50:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    4c54:	910003fd 	mov	x29, sp
+    4c58:	a90153f3 	stp	x19, x20, [sp, #16]
+    4c5c:	aa0003f3 	mov	x19, x0
+    4c60:	f9400814 	ldr	x20, [x0, #16]
+    4c64:	b4000234 	cbz	x20, 4ca8 <Display_dealloc+0x58>
+    4c68:	f9400281 	ldr	x1, [x20]
+    4c6c:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4c70:	f947d400 	ldr	x0, [x0, #4008]
+    4c74:	f9401821 	ldr	x1, [x1, #48]
+    4c78:	eb00003f 	cmp	x1, x0
+    4c7c:	540002e1 	b.ne	4cd8 <Display_dealloc+0x88>  // b.any
+    4c80:	f0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    4c84:	aa1403e0 	mov	x0, x20
+    4c88:	f947b821 	ldr	x1, [x1, #3952]
+    4c8c:	91004021 	add	x1, x1, #0x10
+    4c90:	f9000281 	str	x1, [x20]
+    4c94:	97fff967 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    4c98:	aa1403e0 	mov	x0, x20
+    4c9c:	d2800e01 	mov	x1, #0x70                  	// #112
+    4ca0:	97fff92c 	bl	3150 <_ZdlPvm@plt>
+    4ca4:	f9000a7f 	str	xzr, [x19, #16]
+    4ca8:	f9400e60 	ldr	x0, [x19, #24]
+    4cac:	b4000080 	cbz	x0, 4cbc <Display_dealloc+0x6c>
+    4cb0:	d2800d01 	mov	x1, #0x68                  	// #104
+    4cb4:	97fff927 	bl	3150 <_ZdlPvm@plt>
+    4cb8:	f9000a7f 	str	xzr, [x19, #16]
+    4cbc:	f9400661 	ldr	x1, [x19, #8]
+    4cc0:	aa1303e0 	mov	x0, x19
+    4cc4:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4cc8:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    4ccc:	f940a021 	ldr	x1, [x1, #320]
+    4cd0:	aa0103f0 	mov	x16, x1
+    4cd4:	d61f0200 	br	x16
+    4cd8:	aa1403e0 	mov	x0, x20
+    4cdc:	d63f0020 	blr	x1
+    4ce0:	17fffff1 	b	4ca4 <Display_dealloc+0x54>
+    4ce4:	d503201f 	nop
+    4ce8:	d503201f 	nop
+    4cec:	d503201f 	nop
+
+0000000000004cf0 <Encoder_dealloc>:
+    4cf0:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    4cf4:	910003fd 	mov	x29, sp
+    4cf8:	a90153f3 	stp	x19, x20, [sp, #16]
+    4cfc:	aa0003f3 	mov	x19, x0
+    4d00:	f9400814 	ldr	x20, [x0, #16]
+    4d04:	b4000234 	cbz	x20, 4d48 <Encoder_dealloc+0x58>
+    4d08:	f9400281 	ldr	x1, [x20]
+    4d0c:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4d10:	f947c800 	ldr	x0, [x0, #3984]
+    4d14:	f9401821 	ldr	x1, [x1, #48]
+    4d18:	eb00003f 	cmp	x1, x0
+    4d1c:	540002e1 	b.ne	4d78 <Encoder_dealloc+0x88>  // b.any
+    4d20:	f0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    4d24:	aa1403e0 	mov	x0, x20
+    4d28:	f947e021 	ldr	x1, [x1, #4032]
+    4d2c:	91004021 	add	x1, x1, #0x10
+    4d30:	f9000281 	str	x1, [x20]
+    4d34:	97fff93f 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    4d38:	aa1403e0 	mov	x0, x20
+    4d3c:	d2808d01 	mov	x1, #0x468                 	// #1128
+    4d40:	97fff904 	bl	3150 <_ZdlPvm@plt>
+    4d44:	f9000a7f 	str	xzr, [x19, #16]
+    4d48:	f9400e60 	ldr	x0, [x19, #24]
+    4d4c:	b4000080 	cbz	x0, 4d5c <Encoder_dealloc+0x6c>
+    4d50:	d2800d01 	mov	x1, #0x68                  	// #104
+    4d54:	97fff8ff 	bl	3150 <_ZdlPvm@plt>
+    4d58:	f9000e7f 	str	xzr, [x19, #24]
+    4d5c:	f9400661 	ldr	x1, [x19, #8]
+    4d60:	aa1303e0 	mov	x0, x19
+    4d64:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4d68:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    4d6c:	f940a021 	ldr	x1, [x1, #320]
+    4d70:	aa0103f0 	mov	x16, x1
+    4d74:	d61f0200 	br	x16
+    4d78:	aa1403e0 	mov	x0, x20
+    4d7c:	d63f0020 	blr	x1
+    4d80:	17fffff1 	b	4d44 <Encoder_dealloc+0x54>
+    4d84:	d503201f 	nop
+    4d88:	d503201f 	nop
+    4d8c:	d503201f 	nop
+
+0000000000004d90 <Camera_dealloc>:
+    4d90:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    4d94:	910003fd 	mov	x29, sp
+    4d98:	a90153f3 	stp	x19, x20, [sp, #16]
+    4d9c:	aa0003f3 	mov	x19, x0
+    4da0:	f9400814 	ldr	x20, [x0, #16]
+    4da4:	b4000234 	cbz	x20, 4de8 <Camera_dealloc+0x58>
+    4da8:	f9400281 	ldr	x1, [x20]
+    4dac:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4db0:	f947dc00 	ldr	x0, [x0, #4024]
+    4db4:	f9401821 	ldr	x1, [x1, #48]
+    4db8:	eb00003f 	cmp	x1, x0
+    4dbc:	540002e1 	b.ne	4e18 <Camera_dealloc+0x88>  // b.any
+    4dc0:	f0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    4dc4:	aa1403e0 	mov	x0, x20
+    4dc8:	f947c021 	ldr	x1, [x1, #3968]
+    4dcc:	91004021 	add	x1, x1, #0x10
+    4dd0:	f9000281 	str	x1, [x20]
+    4dd4:	97fff917 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    4dd8:	aa1403e0 	mov	x0, x20
+    4ddc:	d2805701 	mov	x1, #0x2b8                 	// #696
+    4de0:	97fff8dc 	bl	3150 <_ZdlPvm@plt>
+    4de4:	f9000a7f 	str	xzr, [x19, #16]
+    4de8:	f9400e60 	ldr	x0, [x19, #24]
+    4dec:	b4000080 	cbz	x0, 4dfc <Camera_dealloc+0x6c>
+    4df0:	d2800d01 	mov	x1, #0x68                  	// #104
+    4df4:	97fff8d7 	bl	3150 <_ZdlPvm@plt>
+    4df8:	f9000e7f 	str	xzr, [x19, #24]
+    4dfc:	f9400661 	ldr	x1, [x19, #8]
+    4e00:	aa1303e0 	mov	x0, x19
+    4e04:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4e08:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    4e0c:	f940a021 	ldr	x1, [x1, #320]
+    4e10:	aa0103f0 	mov	x16, x1
+    4e14:	d61f0200 	br	x16
+    4e18:	aa1403e0 	mov	x0, x20
+    4e1c:	d63f0020 	blr	x1
+    4e20:	17fffff1 	b	4de4 <Camera_dealloc+0x54>
+    4e24:	d503201f 	nop
+    4e28:	d503201f 	nop
+    4e2c:	d503201f 	nop
+
+0000000000004e30 <Display_init>:
+    4e30:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    4e34:	910003fd 	mov	x29, sp
+    4e38:	a90153f3 	stp	x19, x20, [sp, #16]
+    4e3c:	aa0003f4 	mov	x20, x0
+    4e40:	f9400800 	ldr	x0, [x0, #16]
+    4e44:	b4000160 	cbz	x0, 4e70 <Display_init+0x40>
+    4e48:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4e4c:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4e50:	9128a021 	add	x1, x1, #0xa28
+    4e54:	f947c400 	ldr	x0, [x0, #3976]
+    4e58:	f9400000 	ldr	x0, [x0]
+    4e5c:	97fff8d5 	bl	31b0 <PyErr_SetString@plt>
+    4e60:	12800000 	mov	w0, #0xffffffff            	// #-1
+    4e64:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4e68:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    4e6c:	d65f03c0 	ret
+    4e70:	d2800e00 	mov	x0, #0x70                  	// #112
+    4e74:	97fff8b3 	bl	3140 <_Znwm@plt>
+    4e78:	f0000082 	adrp	x2, 17000 <__FRAME_END__+0xf524>
+    4e7c:	d0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    4e80:	91290063 	add	x3, x3, #0xa40
+    4e84:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4e88:	3dc3e421 	ldr	q1, [x1, #3984]
+    4e8c:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4e90:	3dc3e820 	ldr	q0, [x1, #4000]
+    4e94:	91008004 	add	x4, x0, #0x20
+    4e98:	f947b842 	ldr	x2, [x2, #3952]
+    4e9c:	d28000c5 	mov	x5, #0x6                   	// #6
+    4ea0:	b9400061 	ldr	w1, [x3]
+    4ea4:	aa0003f3 	mov	x19, x0
+    4ea8:	79400863 	ldrh	w3, [x3, #4]
+    4eac:	91004042 	add	x2, x2, #0x10
+    4eb0:	f9000002 	str	x2, [x0]
+    4eb4:	3900201f 	strb	wzr, [x0, #8]
+    4eb8:	b9000c1f 	str	wzr, [x0, #12]
+    4ebc:	a9011404 	stp	x4, x5, [x0, #16]
+    4ec0:	b9002001 	str	w1, [x0, #32]
+    4ec4:	52800081 	mov	w1, #0x4                   	// #4
+    4ec8:	79004803 	strh	w3, [x0, #36]
+    4ecc:	3900981f 	strb	wzr, [x0, #38]
+    4ed0:	b900401f 	str	wzr, [x0, #64]
+    4ed4:	a904fc1f 	stp	xzr, xzr, [x0, #72]
+    4ed8:	f900341f 	str	xzr, [x0, #104]
+    4edc:	3d800c01 	str	q1, [x0, #48]
+    4ee0:	3c858000 	stur	q0, [x0, #88]
+    4ee4:	97fff837 	bl	2fc0 <_ZN5spdev9VPPModule13SetModuleTypeENS_12Sdk_Object_eE@plt>
+    4ee8:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4eec:	91292021 	add	x1, x1, #0xa48
+    4ef0:	aa1303e0 	mov	x0, x19
+    4ef4:	97fff917 	bl	3350 <_ZN5spdev9VPPModule19SetModuleTypeStringEPc@plt>
+    4ef8:	f9000a93 	str	x19, [x20, #16]
+    4efc:	d2800d00 	mov	x0, #0x68                  	// #104
+    4f00:	97fff890 	bl	3140 <_Znwm@plt>
+    4f04:	aa0003e1 	mov	x1, x0
+    4f08:	4f000400 	movi	v0.4s, #0x0
+    4f0c:	52800082 	mov	w2, #0x4                   	// #4
+    4f10:	f9000e81 	str	x1, [x20, #24]
+    4f14:	52800000 	mov	w0, #0x0                   	// #0
+    4f18:	f900003f 	str	xzr, [x1]
+    4f1c:	b900083f 	str	wzr, [x1, #8]
+    4f20:	b9002282 	str	w2, [x20, #32]
+    4f24:	b900303f 	str	wzr, [x1, #48]
+    4f28:	a905fc3f 	stp	xzr, xzr, [x1, #88]
+    4f2c:	ad008020 	stp	q0, q0, [x1, #16]
+    4f30:	3c838020 	stur	q0, [x1, #56]
+    4f34:	3c848020 	stur	q0, [x1, #72]
+    4f38:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4f3c:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    4f40:	d65f03c0 	ret
+    4f44:	aa0003f4 	mov	x20, x0
+    4f48:	aa1303e0 	mov	x0, x19
+    4f4c:	97fff8b9 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    4f50:	d2800e01 	mov	x1, #0x70                  	// #112
+    4f54:	aa1303e0 	mov	x0, x19
+    4f58:	97fff87e 	bl	3150 <_ZdlPvm@plt>
+    4f5c:	aa1403e0 	mov	x0, x20
+    4f60:	97fff8f0 	bl	3320 <_Unwind_Resume@plt>
+    4f64:	d503201f 	nop
+    4f68:	d503201f 	nop
+    4f6c:	d503201f 	nop
+
+0000000000004f70 <Decoder_init>:
+    4f70:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    4f74:	910003fd 	mov	x29, sp
+    4f78:	a90153f3 	stp	x19, x20, [sp, #16]
+    4f7c:	aa0003f4 	mov	x20, x0
+    4f80:	f9400800 	ldr	x0, [x0, #16]
+    4f84:	b4000160 	cbz	x0, 4fb0 <Decoder_init+0x40>
+    4f88:	f0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    4f8c:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4f90:	9128a021 	add	x1, x1, #0xa28
+    4f94:	f947c400 	ldr	x0, [x0, #3976]
+    4f98:	f9400000 	ldr	x0, [x0]
+    4f9c:	97fff885 	bl	31b0 <PyErr_SetString@plt>
+    4fa0:	12800000 	mov	w0, #0xffffffff            	// #-1
+    4fa4:	a94153f3 	ldp	x19, x20, [sp, #16]
+    4fa8:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    4fac:	d65f03c0 	ret
+    4fb0:	d280a500 	mov	x0, #0x528                 	// #1320
+    4fb4:	97fff863 	bl	3140 <_Znwm@plt>
+    4fb8:	d0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    4fbc:	91290021 	add	x1, x1, #0xa40
+    4fc0:	aa0003f3 	mov	x19, x0
+    4fc4:	91008005 	add	x5, x0, #0x20
+    4fc8:	f0000084 	adrp	x4, 17000 <__FRAME_END__+0xf524>
+    4fcc:	d0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    4fd0:	3dc3e400 	ldr	q0, [x0, #3984]
+    4fd4:	aa1303e3 	mov	x3, x19
+    4fd8:	f9479c84 	ldr	x4, [x4, #3896]
+    4fdc:	d28000c6 	mov	x6, #0x6                   	// #6
+    4fe0:	b9400020 	ldr	w0, [x1]
+    4fe4:	d2808002 	mov	x2, #0x400                 	// #1024
+    4fe8:	79400827 	ldrh	w7, [x1, #4]
+    4fec:	91004084 	add	x4, x4, #0x10
+    4ff0:	3900227f 	strb	wzr, [x19, #8]
+    4ff4:	52800001 	mov	w1, #0x0                   	// #0
+    4ff8:	b9000e7f 	str	wzr, [x19, #12]
+    4ffc:	a9011a65 	stp	x5, x6, [x19, #16]
+    5000:	b9002260 	str	w0, [x19, #32]
+    5004:	91046260 	add	x0, x19, #0x118
+    5008:	79004a67 	strh	w7, [x19, #36]
+    500c:	39009a7f 	strb	wzr, [x19, #38]
+    5010:	3d800e60 	str	q0, [x19, #48]
+    5014:	b900427f 	str	wzr, [x19, #64]
+    5018:	a904fe7f 	stp	xzr, xzr, [x19, #72]
+    501c:	b9005a7f 	str	wzr, [x19, #88]
+    5020:	f8060464 	str	x4, [x3], #96
+    5024:	a9067e7f 	stp	xzr, xzr, [x19, #96]
+    5028:	a9017c7f 	stp	xzr, xzr, [x3, #16]
+    502c:	a9027c7f 	stp	xzr, xzr, [x3, #32]
+    5030:	a9037c7f 	stp	xzr, xzr, [x3, #48]
+    5034:	a9047c7f 	stp	xzr, xzr, [x3, #64]
+    5038:	a9057c7f 	stp	xzr, xzr, [x3, #80]
+    503c:	a9067c7f 	stp	xzr, xzr, [x3, #96]
+    5040:	a9077c7f 	stp	xzr, xzr, [x3, #112]
+    5044:	a9087c7f 	stp	xzr, xzr, [x3, #128]
+    5048:	a9097c7f 	stp	xzr, xzr, [x3, #144]
+    504c:	a90a7c7f 	stp	xzr, xzr, [x3, #160]
+    5050:	f900587f 	str	xzr, [x3, #176]
+    5054:	97fff807 	bl	3070 <memset@plt>
+    5058:	f902927f 	str	xzr, [x19, #1312]
+    505c:	52800022 	mov	w2, #0x1                   	// #1
+    5060:	aa1303e0 	mov	x0, x19
+    5064:	52800061 	mov	w1, #0x3                   	// #3
+    5068:	b9051a62 	str	w2, [x19, #1304]
+    506c:	97fff7d5 	bl	2fc0 <_ZN5spdev9VPPModule13SetModuleTypeENS_12Sdk_Object_eE@plt>
+    5070:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5074:	91294021 	add	x1, x1, #0xa50
+    5078:	aa1303e0 	mov	x0, x19
+    507c:	97fff8b5 	bl	3350 <_ZN5spdev9VPPModule19SetModuleTypeStringEPc@plt>
+    5080:	f9000a93 	str	x19, [x20, #16]
+    5084:	d2800d00 	mov	x0, #0x68                  	// #104
+    5088:	97fff82e 	bl	3140 <_Znwm@plt>
+    508c:	aa0003e1 	mov	x1, x0
+    5090:	4f000400 	movi	v0.4s, #0x0
+    5094:	52800062 	mov	w2, #0x3                   	// #3
+    5098:	f9000e81 	str	x1, [x20, #24]
+    509c:	52800000 	mov	w0, #0x0                   	// #0
+    50a0:	f900003f 	str	xzr, [x1]
+    50a4:	b900083f 	str	wzr, [x1, #8]
+    50a8:	b9002282 	str	w2, [x20, #32]
+    50ac:	b900303f 	str	wzr, [x1, #48]
+    50b0:	a905fc3f 	stp	xzr, xzr, [x1, #88]
+    50b4:	ad008020 	stp	q0, q0, [x1, #16]
+    50b8:	3c838020 	stur	q0, [x1, #56]
+    50bc:	3c848020 	stur	q0, [x1, #72]
+    50c0:	a94153f3 	ldp	x19, x20, [sp, #16]
+    50c4:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    50c8:	d65f03c0 	ret
+    50cc:	aa0003f4 	mov	x20, x0
+    50d0:	aa1303e0 	mov	x0, x19
+    50d4:	97fff857 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    50d8:	d280a501 	mov	x1, #0x528                 	// #1320
+    50dc:	aa1303e0 	mov	x0, x19
+    50e0:	97fff81c 	bl	3150 <_ZdlPvm@plt>
+    50e4:	aa1403e0 	mov	x0, x20
+    50e8:	97fff88e 	bl	3320 <_Unwind_Resume@plt>
+    50ec:	d503201f 	nop
+
+00000000000050f0 <Camera_init>:
+    50f0:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    50f4:	910003fd 	mov	x29, sp
+    50f8:	a90153f3 	stp	x19, x20, [sp, #16]
+    50fc:	aa0003f4 	mov	x20, x0
+    5100:	f9400800 	ldr	x0, [x0, #16]
+    5104:	b4000160 	cbz	x0, 5130 <Camera_init+0x40>
+    5108:	d0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    510c:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5110:	9128a021 	add	x1, x1, #0xa28
+    5114:	f947c400 	ldr	x0, [x0, #3976]
+    5118:	f9400000 	ldr	x0, [x0]
+    511c:	97fff825 	bl	31b0 <PyErr_SetString@plt>
+    5120:	12800000 	mov	w0, #0xffffffff            	// #-1
+    5124:	a94153f3 	ldp	x19, x20, [sp, #16]
+    5128:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    512c:	d65f03c0 	ret
+    5130:	d2805700 	mov	x0, #0x2b8                 	// #696
+    5134:	97fff803 	bl	3140 <_Znwm@plt>
+    5138:	d0000082 	adrp	x2, 17000 <__FRAME_END__+0xf524>
+    513c:	b0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    5140:	91290063 	add	x3, x3, #0xa40
+    5144:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5148:	3dc3e420 	ldr	q0, [x1, #3984]
+    514c:	91008004 	add	x4, x0, #0x20
+    5150:	f947c042 	ldr	x2, [x2, #3968]
+    5154:	d28000c5 	mov	x5, #0x6                   	// #6
+    5158:	b9400066 	ldr	w6, [x3]
+    515c:	aa0003f3 	mov	x19, x0
+    5160:	79400863 	ldrh	w3, [x3, #4]
+    5164:	91004042 	add	x2, x2, #0x10
+    5168:	f9000002 	str	x2, [x0]
+    516c:	52800021 	mov	w1, #0x1                   	// #1
+    5170:	3900201f 	strb	wzr, [x0, #8]
+    5174:	b9000c1f 	str	wzr, [x0, #12]
+    5178:	a9011404 	stp	x4, x5, [x0, #16]
+    517c:	b9002006 	str	w6, [x0, #32]
+    5180:	79004803 	strh	w3, [x0, #36]
+    5184:	3900981f 	strb	wzr, [x0, #38]
+    5188:	b900401f 	str	wzr, [x0, #64]
+    518c:	a904fc1f 	stp	xzr, xzr, [x0, #72]
+    5190:	f9002c1f 	str	xzr, [x0, #88]
+    5194:	b900601f 	str	wzr, [x0, #96]
+    5198:	3d800c00 	str	q0, [x0, #48]
+    519c:	97fff789 	bl	2fc0 <_ZN5spdev9VPPModule13SetModuleTypeENS_12Sdk_Object_eE@plt>
+    51a0:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    51a4:	91296021 	add	x1, x1, #0xa58
+    51a8:	aa1303e0 	mov	x0, x19
+    51ac:	97fff869 	bl	3350 <_ZN5spdev9VPPModule19SetModuleTypeStringEPc@plt>
+    51b0:	f9000a93 	str	x19, [x20, #16]
+    51b4:	d2800d00 	mov	x0, #0x68                  	// #104
+    51b8:	97fff7e2 	bl	3140 <_Znwm@plt>
+    51bc:	aa0003e1 	mov	x1, x0
+    51c0:	4f000400 	movi	v0.4s, #0x0
+    51c4:	52800022 	mov	w2, #0x1                   	// #1
+    51c8:	f9000e81 	str	x1, [x20, #24]
+    51cc:	52800000 	mov	w0, #0x0                   	// #0
+    51d0:	f900003f 	str	xzr, [x1]
+    51d4:	b900083f 	str	wzr, [x1, #8]
+    51d8:	b9002282 	str	w2, [x20, #32]
+    51dc:	b900303f 	str	wzr, [x1, #48]
+    51e0:	a905fc3f 	stp	xzr, xzr, [x1, #88]
+    51e4:	ad008020 	stp	q0, q0, [x1, #16]
+    51e8:	3c838020 	stur	q0, [x1, #56]
+    51ec:	3c848020 	stur	q0, [x1, #72]
+    51f0:	a94153f3 	ldp	x19, x20, [sp, #16]
+    51f4:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    51f8:	d65f03c0 	ret
+    51fc:	aa0003f4 	mov	x20, x0
+    5200:	aa1303e0 	mov	x0, x19
+    5204:	97fff80b 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    5208:	d2805701 	mov	x1, #0x2b8                 	// #696
+    520c:	aa1303e0 	mov	x0, x19
+    5210:	97fff7d0 	bl	3150 <_ZdlPvm@plt>
+    5214:	aa1403e0 	mov	x0, x20
+    5218:	97fff842 	bl	3320 <_Unwind_Resume@plt>
+    521c:	d503201f 	nop
+
+0000000000005220 <Encoder_init>:
+    5220:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    5224:	910003fd 	mov	x29, sp
+    5228:	a90153f3 	stp	x19, x20, [sp, #16]
+    522c:	aa0003f4 	mov	x20, x0
+    5230:	f9400800 	ldr	x0, [x0, #16]
+    5234:	b4000160 	cbz	x0, 5260 <Encoder_init+0x40>
+    5238:	d0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    523c:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5240:	9128a021 	add	x1, x1, #0xa28
+    5244:	f947c400 	ldr	x0, [x0, #3976]
+    5248:	f9400000 	ldr	x0, [x0]
+    524c:	97fff7d9 	bl	31b0 <PyErr_SetString@plt>
+    5250:	12800000 	mov	w0, #0xffffffff            	// #-1
+    5254:	a94153f3 	ldp	x19, x20, [sp, #16]
+    5258:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    525c:	d65f03c0 	ret
+    5260:	d2808d00 	mov	x0, #0x468                 	// #1128
+    5264:	97fff7b7 	bl	3140 <_Znwm@plt>
+    5268:	d0000083 	adrp	x3, 17000 <__FRAME_END__+0xf524>
+    526c:	aa0003f3 	mov	x19, x0
+    5270:	91008005 	add	x5, x0, #0x20
+    5274:	b0000004 	adrp	x4, 6000 <__save_fame+0x340>
+    5278:	91290084 	add	x4, x4, #0xa40
+    527c:	b0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    5280:	3dc3e400 	ldr	q0, [x0, #3984]
+    5284:	aa1303e0 	mov	x0, x19
+    5288:	f947e063 	ldr	x3, [x3, #4032]
+    528c:	d28000c6 	mov	x6, #0x6                   	// #6
+    5290:	b9400081 	ldr	w1, [x4]
+    5294:	d2808002 	mov	x2, #0x400                 	// #1024
+    5298:	79400884 	ldrh	w4, [x4, #4]
+    529c:	91004063 	add	x3, x3, #0x10
+    52a0:	3900227f 	strb	wzr, [x19, #8]
+    52a4:	b9000e7f 	str	wzr, [x19, #12]
+    52a8:	a9011a65 	stp	x5, x6, [x19, #16]
+    52ac:	b9002261 	str	w1, [x19, #32]
+    52b0:	52800001 	mov	w1, #0x0                   	// #0
+    52b4:	79004a64 	strh	w4, [x19, #36]
+    52b8:	39009a7f 	strb	wzr, [x19, #38]
+    52bc:	3d800e60 	str	q0, [x19, #48]
+    52c0:	b900427f 	str	wzr, [x19, #64]
+    52c4:	a904fe7f 	stp	xzr, xzr, [x19, #72]
+    52c8:	b9005a7f 	str	wzr, [x19, #88]
+    52cc:	f8060403 	str	x3, [x0], #96
+    52d0:	97fff768 	bl	3070 <memset@plt>
+    52d4:	d2800022 	mov	x2, #0x1                   	// #1
+    52d8:	aa1303e0 	mov	x0, x19
+    52dc:	f2c3e802 	movk	x2, #0x1f40, lsl #32
+    52e0:	52800041 	mov	w1, #0x2                   	// #2
+    52e4:	f9023262 	str	x2, [x19, #1120]
+    52e8:	97fff736 	bl	2fc0 <_ZN5spdev9VPPModule13SetModuleTypeENS_12Sdk_Object_eE@plt>
+    52ec:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    52f0:	91298021 	add	x1, x1, #0xa60
+    52f4:	aa1303e0 	mov	x0, x19
+    52f8:	97fff816 	bl	3350 <_ZN5spdev9VPPModule19SetModuleTypeStringEPc@plt>
+    52fc:	f9000a93 	str	x19, [x20, #16]
+    5300:	d2800d00 	mov	x0, #0x68                  	// #104
+    5304:	97fff78f 	bl	3140 <_Znwm@plt>
+    5308:	aa0003e1 	mov	x1, x0
+    530c:	4f000400 	movi	v0.4s, #0x0
+    5310:	52800042 	mov	w2, #0x2                   	// #2
+    5314:	f9000e81 	str	x1, [x20, #24]
+    5318:	52800000 	mov	w0, #0x0                   	// #0
+    531c:	f900003f 	str	xzr, [x1]
+    5320:	b900083f 	str	wzr, [x1, #8]
+    5324:	b9002282 	str	w2, [x20, #32]
+    5328:	b900303f 	str	wzr, [x1, #48]
+    532c:	a905fc3f 	stp	xzr, xzr, [x1, #88]
+    5330:	ad008020 	stp	q0, q0, [x1, #16]
+    5334:	3c838020 	stur	q0, [x1, #56]
+    5338:	3c848020 	stur	q0, [x1, #72]
+    533c:	a94153f3 	ldp	x19, x20, [sp, #16]
+    5340:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    5344:	d65f03c0 	ret
+    5348:	aa0003f4 	mov	x20, x0
+    534c:	aa1303e0 	mov	x0, x19
+    5350:	97fff7b8 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    5354:	d2808d01 	mov	x1, #0x468                 	// #1128
+    5358:	aa1303e0 	mov	x0, x19
+    535c:	97fff77d 	bl	3150 <_ZdlPvm@plt>
+    5360:	aa1403e0 	mov	x0, x20
+    5364:	97fff7ef 	bl	3320 <_Unwind_Resume@plt>
+    5368:	d503201f 	nop
+    536c:	d503201f 	nop
+
+0000000000005370 <Camera_open_cam>:
+    5370:	a9b17bfd 	stp	x29, x30, [sp, #-240]!
+    5374:	aa0003e3 	mov	x3, x0
+    5378:	910003fd 	mov	x29, sp
+    537c:	a90153f3 	stp	x19, x20, [sp, #16]
+    5380:	d0000093 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    5384:	f947a660 	ldr	x0, [x19, #3912]
+    5388:	f9400874 	ldr	x20, [x3, #16]
+    538c:	f9400004 	ldr	x4, [x0]
+    5390:	f90077e4 	str	x4, [sp, #232]
+    5394:	d2800004 	mov	x4, #0x0                   	// #0
+    5398:	b40008d4 	cbz	x20, 54b0 <Camera_open_cam+0x140>
+    539c:	aa0103e0 	mov	x0, x1
+    53a0:	f9400c61 	ldr	x1, [x3, #24]
+    53a4:	b4000861 	cbz	x1, 54b0 <Camera_open_cam+0x140>
+    53a8:	f0000083 	adrp	x3, 18000 <memcpy@GLIBC_2.17>
+    53ac:	9108c063 	add	x3, x3, #0x230
+    53b0:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    53b4:	fd47d820 	ldr	d0, [x1, #4016]
+    53b8:	910193e7 	add	x7, sp, #0x64
+    53bc:	aa0203e1 	mov	x1, x2
+    53c0:	a94eb46c 	ldp	x12, x13, [x3, #232]
+    53c4:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    53c8:	9129a042 	add	x2, x2, #0xa68
+    53cc:	910183e6 	add	x6, sp, #0x60
+    53d0:	a94fac6a 	ldp	x10, x11, [x3, #248]
+    53d4:	9101a3e5 	add	x5, sp, #0x68
+    53d8:	f9408468 	ldr	x8, [x3, #264]
+    53dc:	910173e4 	add	x4, sp, #0x5c
+    53e0:	910303e3 	add	x3, sp, #0xc0
+    53e4:	a9025bf5 	stp	x21, x22, [sp, #32]
+    53e8:	12800015 	mov	w21, #0xffffffff            	// #-1
+    53ec:	290bd7ff 	stp	wzr, w21, [sp, #92]
+    53f0:	b90067f5 	str	w21, [sp, #100]
+    53f4:	f90037ff 	str	xzr, [sp, #104]
+    53f8:	fd003be0 	str	d0, [sp, #112]
+    53fc:	a90c37ec 	stp	x12, x13, [sp, #192]
+    5400:	a90d2fea 	stp	x10, x11, [sp, #208]
+    5404:	f90073e8 	str	x8, [sp, #224]
+    5408:	97fff726 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    540c:	34000ba0 	cbz	w0, 5580 <Camera_open_cam+0x210>
+    5410:	f94037e0 	ldr	x0, [sp, #104]
+    5414:	a90363f7 	stp	x23, x24, [sp, #48]
+    5418:	b4000100 	cbz	x0, 5438 <Camera_open_cam+0xc8>
+    541c:	f9400401 	ldr	x1, [x0, #8]
+    5420:	f9405421 	ldr	x1, [x1, #168]
+    5424:	37c000a1 	tbnz	w1, #24, 5438 <Camera_open_cam+0xc8>
+    5428:	f90023f9 	str	x25, [sp, #64]
+    542c:	37c80681 	tbnz	w1, #25, 54fc <Camera_open_cam+0x18c>
+    5430:	f94023f9 	ldr	x25, [sp, #64]
+    5434:	d503201f 	nop
+    5438:	b0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    543c:	b9405fe5 	ldr	w5, [sp, #92]
+    5440:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    5444:	912a4063 	add	x3, x3, #0xa90
+    5448:	912a8042 	add	x2, x2, #0xaa0
+    544c:	910283f8 	add	x24, sp, #0xa0
+    5450:	910203f7 	add	x23, sp, #0x80
+    5454:	52802464 	mov	w4, #0x123                 	// #291
+    5458:	52800081 	mov	w1, #0x4                   	// #4
+    545c:	d2800000 	mov	x0, #0x0                   	// #0
+    5460:	97fff750 	bl	31a0 <log_ctrl_print@plt>
+    5464:	52800036 	mov	w22, #0x1                   	// #1
+    5468:	b90083ff 	str	wzr, [sp, #128]
+    546c:	b900a3ff 	str	wzr, [sp, #160]
+    5470:	294b9fe1 	ldp	w1, w7, [sp, #92]
+    5474:	aa1803e4 	mov	x4, x24
+    5478:	b94067e6 	ldr	w6, [sp, #100]
+    547c:	aa1703e3 	mov	x3, x23
+    5480:	2a1603e2 	mov	w2, w22
+    5484:	9101c3e5 	add	x5, sp, #0x70
+    5488:	aa1403e0 	mov	x0, x20
+    548c:	290e1be7 	stp	w7, w6, [sp, #112]
+    5490:	97fff710 	bl	30d0 <_ZN5spdev9VPPCamera10OpenCameraEiiPiS1_P21sp_sensors_parameters@plt>
+    5494:	2a0003e1 	mov	w1, w0
+    5498:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    549c:	9123a040 	add	x0, x2, #0x8e8
+    54a0:	97fff710 	bl	30e0 <Py_BuildValue@plt>
+    54a4:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    54a8:	a94363f7 	ldp	x23, x24, [sp, #48]
+    54ac:	1400000b 	b	54d8 <Camera_open_cam+0x168>
+    54b0:	d0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    54b4:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    54b8:	9123c021 	add	x1, x1, #0x8f0
+    54bc:	f947c400 	ldr	x0, [x0, #3976]
+    54c0:	f9400000 	ldr	x0, [x0]
+    54c4:	97fff73b 	bl	31b0 <PyErr_SetString@plt>
+    54c8:	b0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    54cc:	12800001 	mov	w1, #0xffffffff            	// #-1
+    54d0:	9123a000 	add	x0, x0, #0x8e8
+    54d4:	97fff703 	bl	30e0 <Py_BuildValue@plt>
+    54d8:	f947a673 	ldr	x19, [x19, #3912]
+    54dc:	f94077e1 	ldr	x1, [sp, #232]
+    54e0:	f9400262 	ldr	x2, [x19]
+    54e4:	eb020021 	subs	x1, x1, x2
+    54e8:	d2800002 	mov	x2, #0x0                   	// #0
+    54ec:	540005e1 	b.ne	55a8 <Camera_open_cam+0x238>  // b.any
+    54f0:	a94153f3 	ldp	x19, x20, [sp, #16]
+    54f4:	a8cf7bfd 	ldp	x29, x30, [sp], #240
+    54f8:	d65f03c0 	ret
+    54fc:	910283f8 	add	x24, sp, #0xa0
+    5500:	910203f7 	add	x23, sp, #0x80
+    5504:	aa1803e2 	mov	x2, x24
+    5508:	aa1703e1 	mov	x1, x23
+    550c:	97fffa99 	bl	3f70 <py_obj_to_sizes.part.0>
+    5510:	b0000019 	adrp	x25, 6000 <__save_fame+0x340>
+    5514:	912a4339 	add	x25, x25, #0xa90
+    5518:	b9405fe5 	ldr	w5, [sp, #92]
+    551c:	2a0003f6 	mov	w22, w0
+    5520:	aa1903e3 	mov	x3, x25
+    5524:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    5528:	52802464 	mov	w4, #0x123                 	// #291
+    552c:	912a8042 	add	x2, x2, #0xaa0
+    5530:	52800081 	mov	w1, #0x4                   	// #4
+    5534:	d2800000 	mov	x0, #0x0                   	// #0
+    5538:	97fff71a 	bl	31a0 <log_ctrl_print@plt>
+    553c:	710002df 	cmp	w22, #0x0
+    5540:	540003ca 	b.ge	55b8 <Camera_open_cam+0x248>  // b.tcont
+    5544:	aa1903e3 	mov	x3, x25
+    5548:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    554c:	912b0042 	add	x2, x2, #0xac0
+    5550:	528024c4 	mov	w4, #0x126                 	// #294
+    5554:	52800021 	mov	w1, #0x1                   	// #1
+    5558:	d2800000 	mov	x0, #0x0                   	// #0
+    555c:	97fff711 	bl	31a0 <log_ctrl_print@plt>
+    5560:	2a1503e1 	mov	w1, w21
+    5564:	b0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    5568:	9123a000 	add	x0, x0, #0x8e8
+    556c:	97fff6dd 	bl	30e0 <Py_BuildValue@plt>
+    5570:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    5574:	a94363f7 	ldp	x23, x24, [sp, #48]
+    5578:	f94023f9 	ldr	x25, [sp, #64]
+    557c:	17ffffd7 	b	54d8 <Camera_open_cam+0x168>
+    5580:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5584:	9129c021 	add	x1, x1, #0xa70
+    5588:	52800020 	mov	w0, #0x1                   	// #1
+    558c:	97fff775 	bl	3360 <__printf_chk@plt>
+    5590:	2a1503e1 	mov	w1, w21
+    5594:	b0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    5598:	9123a000 	add	x0, x0, #0x8e8
+    559c:	97fff6d1 	bl	30e0 <Py_BuildValue@plt>
+    55a0:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    55a4:	17ffffcd 	b	54d8 <Camera_open_cam+0x168>
+    55a8:	a9025bf5 	stp	x21, x22, [sp, #32]
+    55ac:	a90363f7 	stp	x23, x24, [sp, #48]
+    55b0:	f90023f9 	str	x25, [sp, #64]
+    55b4:	97fff68f 	bl	2ff0 <__stack_chk_fail@plt>
+    55b8:	f94023f9 	ldr	x25, [sp, #64]
+    55bc:	54fff5a1 	b.ne	5470 <Camera_open_cam+0x100>  // b.any
+    55c0:	17ffffa9 	b	5464 <Camera_open_cam+0xf4>
+    55c4:	d503201f 	nop
+    55c8:	d503201f 	nop
+    55cc:	d503201f 	nop
+
+00000000000055d0 <Camera_open_vps>:
+    55d0:	d10803ff 	sub	sp, sp, #0x200
+    55d4:	aa0003e3 	mov	x3, x0
+    55d8:	a9047bfd 	stp	x29, x30, [sp, #64]
+    55dc:	910103fd 	add	x29, sp, #0x40
+    55e0:	a90553f3 	stp	x19, x20, [sp, #80]
+    55e4:	d0000093 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    55e8:	f947a660 	ldr	x0, [x19, #3912]
+    55ec:	f9400874 	ldr	x20, [x3, #16]
+    55f0:	f9400004 	ldr	x4, [x0]
+    55f4:	f900ffe4 	str	x4, [sp, #504]
+    55f8:	d2800004 	mov	x4, #0x0                   	// #0
+    55fc:	b40006d4 	cbz	x20, 56d4 <Camera_open_vps+0x104>
+    5600:	aa0103e0 	mov	x0, x1
+    5604:	f9400c61 	ldr	x1, [x3, #24]
+    5608:	b4000661 	cbz	x1, 56d4 <Camera_open_vps+0x104>
+    560c:	f0000081 	adrp	x1, 18000 <memcpy@GLIBC_2.17>
+    5610:	9108c021 	add	x1, x1, #0x230
+    5614:	9104402a 	add	x10, x1, #0x110
+    5618:	5280f004 	mov	w4, #0x780                 	// #1920
+    561c:	52808703 	mov	w3, #0x438                 	// #1080
+    5620:	29190fe4 	stp	w4, w3, [sp, #200]
+    5624:	a951342c 	ldp	x12, x13, [x1, #272]
+    5628:	a90d7fff 	stp	xzr, xzr, [sp, #208]
+    562c:	910343e7 	add	x7, sp, #0xd0
+    5630:	a9522428 	ldp	x8, x9, [x1, #288]
+    5634:	a91e27e8 	stp	x8, x9, [sp, #480]
+    5638:	aa0203e1 	mov	x1, x2
+    563c:	f9401148 	ldr	x8, [x10, #32]
+    5640:	a90e7fff 	stp	xzr, xzr, [sp, #224]
+    5644:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    5648:	a90f7fff 	stp	xzr, xzr, [sp, #240]
+    564c:	912b8042 	add	x2, x2, #0xae0
+    5650:	910363e6 	add	x6, sp, #0xd8
+    5654:	f90083ff 	str	xzr, [sp, #256]
+    5658:	9103a3e5 	add	x5, sp, #0xe8
+    565c:	b9010bff 	str	wzr, [sp, #264]
+    5660:	910383e4 	add	x4, sp, #0xe0
+    5664:	a9117fff 	stp	xzr, xzr, [sp, #272]
+    5668:	910743e3 	add	x3, sp, #0x1d0
+    566c:	f90093ff 	str	xzr, [sp, #288]
+    5670:	b9012bff 	str	wzr, [sp, #296]
+    5674:	a9137fff 	stp	xzr, xzr, [sp, #304]
+    5678:	f900a3ff 	str	xzr, [sp, #320]
+    567c:	b9014bff 	str	wzr, [sp, #328]
+    5680:	a9157fff 	stp	xzr, xzr, [sp, #336]
+    5684:	f900b3ff 	str	xzr, [sp, #352]
+    5688:	b9016bff 	str	wzr, [sp, #360]
+    568c:	a9177fff 	stp	xzr, xzr, [sp, #368]
+    5690:	f900c3ff 	str	xzr, [sp, #384]
+    5694:	b9018bff 	str	wzr, [sp, #392]
+    5698:	a9197fff 	stp	xzr, xzr, [sp, #400]
+    569c:	f900d3ff 	str	xzr, [sp, #416]
+    56a0:	b901abff 	str	wzr, [sp, #424]
+    56a4:	a91b7fff 	stp	xzr, xzr, [sp, #432]
+    56a8:	f900e3ff 	str	xzr, [sp, #448]
+    56ac:	b901cbff 	str	wzr, [sp, #456]
+    56b0:	a91d37ec 	stp	x12, x13, [sp, #464]
+    56b4:	f900fbe8 	str	x8, [sp, #496]
+    56b8:	97fff67a 	bl	30a0 <PyArg_ParseTupleAndKeywords@plt>
+    56bc:	35000340 	cbnz	w0, 5724 <Camera_open_vps+0x154>
+    56c0:	b0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    56c4:	12800001 	mov	w1, #0xffffffff            	// #-1
+    56c8:	9123a000 	add	x0, x0, #0x8e8
+    56cc:	97fff685 	bl	30e0 <Py_BuildValue@plt>
+    56d0:	1400000b 	b	56fc <Camera_open_vps+0x12c>
+    56d4:	d0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    56d8:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    56dc:	9123c021 	add	x1, x1, #0x8f0
+    56e0:	f947c400 	ldr	x0, [x0, #3976]
+    56e4:	f9400000 	ldr	x0, [x0]
+    56e8:	97fff6b2 	bl	31b0 <PyErr_SetString@plt>
+    56ec:	b0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    56f0:	12800001 	mov	w1, #0xffffffff            	// #-1
+    56f4:	9123a000 	add	x0, x0, #0x8e8
+    56f8:	97fff67a 	bl	30e0 <Py_BuildValue@plt>
+    56fc:	f947a673 	ldr	x19, [x19, #3912]
+    5700:	f940ffe1 	ldr	x1, [sp, #504]
+    5704:	f9400262 	ldr	x2, [x19]
+    5708:	eb020021 	subs	x1, x1, x2
+    570c:	d2800002 	mov	x2, #0x0                   	// #0
+    5710:	54002141 	b.ne	5b38 <Camera_open_vps+0x568>  // b.any
+    5714:	a9447bfd 	ldp	x29, x30, [sp, #64]
+    5718:	a94553f3 	ldp	x19, x20, [sp, #80]
+    571c:	910803ff 	add	sp, sp, #0x200
+    5720:	d65f03c0 	ret
+    5724:	f94073e0 	ldr	x0, [sp, #224]
+    5728:	b40000a0 	cbz	x0, 573c <Camera_open_vps+0x16c>
+    572c:	f9400401 	ldr	x1, [x0, #8]
+    5730:	f9405421 	ldr	x1, [x1, #168]
+    5734:	37c00041 	tbnz	w1, #24, 573c <Camera_open_vps+0x16c>
+    5738:	37c80281 	tbnz	w1, #25, 5788 <Camera_open_vps+0x1b8>
+    573c:	f94077e0 	ldr	x0, [sp, #232]
+    5740:	b40000a0 	cbz	x0, 5754 <Camera_open_vps+0x184>
+    5744:	f9400401 	ldr	x1, [x0, #8]
+    5748:	f9405421 	ldr	x1, [x1, #168]
+    574c:	37c00041 	tbnz	w1, #24, 5754 <Camera_open_vps+0x184>
+    5750:	37c80241 	tbnz	w1, #25, 5798 <Camera_open_vps+0x1c8>
+    5754:	b0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    5758:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    575c:	912ba063 	add	x3, x3, #0xae8
+    5760:	912b0042 	add	x2, x2, #0xac0
+    5764:	52802a04 	mov	w4, #0x150                 	// #336
+    5768:	52800021 	mov	w1, #0x1                   	// #1
+    576c:	d2800000 	mov	x0, #0x0                   	// #0
+    5770:	97fff68c 	bl	31a0 <log_ctrl_print@plt>
+    5774:	12800001 	mov	w1, #0xffffffff            	// #-1
+    5778:	b0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    577c:	9123a000 	add	x0, x0, #0x8e8
+    5780:	97fff658 	bl	30e0 <Py_BuildValue@plt>
+    5784:	17ffffde 	b	56fc <Camera_open_vps+0x12c>
+    5788:	910333e2 	add	x2, sp, #0xcc
+    578c:	910323e1 	add	x1, sp, #0xc8
+    5790:	97fff9f8 	bl	3f70 <py_obj_to_sizes.part.0>
+    5794:	17ffffea 	b	573c <Camera_open_vps+0x16c>
+    5798:	a90973fb 	stp	x27, x28, [sp, #144]
+    579c:	9104c3fc 	add	x28, sp, #0x130
+    57a0:	910443fb 	add	x27, sp, #0x110
+    57a4:	aa1c03e2 	mov	x2, x28
+    57a8:	aa1b03e1 	mov	x1, x27
+    57ac:	a9065bf5 	stp	x21, x22, [sp, #96]
+    57b0:	a90763f7 	stp	x23, x24, [sp, #112]
+    57b4:	a9086bf9 	stp	x25, x26, [sp, #128]
+    57b8:	97fff9ee 	bl	3f70 <py_obj_to_sizes.part.0>
+    57bc:	7100001f 	cmp	w0, #0x0
+    57c0:	b900bbe0 	str	w0, [sp, #184]
+    57c4:	54001c4d 	b.le	5b4c <Camera_open_vps+0x57c>
+    57c8:	f9406ff7 	ldr	x23, [sp, #216]
+    57cc:	b4000097 	cbz	x23, 57dc <Camera_open_vps+0x20c>
+    57d0:	f94006e0 	ldr	x0, [x23, #8]
+    57d4:	f9405400 	ldr	x0, [x0, #168]
+    57d8:	37c80b00 	tbnz	w0, #25, 5938 <Camera_open_vps+0x368>
+    57dc:	910543f9 	add	x25, sp, #0x150
+    57e0:	9105c3fa 	add	x26, sp, #0x170
+    57e4:	9106c3f6 	add	x22, sp, #0x1b0
+    57e8:	910643e0 	add	x0, sp, #0x190
+    57ec:	f90057e0 	str	x0, [sp, #168]
+    57f0:	f9406be2 	ldr	x2, [sp, #208]
+    57f4:	b4000902 	cbz	x2, 5914 <Camera_open_vps+0x344>
+    57f8:	f9400440 	ldr	x0, [x2, #8]
+    57fc:	f9405400 	ldr	x0, [x0, #168]
+    5800:	92680015 	and	x21, x0, #0x1000000
+    5804:	37c008e0 	tbnz	w0, #24, 5920 <Camera_open_vps+0x350>
+    5808:	9103c3e1 	add	x1, sp, #0xf0
+    580c:	f90053e1 	str	x1, [sp, #160]
+    5810:	37c80ea0 	tbnz	w0, #25, 59e4 <Camera_open_vps+0x414>
+    5814:	b940bbe0 	ldr	w0, [sp, #184]
+    5818:	b0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    581c:	912ba077 	add	x23, x3, #0xae8
+    5820:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    5824:	51000415 	sub	w21, w0, #0x1
+    5828:	d2800038 	mov	x24, #0x1                   	// #1
+    582c:	91000aa0 	add	x0, x21, #0x2
+    5830:	912be055 	add	x21, x2, #0xaf8
+    5834:	f9005be0 	str	x0, [sp, #176]
+    5838:	a94a0be1 	ldp	x1, x2, [sp, #160]
+    583c:	d37ef700 	lsl	x0, x24, #2
+    5840:	8b000385 	add	x5, x28, x0
+    5844:	8b00034b 	add	x11, x26, x0
+    5848:	8b000324 	add	x4, x25, x0
+    584c:	aa1703e3 	mov	x3, x23
+    5850:	29591fe6 	ldp	w6, w7, [sp, #200]
+    5854:	8b000029 	add	x9, x1, x0
+    5858:	8b00004a 	add	x10, x2, x0
+    585c:	8b0002c1 	add	x1, x22, x0
+    5860:	8b000360 	add	x0, x27, x0
+    5864:	b85fc0ac 	ldur	w12, [x5, #-4]
+    5868:	aa1503e2 	mov	x2, x21
+    586c:	b85fc16b 	ldur	w11, [x11, #-4]
+    5870:	51000705 	sub	w5, w24, #0x1
+    5874:	b85fc129 	ldur	w9, [x9, #-4]
+    5878:	91000718 	add	x24, x24, #0x1
+    587c:	b85fc14a 	ldur	w10, [x10, #-4]
+    5880:	b85fc084 	ldur	w4, [x4, #-4]
+    5884:	b85fc000 	ldur	w0, [x0, #-4]
+    5888:	b85fc021 	ldur	w1, [x1, #-4]
+    588c:	b90003e0 	str	w0, [sp]
+    5890:	d2800000 	mov	x0, #0x0                   	// #0
+    5894:	b9000bec 	str	w12, [sp, #8]
+    5898:	b90013e4 	str	w4, [sp, #16]
+    589c:	52802ba4 	mov	w4, #0x15d                 	// #349
+    58a0:	b9001beb 	str	w11, [sp, #24]
+    58a4:	b90023ea 	str	w10, [sp, #32]
+    58a8:	b9002be1 	str	w1, [sp, #40]
+    58ac:	52800081 	mov	w1, #0x4                   	// #4
+    58b0:	b90033e9 	str	w9, [sp, #48]
+    58b4:	97fff63b 	bl	31a0 <log_ctrl_print@plt>
+    58b8:	f9405be0 	ldr	x0, [sp, #176]
+    58bc:	eb18001f 	cmp	x0, x24
+    58c0:	54fffbc1 	b.ne	5838 <Camera_open_vps+0x268>  // b.any
+    58c4:	a94a03e8 	ldp	x8, x0, [sp, #160]
+    58c8:	aa1a03e7 	mov	x7, x26
+    58cc:	b940bbe1 	ldr	w1, [sp, #184]
+    58d0:	aa1903e6 	mov	x6, x25
+    58d4:	29590fe2 	ldp	w2, w3, [sp, #200]
+    58d8:	aa1c03e5 	mov	x5, x28
+    58dc:	aa1b03e4 	mov	x4, x27
+    58e0:	a9005be0 	stp	x0, x22, [sp]
+    58e4:	aa1403e0 	mov	x0, x20
+    58e8:	f9000be8 	str	x8, [sp, #16]
+    58ec:	97fff625 	bl	3180 <_ZN5spdev9VPPCamera7OpenVPSEiiiPiS1_S1_S1_S1_S1_S1_@plt>
+    58f0:	2a0003e1 	mov	w1, w0
+    58f4:	b0000000 	adrp	x0, 6000 <__save_fame+0x340>
+    58f8:	9123a000 	add	x0, x0, #0x8e8
+    58fc:	97fff5f9 	bl	30e0 <Py_BuildValue@plt>
+    5900:	a9465bf5 	ldp	x21, x22, [sp, #96]
+    5904:	a94763f7 	ldp	x23, x24, [sp, #112]
+    5908:	a9486bf9 	ldp	x25, x26, [sp, #128]
+    590c:	a94973fb 	ldp	x27, x28, [sp, #144]
+    5910:	17ffff7b 	b	56fc <Camera_open_vps+0x12c>
+    5914:	9103c3e0 	add	x0, sp, #0xf0
+    5918:	f90053e0 	str	x0, [sp, #160]
+    591c:	17ffffbe 	b	5814 <Camera_open_vps+0x244>
+    5920:	9103c3e0 	add	x0, sp, #0xf0
+    5924:	f90053e0 	str	x0, [sp, #160]
+    5928:	aa0203e0 	mov	x0, x2
+    592c:	97fff591 	bl	2f70 <PyLong_AsLong@plt>
+    5930:	b900f3e0 	str	w0, [sp, #240]
+    5934:	17ffffb8 	b	5814 <Camera_open_vps+0x244>
+    5938:	aa1703e0 	mov	x0, x23
+    593c:	97fff5e1 	bl	30c0 <PyList_Size@plt>
+    5940:	d2800001 	mov	x1, #0x0                   	// #0
+    5944:	aa0003f5 	mov	x21, x0
+    5948:	aa1703e0 	mov	x0, x23
+    594c:	97fff5f5 	bl	3120 <PyList_GetItem@plt>
+    5950:	f9400400 	ldr	x0, [x0, #8]
+    5954:	f9405400 	ldr	x0, [x0, #168]
+    5958:	92680018 	and	x24, x0, #0x1000000
+    595c:	36c006c0 	tbz	w0, #24, 5a34 <Camera_open_vps+0x464>
+    5960:	aa1703e0 	mov	x0, x23
+    5964:	97fff5d7 	bl	30c0 <PyList_Size@plt>
+    5968:	f1000c1f 	cmp	x0, #0x3
+    596c:	54fff38d 	b.le	57dc <Camera_open_vps+0x20c>
+    5970:	d2800001 	mov	x1, #0x0                   	// #0
+    5974:	aa1703e0 	mov	x0, x23
+    5978:	97fff5ea 	bl	3120 <PyList_GetItem@plt>
+    597c:	910543f9 	add	x25, sp, #0x150
+    5980:	97fff57c 	bl	2f70 <PyLong_AsLong@plt>
+    5984:	aa0003e3 	mov	x3, x0
+    5988:	d2800021 	mov	x1, #0x1                   	// #1
+    598c:	aa1703e0 	mov	x0, x23
+    5990:	b90153e3 	str	w3, [sp, #336]
+    5994:	9105c3fa 	add	x26, sp, #0x170
+    5998:	97fff5e2 	bl	3120 <PyList_GetItem@plt>
+    599c:	9106c3f6 	add	x22, sp, #0x1b0
+    59a0:	97fff574 	bl	2f70 <PyLong_AsLong@plt>
+    59a4:	aa0003e3 	mov	x3, x0
+    59a8:	d2800041 	mov	x1, #0x2                   	// #2
+    59ac:	aa1703e0 	mov	x0, x23
+    59b0:	b90173e3 	str	w3, [sp, #368]
+    59b4:	97fff5db 	bl	3120 <PyList_GetItem@plt>
+    59b8:	97fff56e 	bl	2f70 <PyLong_AsLong@plt>
+    59bc:	aa0003e3 	mov	x3, x0
+    59c0:	910643e2 	add	x2, sp, #0x190
+    59c4:	d2800061 	mov	x1, #0x3                   	// #3
+    59c8:	aa1703e0 	mov	x0, x23
+    59cc:	f90057e2 	str	x2, [sp, #168]
+    59d0:	b90193e3 	str	w3, [sp, #400]
+    59d4:	97fff5d3 	bl	3120 <PyList_GetItem@plt>
+    59d8:	97fff566 	bl	2f70 <PyLong_AsLong@plt>
+    59dc:	b901b3e0 	str	w0, [sp, #432]
+    59e0:	17ffff84 	b	57f0 <Camera_open_vps+0x220>
+    59e4:	aa0203e0 	mov	x0, x2
+    59e8:	f9005be2 	str	x2, [sp, #176]
+    59ec:	97fff5b5 	bl	30c0 <PyList_Size@plt>
+    59f0:	7100001f 	cmp	w0, #0x0
+    59f4:	2a0003f7 	mov	w23, w0
+    59f8:	54fff0ed 	b.le	5814 <Camera_open_vps+0x244>
+    59fc:	f94053f8 	ldr	x24, [sp, #160]
+    5a00:	f9405be2 	ldr	x2, [sp, #176]
+    5a04:	d503201f 	nop
+    5a08:	aa1503e1 	mov	x1, x21
+    5a0c:	aa0203e0 	mov	x0, x2
+    5a10:	f9005be2 	str	x2, [sp, #176]
+    5a14:	97fff5c3 	bl	3120 <PyList_GetItem@plt>
+    5a18:	910006b5 	add	x21, x21, #0x1
+    5a1c:	97fff555 	bl	2f70 <PyLong_AsLong@plt>
+    5a20:	b8004700 	str	w0, [x24], #4
+    5a24:	6b1502ff 	cmp	w23, w21
+    5a28:	f9405be2 	ldr	x2, [sp, #176]
+    5a2c:	54fffeec 	b.gt	5a08 <Camera_open_vps+0x438>
+    5a30:	17ffff79 	b	5814 <Camera_open_vps+0x244>
+    5a34:	aa1703e0 	mov	x0, x23
+    5a38:	d2800001 	mov	x1, #0x0                   	// #0
+    5a3c:	97fff5b9 	bl	3120 <PyList_GetItem@plt>
+    5a40:	f9400400 	ldr	x0, [x0, #8]
+    5a44:	f9405400 	ldr	x0, [x0, #168]
+    5a48:	36cfeca0 	tbz	w0, #25, 57dc <Camera_open_vps+0x20c>
+    5a4c:	910643e0 	add	x0, sp, #0x190
+    5a50:	f90057e0 	str	x0, [sp, #168]
+    5a54:	b900bff5 	str	w21, [sp, #188]
+    5a58:	910543f9 	add	x25, sp, #0x150
+    5a5c:	9105c3fa 	add	x26, sp, #0x170
+    5a60:	9106c3f6 	add	x22, sp, #0x1b0
+    5a64:	710002bf 	cmp	w21, #0x0
+    5a68:	54ffec4d 	b.le	57f0 <Camera_open_vps+0x220>
+    5a6c:	aa1903f5 	mov	x21, x25
+    5a70:	9106c3f6 	add	x22, sp, #0x1b0
+    5a74:	f90053fa 	str	x26, [sp, #160]
+    5a78:	f9005be0 	str	x0, [sp, #176]
+    5a7c:	14000028 	b	5b1c <Camera_open_vps+0x54c>
+    5a80:	aa1803e1 	mov	x1, x24
+    5a84:	aa1703e0 	mov	x0, x23
+    5a88:	97fff5a6 	bl	3120 <PyList_GetItem@plt>
+    5a8c:	d2800001 	mov	x1, #0x0                   	// #0
+    5a90:	97fff5a4 	bl	3120 <PyList_GetItem@plt>
+    5a94:	97fff537 	bl	2f70 <PyLong_AsLong@plt>
+    5a98:	aa0003e4 	mov	x4, x0
+    5a9c:	b80046a4 	str	w4, [x21], #4
+    5aa0:	aa1803e1 	mov	x1, x24
+    5aa4:	aa1703e0 	mov	x0, x23
+    5aa8:	97fff59e 	bl	3120 <PyList_GetItem@plt>
+    5aac:	d2800021 	mov	x1, #0x1                   	// #1
+    5ab0:	97fff59c 	bl	3120 <PyList_GetItem@plt>
+    5ab4:	97fff52f 	bl	2f70 <PyLong_AsLong@plt>
+    5ab8:	aa0003e4 	mov	x4, x0
+    5abc:	f94053e2 	ldr	x2, [sp, #160]
+    5ac0:	aa1803e1 	mov	x1, x24
+    5ac4:	aa1703e0 	mov	x0, x23
+    5ac8:	b8004444 	str	w4, [x2], #4
+    5acc:	f90053e2 	str	x2, [sp, #160]
+    5ad0:	97fff594 	bl	3120 <PyList_GetItem@plt>
+    5ad4:	d2800041 	mov	x1, #0x2                   	// #2
+    5ad8:	97fff592 	bl	3120 <PyList_GetItem@plt>
+    5adc:	97fff525 	bl	2f70 <PyLong_AsLong@plt>
+    5ae0:	aa0003e4 	mov	x4, x0
+    5ae4:	f9405be2 	ldr	x2, [sp, #176]
+    5ae8:	aa1803e1 	mov	x1, x24
+    5aec:	aa1703e0 	mov	x0, x23
+    5af0:	b8004444 	str	w4, [x2], #4
+    5af4:	f9005be2 	str	x2, [sp, #176]
+    5af8:	97fff58a 	bl	3120 <PyList_GetItem@plt>
+    5afc:	d2800061 	mov	x1, #0x3                   	// #3
+    5b00:	97fff588 	bl	3120 <PyList_GetItem@plt>
+    5b04:	97fff51b 	bl	2f70 <PyLong_AsLong@plt>
+    5b08:	b8387ac0 	str	w0, [x22, x24, lsl #2]
+    5b0c:	b940bfe0 	ldr	w0, [sp, #188]
+    5b10:	91000718 	add	x24, x24, #0x1
+    5b14:	6b18001f 	cmp	w0, w24
+    5b18:	54ffe6cd 	b.le	57f0 <Camera_open_vps+0x220>
+    5b1c:	aa1803e1 	mov	x1, x24
+    5b20:	aa1703e0 	mov	x0, x23
+    5b24:	97fff57f 	bl	3120 <PyList_GetItem@plt>
+    5b28:	97fff566 	bl	30c0 <PyList_Size@plt>
+    5b2c:	f1000c1f 	cmp	x0, #0x3
+    5b30:	54fffa8c 	b.gt	5a80 <Camera_open_vps+0x4b0>
+    5b34:	17ffff2f 	b	57f0 <Camera_open_vps+0x220>
+    5b38:	a9065bf5 	stp	x21, x22, [sp, #96]
+    5b3c:	a90763f7 	stp	x23, x24, [sp, #112]
+    5b40:	a9086bf9 	stp	x25, x26, [sp, #128]
+    5b44:	a90973fb 	stp	x27, x28, [sp, #144]
+    5b48:	97fff52a 	bl	2ff0 <__stack_chk_fail@plt>
+    5b4c:	a9465bf5 	ldp	x21, x22, [sp, #96]
+    5b50:	a94763f7 	ldp	x23, x24, [sp, #112]
+    5b54:	a9486bf9 	ldp	x25, x26, [sp, #128]
+    5b58:	a94973fb 	ldp	x27, x28, [sp, #144]
+    5b5c:	17fffefe 	b	5754 <Camera_open_vps+0x184>
+
+0000000000005b60 <PyInit_libsppydev>:
+    5b60:	a9ba7bfd 	stp	x29, x30, [sp, #-96]!
+    5b64:	52807ea1 	mov	w1, #0x3f5                 	// #1013
+    5b68:	910003fd 	mov	x29, sp
+    5b6c:	a90153f3 	stp	x19, x20, [sp, #16]
+    5b70:	f0000093 	adrp	x19, 18000 <memcpy@GLIBC_2.17>
+    5b74:	91110273 	add	x19, x19, #0x440
+    5b78:	aa1303e0 	mov	x0, x19
+    5b7c:	a9025bf5 	stp	x21, x22, [sp, #32]
+    5b80:	9107e275 	add	x21, x19, #0x1f8
+    5b84:	a90363f7 	stp	x23, x24, [sp, #48]
+    5b88:	97fff5ca 	bl	32b0 <PyModule_Create2@plt>
+    5b8c:	f0000081 	adrp	x1, 18000 <memcpy@GLIBC_2.17>
+    5b90:	9108c021 	add	x1, x1, #0x230
+    5b94:	9101a278 	add	x24, x19, #0x68
+    5b98:	9104e021 	add	x1, x1, #0x138
+    5b9c:	910e2276 	add	x22, x19, #0x388
+    5ba0:	91146277 	add	x23, x19, #0x518
+    5ba4:	aa0003f4 	mov	x20, x0
+    5ba8:	aa1803e0 	mov	x0, x24
+    5bac:	a9400c22 	ldp	x2, x3, [x1]
+    5bb0:	a9000ea2 	stp	x2, x3, [x21]
+    5bb4:	f9400821 	ldr	x1, [x1, #16]
+    5bb8:	a9000ec2 	stp	x2, x3, [x22]
+    5bbc:	a9000ee2 	stp	x2, x3, [x23]
+    5bc0:	f9000aa1 	str	x1, [x21, #16]
+    5bc4:	f9000ac1 	str	x1, [x22, #16]
+    5bc8:	f9000ae1 	str	x1, [x23, #16]
+    5bcc:	f9000b01 	str	x1, [x24, #16]
+    5bd0:	a9068e62 	stp	x2, x3, [x19, #104]
+    5bd4:	97fff5a3 	bl	3260 <PyType_Ready@plt>
+    5bd8:	37f80600 	tbnz	w0, #31, 5c98 <PyInit_libsppydev+0x138>
+    5bdc:	aa1503e0 	mov	x0, x21
+    5be0:	97fff5a0 	bl	3260 <PyType_Ready@plt>
+    5be4:	37f805a0 	tbnz	w0, #31, 5c98 <PyInit_libsppydev+0x138>
+    5be8:	aa1603e0 	mov	x0, x22
+    5bec:	97fff59d 	bl	3260 <PyType_Ready@plt>
+    5bf0:	37f80540 	tbnz	w0, #31, 5c98 <PyInit_libsppydev+0x138>
+    5bf4:	aa1703e0 	mov	x0, x23
+    5bf8:	97fff59a 	bl	3260 <PyType_Ready@plt>
+    5bfc:	37f804e0 	tbnz	w0, #31, 5c98 <PyInit_libsppydev+0x138>
+    5c00:	f9403666 	ldr	x6, [x19, #104]
+    5c04:	aa1803e2 	mov	x2, x24
+    5c08:	f940fe65 	ldr	x5, [x19, #504]
+    5c0c:	910004c6 	add	x6, x6, #0x1
+    5c10:	f941c664 	ldr	x4, [x19, #904]
+    5c14:	910004a5 	add	x5, x5, #0x1
+    5c18:	f9428e63 	ldr	x3, [x19, #1304]
+    5c1c:	91000484 	add	x4, x4, #0x1
+    5c20:	aa1403e0 	mov	x0, x20
+    5c24:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5c28:	91000463 	add	x3, x3, #0x1
+    5c2c:	91296021 	add	x1, x1, #0xa58
+    5c30:	f9003666 	str	x6, [x19, #104]
+    5c34:	f900fe65 	str	x5, [x19, #504]
+    5c38:	f901c664 	str	x4, [x19, #904]
+    5c3c:	f9028e63 	str	x3, [x19, #1304]
+    5c40:	97fff500 	bl	3040 <PyModule_AddObject@plt>
+    5c44:	aa1503e2 	mov	x2, x21
+    5c48:	aa1403e0 	mov	x0, x20
+    5c4c:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5c50:	912d0021 	add	x1, x1, #0xb40
+    5c54:	97fff4fb 	bl	3040 <PyModule_AddObject@plt>
+    5c58:	aa1603e2 	mov	x2, x22
+    5c5c:	aa1403e0 	mov	x0, x20
+    5c60:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5c64:	912d2021 	add	x1, x1, #0xb48
+    5c68:	97fff4f6 	bl	3040 <PyModule_AddObject@plt>
+    5c6c:	aa1703e2 	mov	x2, x23
+    5c70:	aa1403e0 	mov	x0, x20
+    5c74:	b0000001 	adrp	x1, 6000 <__save_fame+0x340>
+    5c78:	91292021 	add	x1, x1, #0xa48
+    5c7c:	97fff4f1 	bl	3040 <PyModule_AddObject@plt>
+    5c80:	aa1403e0 	mov	x0, x20
+    5c84:	a94153f3 	ldp	x19, x20, [sp, #16]
+    5c88:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    5c8c:	a94363f7 	ldp	x23, x24, [sp, #48]
+    5c90:	a8c67bfd 	ldp	x29, x30, [sp], #96
+    5c94:	d65f03c0 	ret
+    5c98:	d2800014 	mov	x20, #0x0                   	// #0
+    5c9c:	aa1403e0 	mov	x0, x20
+    5ca0:	a94153f3 	ldp	x19, x20, [sp, #16]
+    5ca4:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    5ca8:	a94363f7 	ldp	x23, x24, [sp, #48]
+    5cac:	a8c67bfd 	ldp	x29, x30, [sp], #96
+    5cb0:	d65f03c0 	ret
+    5cb4:	d503201f 	nop
+    5cb8:	d503201f 	nop
+    5cbc:	d503201f 	nop
+
+0000000000005cc0 <__save_fame>:
+    5cc0:	d10e43ff 	sub	sp, sp, #0x390
+    5cc4:	b0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    5cc8:	912d4063 	add	x3, x3, #0xb50
+    5ccc:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    5cd0:	912d8042 	add	x2, x2, #0xb60
+    5cd4:	a9017bfd 	stp	x29, x30, [sp, #16]
+    5cd8:	910043fd 	add	x29, sp, #0x10
+    5cdc:	a90253f3 	stp	x19, x20, [sp, #32]
+    5ce0:	aa0003f4 	mov	x20, x0
+    5ce4:	d0000093 	adrp	x19, 17000 <__FRAME_END__+0xf524>
+    5ce8:	a90673fb 	stp	x27, x28, [sp, #96]
+    5cec:	d000009c 	adrp	x28, 17000 <__FRAME_END__+0xf524>
+    5cf0:	b9405e84 	ldr	w4, [x20, #92]
+    5cf4:	f947a780 	ldr	x0, [x28, #3912]
+    5cf8:	f9003fe1 	str	x1, [sp, #120]
+    5cfc:	a9411a85 	ldp	x5, x6, [x20, #16]
+    5d00:	f9400001 	ldr	x1, [x0]
+    5d04:	f901c7e1 	str	x1, [sp, #904]
+    5d08:	d2800001 	mov	x1, #0x0                   	// #0
+    5d0c:	b9405a80 	ldr	w0, [x20, #88]
+    5d10:	f9401687 	ldr	x7, [x20, #40]
+    5d14:	0b040000 	add	w0, w0, w4
+    5d18:	f9401281 	ldr	x1, [x20, #32]
+    5d1c:	b90003e0 	str	w0, [sp]
+    5d20:	f90007e1 	str	x1, [sp, #8]
+    5d24:	528005e4 	mov	w4, #0x2f                  	// #47
+    5d28:	52800061 	mov	w1, #0x3                   	// #3
+    5d2c:	d2800000 	mov	x0, #0x0                   	// #0
+    5d30:	a9035bf5 	stp	x21, x22, [sp, #48]
+    5d34:	a90463f7 	stp	x23, x24, [sp, #64]
+    5d38:	910283f7 	add	x23, sp, #0xa0
+    5d3c:	a9056bf9 	stp	x25, x26, [sp, #80]
+    5d40:	97fff518 	bl	31a0 <log_ctrl_print@plt>
+    5d44:	aa1703e8 	mov	x8, x23
+    5d48:	f947ce60 	ldr	x0, [x19, #3992]
+    5d4c:	d2800401 	mov	x1, #0x20                  	// #32
+    5d50:	f9400a83 	ldr	x3, [x20, #16]
+    5d54:	b0000019 	adrp	x25, 6000 <__save_fame+0x340>
+    5d58:	912f2322 	add	x2, x25, #0xbc8
+    5d5c:	97fffaed 	bl	4910 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0>
+    5d60:	b0000003 	adrp	x3, 6000 <__save_fame+0x340>
+    5d64:	aa1703e0 	mov	x0, x23
+    5d68:	912f4063 	add	x3, x3, #0xbd0
+    5d6c:	d2800204 	mov	x4, #0x10                  	// #16
+    5d70:	d2800002 	mov	x2, #0x0                   	// #0
+    5d74:	d2800001 	mov	x1, #0x0                   	// #0
+    5d78:	97fff546 	bl	3290 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@plt>
+    5d7c:	aa0003e1 	mov	x1, x0
+    5d80:	910303f8 	add	x24, sp, #0xc0
+    5d84:	91004302 	add	x2, x24, #0x10
+    5d88:	f90063e2 	str	x2, [sp, #192]
+    5d8c:	f8410422 	ldr	x2, [x1], #16
+    5d90:	eb01005f 	cmp	x2, x1
+    5d94:	54002980 	b.eq	62c4 <__save_fame+0x604>  // b.none
+    5d98:	f9400803 	ldr	x3, [x0, #16]
+    5d9c:	f90063e2 	str	x2, [sp, #192]
+    5da0:	f9006be3 	str	x3, [sp, #208]
+    5da4:	f9400402 	ldr	x2, [x0, #8]
+    5da8:	f90067e2 	str	x2, [sp, #200]
+    5dac:	a9007c01 	stp	x1, xzr, [x0]
+    5db0:	92f80002 	mov	x2, #0x3fffffffffffffff    	// #4611686018427387903
+    5db4:	f94067e1 	ldr	x1, [sp, #200]
+    5db8:	3900401f 	strb	wzr, [x0, #16]
+    5dbc:	eb02003f 	cmp	x1, x2
+    5dc0:	54002ba0 	b.eq	6334 <__save_fame+0x674>  // b.none
+    5dc4:	b0000016 	adrp	x22, 6000 <__save_fame+0x340>
+    5dc8:	aa1803e0 	mov	x0, x24
+    5dcc:	913002c1 	add	x1, x22, #0xc00
+    5dd0:	d2800022 	mov	x2, #0x1                   	// #1
+    5dd4:	97fff47f 	bl	2fd0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@plt>
+    5dd8:	aa0003e1 	mov	x1, x0
+    5ddc:	910383f5 	add	x21, sp, #0xe0
+    5de0:	aa0103e3 	mov	x3, x1
+    5de4:	910042a0 	add	x0, x21, #0x10
+    5de8:	f90073e0 	str	x0, [sp, #224]
+    5dec:	f8410460 	ldr	x0, [x3], #16
+    5df0:	eb03001f 	cmp	x0, x3
+    5df4:	540026e0 	b.eq	62d0 <__save_fame+0x610>  // b.none
+    5df8:	f9400822 	ldr	x2, [x1, #16]
+    5dfc:	f90073e0 	str	x0, [sp, #224]
+    5e00:	f9007be2 	str	x2, [sp, #240]
+    5e04:	f9400420 	ldr	x0, [x1, #8]
+    5e08:	f90077e0 	str	x0, [sp, #232]
+    5e0c:	a9007c23 	stp	x3, xzr, [x1]
+    5e10:	910403fa 	add	x26, sp, #0x100
+    5e14:	912f2322 	add	x2, x25, #0xbc8
+    5e18:	3900403f 	strb	wzr, [x1, #16]
+    5e1c:	aa1a03e8 	mov	x8, x26
+    5e20:	f947ce60 	ldr	x0, [x19, #3992]
+    5e24:	d2800401 	mov	x1, #0x20                  	// #32
+    5e28:	f9401683 	ldr	x3, [x20, #40]
+    5e2c:	97fffab9 	bl	4910 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0>
+    5e30:	a94e13e3 	ldp	x3, x4, [sp, #224]
+    5e34:	910042a0 	add	x0, x21, #0x10
+    5e38:	a9500be1 	ldp	x1, x2, [sp, #256]
+    5e3c:	d28001e6 	mov	x6, #0xf                   	// #15
+    5e40:	eb00007f 	cmp	x3, x0
+    5e44:	f9407be0 	ldr	x0, [sp, #240]
+    5e48:	8b020085 	add	x5, x4, x2
+    5e4c:	9a861000 	csel	x0, x0, x6, ne  // ne = any
+    5e50:	eb0000bf 	cmp	x5, x0
+    5e54:	540000e9 	b.ls	5e70 <__save_fame+0x1b0>  // b.plast
+    5e58:	f9408be0 	ldr	x0, [sp, #272]
+    5e5c:	91004347 	add	x7, x26, #0x10
+    5e60:	eb07003f 	cmp	x1, x7
+    5e64:	9a861000 	csel	x0, x0, x6, ne  // ne = any
+    5e68:	eb0000bf 	cmp	x5, x0
+    5e6c:	54001f49 	b.ls	6254 <__save_fame+0x594>  // b.plast
+    5e70:	aa1503e0 	mov	x0, x21
+    5e74:	97fff457 	bl	2fd0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@plt>
+    5e78:	aa0003e1 	mov	x1, x0
+    5e7c:	910483f9 	add	x25, sp, #0x120
+    5e80:	91004322 	add	x2, x25, #0x10
+    5e84:	f90093e2 	str	x2, [sp, #288]
+    5e88:	f8410422 	ldr	x2, [x1], #16
+    5e8c:	eb01005f 	cmp	x2, x1
+    5e90:	54001f80 	b.eq	6280 <__save_fame+0x5c0>  // b.none
+    5e94:	f9400803 	ldr	x3, [x0, #16]
+    5e98:	f90093e2 	str	x2, [sp, #288]
+    5e9c:	f9009be3 	str	x3, [sp, #304]
+    5ea0:	f9400402 	ldr	x2, [x0, #8]
+    5ea4:	f90097e2 	str	x2, [sp, #296]
+    5ea8:	a9007c01 	stp	x1, xzr, [x0]
+    5eac:	92f80002 	mov	x2, #0x3fffffffffffffff    	// #4611686018427387903
+    5eb0:	f94097e1 	ldr	x1, [sp, #296]
+    5eb4:	3900401f 	strb	wzr, [x0, #16]
+    5eb8:	eb02003f 	cmp	x1, x2
+    5ebc:	54002360 	b.eq	6328 <__save_fame+0x668>  // b.none
+    5ec0:	913002c1 	add	x1, x22, #0xc00
+    5ec4:	aa1903e0 	mov	x0, x25
+    5ec8:	d2800022 	mov	x2, #0x1                   	// #1
+    5ecc:	97fff441 	bl	2fd0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@plt>
+    5ed0:	aa0003e1 	mov	x1, x0
+    5ed4:	910503f6 	add	x22, sp, #0x140
+    5ed8:	aa0103e2 	mov	x2, x1
+    5edc:	910042c0 	add	x0, x22, #0x10
+    5ee0:	f900a3e0 	str	x0, [sp, #320]
+    5ee4:	f8410440 	ldr	x0, [x2], #16
+    5ee8:	eb02001f 	cmp	x0, x2
+    5eec:	54001f80 	b.eq	62dc <__save_fame+0x61c>  // b.none
+    5ef0:	f9400823 	ldr	x3, [x1, #16]
+    5ef4:	f900a3e0 	str	x0, [sp, #320]
+    5ef8:	f900abe3 	str	x3, [sp, #336]
+    5efc:	3900403f 	strb	wzr, [x1, #16]
+    5f00:	910583fb 	add	x27, sp, #0x160
+    5f04:	f947ce60 	ldr	x0, [x19, #3992]
+    5f08:	aa1b03e8 	mov	x8, x27
+    5f0c:	b9405a84 	ldr	w4, [x20, #88]
+    5f10:	f9400423 	ldr	x3, [x1, #8]
+    5f14:	f900a7e3 	str	x3, [sp, #328]
+    5f18:	b9405e83 	ldr	w3, [x20, #92]
+    5f1c:	a9007c22 	stp	x2, xzr, [x1]
+    5f20:	b0000002 	adrp	x2, 6000 <__save_fame+0x340>
+    5f24:	91302042 	add	x2, x2, #0xc08
+    5f28:	0b030083 	add	w3, w4, w3
+    5f2c:	d2800201 	mov	x1, #0x10                  	// #16
+    5f30:	97fffa78 	bl	4910 <_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z.constprop.0>
+    5f34:	a95413e3 	ldp	x3, x4, [sp, #320]
+    5f38:	910042c0 	add	x0, x22, #0x10
+    5f3c:	a9560be1 	ldp	x1, x2, [sp, #352]
+    5f40:	d28001e6 	mov	x6, #0xf                   	// #15
+    5f44:	eb00007f 	cmp	x3, x0
+    5f48:	f940abe0 	ldr	x0, [sp, #336]
+    5f4c:	8b020085 	add	x5, x4, x2
+    5f50:	9a861000 	csel	x0, x0, x6, ne  // ne = any
+    5f54:	eb0000bf 	cmp	x5, x0
+    5f58:	540000e9 	b.ls	5f74 <__save_fame+0x2b4>  // b.plast
+    5f5c:	f940bbe0 	ldr	x0, [sp, #368]
+    5f60:	91004367 	add	x7, x27, #0x10
+    5f64:	eb07003f 	cmp	x1, x7
+    5f68:	9a861000 	csel	x0, x0, x6, ne  // ne = any
+    5f6c:	eb0000bf 	cmp	x5, x0
+    5f70:	540018e9 	b.ls	628c <__save_fame+0x5cc>  // b.plast
+    5f74:	aa1603e0 	mov	x0, x22
+    5f78:	97fff416 	bl	2fd0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@plt>
+    5f7c:	910603f3 	add	x19, sp, #0x180
+    5f80:	aa0003e2 	mov	x2, x0
+    5f84:	91004261 	add	x1, x19, #0x10
+    5f88:	f900c3e1 	str	x1, [sp, #384]
+    5f8c:	f8410401 	ldr	x1, [x0], #16
+    5f90:	eb00003f 	cmp	x1, x0
+    5f94:	54001920 	b.eq	62b8 <__save_fame+0x5f8>  // b.none
+    5f98:	f900c3e1 	str	x1, [sp, #384]
+    5f9c:	f9400841 	ldr	x1, [x2, #16]
+    5fa0:	f900cbe1 	str	x1, [sp, #400]
+    5fa4:	f9400441 	ldr	x1, [x2, #8]
+    5fa8:	f900c7e1 	str	x1, [sp, #392]
+    5fac:	f9403fe3 	ldr	x3, [sp, #120]
+    5fb0:	a9007c40 	stp	x0, xzr, [x2]
+    5fb4:	aa1303e0 	mov	x0, x19
+    5fb8:	3900405f 	strb	wzr, [x2, #16]
+    5fbc:	f9400061 	ldr	x1, [x3]
+    5fc0:	f9400462 	ldr	x2, [x3, #8]
+    5fc4:	97fff403 	bl	2fd0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@plt>
+    5fc8:	910203e1 	add	x1, sp, #0x80
+    5fcc:	910243e2 	add	x2, sp, #0x90
+    5fd0:	a9078be1 	stp	x1, x2, [sp, #120]
+    5fd4:	aa0003e1 	mov	x1, x0
+    5fd8:	f8410422 	ldr	x2, [x1], #16
+    5fdc:	eb01005f 	cmp	x2, x1
+    5fe0:	540018e0 	b.eq	62fc <__save_fame+0x63c>  // b.none
+    5fe4:	f9400803 	ldr	x3, [x0, #16]
+    5fe8:	f90043e2 	str	x2, [sp, #128]
+    5fec:	f9004be3 	str	x3, [sp, #144]
+    5ff0:	f9400402 	ldr	x2, [x0, #8]
+    5ff4:	f90047e2 	str	x2, [sp, #136]
+    5ff8:	a9007c01 	stp	x1, xzr, [x0]
+    5ffc:	91004261 	add	x1, x19, #0x10
+    6000:	3900401f 	strb	wzr, [x0, #16]
+    6004:	f940c3e0 	ldr	x0, [sp, #384]
+    6008:	eb01001f 	cmp	x0, x1
+    600c:	54000040 	b.eq	6014 <__save_fame+0x354>  // b.none
+    6010:	97fff448 	bl	3130 <_ZdlPv@plt>
+    6014:	f940b3e0 	ldr	x0, [sp, #352]
+    6018:	9100437b 	add	x27, x27, #0x10
+    601c:	eb1b001f 	cmp	x0, x27
+    6020:	54000040 	b.eq	6028 <__save_fame+0x368>  // b.none
+    6024:	97fff443 	bl	3130 <_ZdlPv@plt>
+    6028:	f940a3e0 	ldr	x0, [sp, #320]
+    602c:	910042d6 	add	x22, x22, #0x10
+    6030:	eb16001f 	cmp	x0, x22
+    6034:	54000040 	b.eq	603c <__save_fame+0x37c>  // b.none
+    6038:	97fff43e 	bl	3130 <_ZdlPv@plt>
+    603c:	f94093e0 	ldr	x0, [sp, #288]
+    6040:	91004339 	add	x25, x25, #0x10
+    6044:	eb19001f 	cmp	x0, x25
+    6048:	54000040 	b.eq	6050 <__save_fame+0x390>  // b.none
+    604c:	97fff439 	bl	3130 <_ZdlPv@plt>
+    6050:	f94083e0 	ldr	x0, [sp, #256]
+    6054:	9100435a 	add	x26, x26, #0x10
+    6058:	eb1a001f 	cmp	x0, x26
+    605c:	54000040 	b.eq	6064 <__save_fame+0x3a4>  // b.none
+    6060:	97fff434 	bl	3130 <_ZdlPv@plt>
+    6064:	f94073e0 	ldr	x0, [sp, #224]
+    6068:	910042b5 	add	x21, x21, #0x10
+    606c:	eb15001f 	cmp	x0, x21
+    6070:	54000040 	b.eq	6078 <__save_fame+0x3b8>  // b.none
+    6074:	97fff42f 	bl	3130 <_ZdlPv@plt>
+    6078:	f94063e0 	ldr	x0, [sp, #192]
+    607c:	91004318 	add	x24, x24, #0x10
+    6080:	eb18001f 	cmp	x0, x24
+    6084:	54000040 	b.eq	608c <__save_fame+0x3cc>  // b.none
+    6088:	97fff42a 	bl	3130 <_ZdlPv@plt>
+    608c:	f94053e0 	ldr	x0, [sp, #160]
+    6090:	910042f7 	add	x23, x23, #0x10
+    6094:	eb17001f 	cmp	x0, x23
+    6098:	54000040 	b.eq	60a0 <__save_fame+0x3e0>  // b.none
+    609c:	97fff425 	bl	3130 <_ZdlPv@plt>
+    60a0:	91040260 	add	x0, x19, #0x100
+    60a4:	97fff3c3 	bl	2fb0 <_ZNSt8ios_baseC2Ev@plt>
+    60a8:	b0000080 	adrp	x0, 17000 <__FRAME_END__+0xf524>
+    60ac:	911043e1 	add	x1, sp, #0x410
+    60b0:	4f000400 	movi	v0.4s, #0x0
+    60b4:	911043e3 	add	x3, sp, #0x410
+    60b8:	f947bc00 	ldr	x0, [x0, #3960]
+    60bc:	f901afff 	str	xzr, [sp, #856]
+    60c0:	7906c3ff 	strh	wzr, [sp, #864]
+    60c4:	b0000096 	adrp	x22, 17000 <__FRAME_END__+0xf524>
+    60c8:	a940e017 	ldp	x23, x24, [x0, #8]
+    60cc:	3c958020 	stur	q0, [x1, #-168]
+    60d0:	d2800001 	mov	x1, #0x0                   	// #0
+    60d4:	f947a2c2 	ldr	x2, [x22, #3904]
+    60d8:	3c968060 	stur	q0, [x3, #-152]
+    60dc:	f85e82e3 	ldur	x3, [x23, #-24]
+    60e0:	91004042 	add	x2, x2, #0x10
+    60e4:	f900c3f7 	str	x23, [sp, #384]
+    60e8:	f90143e2 	str	x2, [sp, #640]
+    60ec:	8b030260 	add	x0, x19, x3
+    60f0:	f8236a78 	str	x24, [x19, x3]
+    60f4:	97fff44b 	bl	3220 <_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@plt>
+    60f8:	b0000095 	adrp	x21, 17000 <__FRAME_END__+0xf524>
+    60fc:	91002260 	add	x0, x19, #0x8
+    6100:	f947daa1 	ldr	x1, [x21, #4016]
+    6104:	91006022 	add	x2, x1, #0x18
+    6108:	91010021 	add	x1, x1, #0x40
+    610c:	f900c3e2 	str	x2, [sp, #384]
+    6110:	f90143e1 	str	x1, [sp, #640]
+    6114:	97fff413 	bl	3160 <_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev@plt>
+    6118:	91002261 	add	x1, x19, #0x8
+    611c:	91040260 	add	x0, x19, #0x100
+    6120:	97fff440 	bl	3220 <_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@plt>
+    6124:	f94043e1 	ldr	x1, [sp, #128]
+    6128:	91002260 	add	x0, x19, #0x8
+    612c:	52800282 	mov	w2, #0x14                  	// #20
+    6130:	97fff3f8 	bl	3110 <_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode@plt>
+    6134:	f940c3e1 	ldr	x1, [sp, #384]
+    6138:	f85e8022 	ldur	x2, [x1, #-24]
+    613c:	8b020262 	add	x2, x19, x2
+    6140:	b4000d40 	cbz	x0, 62e8 <__save_fame+0x628>
+    6144:	aa0203e0 	mov	x0, x2
+    6148:	52800001 	mov	w1, #0x0                   	// #0
+    614c:	97fff46d 	bl	3300 <_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@plt>
+    6150:	9101e260 	add	x0, x19, #0x78
+    6154:	97fff393 	bl	2fa0 <_ZNKSt12__basic_fileIcE7is_openEv@plt>
+    6158:	72001c1f 	tst	w0, #0xff
+    615c:	540001e0 	b.eq	6198 <__save_fame+0x4d8>  // b.none
+    6160:	b9405a82 	ldr	w2, [x20, #88]
+    6164:	aa1303e0 	mov	x0, x19
+    6168:	f9401e81 	ldr	x1, [x20, #56]
+    616c:	97fff425 	bl	3200 <_ZNSo5writeEPKcl@plt>
+    6170:	b9403280 	ldr	w0, [x20, #48]
+    6174:	7100041f 	cmp	w0, #0x1
+    6178:	540000ad 	b.le	618c <__save_fame+0x4cc>
+    617c:	b9405e82 	ldr	w2, [x20, #92]
+    6180:	aa1303e0 	mov	x0, x19
+    6184:	f9402281 	ldr	x1, [x20, #64]
+    6188:	97fff41e 	bl	3200 <_ZNSo5writeEPKcl@plt>
+    618c:	91002260 	add	x0, x19, #0x8
+    6190:	97fff380 	bl	2f90 <_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv@plt>
+    6194:	b4000ba0 	cbz	x0, 6308 <__save_fame+0x648>
+    6198:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    619c:	91002260 	add	x0, x19, #0x8
+    61a0:	f947dab5 	ldr	x21, [x21, #4016]
+    61a4:	f947d021 	ldr	x1, [x1, #4000]
+    61a8:	910062a2 	add	x2, x21, #0x18
+    61ac:	910102b5 	add	x21, x21, #0x40
+    61b0:	f90143f5 	str	x21, [sp, #640]
+    61b4:	91004021 	add	x1, x1, #0x10
+    61b8:	a91807e2 	stp	x2, x1, [sp, #384]
+    61bc:	97fff375 	bl	2f90 <_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv@plt>
+    61c0:	9101e260 	add	x0, x19, #0x78
+    61c4:	97fff46b 	bl	3370 <_ZNSt12__basic_fileIcED1Ev@plt>
+    61c8:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    61cc:	91010260 	add	x0, x19, #0x40
+    61d0:	f947b421 	ldr	x1, [x1, #3944]
+    61d4:	91004021 	add	x1, x1, #0x10
+    61d8:	f900c7e1 	str	x1, [sp, #392]
+    61dc:	97fff41d 	bl	3250 <_ZNSt6localeD1Ev@plt>
+    61e0:	f85e82e1 	ldur	x1, [x23, #-24]
+    61e4:	f900c3f7 	str	x23, [sp, #384]
+    61e8:	f947a2d6 	ldr	x22, [x22, #3904]
+    61ec:	91040260 	add	x0, x19, #0x100
+    61f0:	f8216a78 	str	x24, [x19, x1]
+    61f4:	910042d6 	add	x22, x22, #0x10
+    61f8:	f90143f6 	str	x22, [sp, #640]
+    61fc:	97fff379 	bl	2fe0 <_ZNSt8ios_baseD2Ev@plt>
+    6200:	f9403fe0 	ldr	x0, [sp, #120]
+    6204:	91004001 	add	x1, x0, #0x10
+    6208:	f94043e0 	ldr	x0, [sp, #128]
+    620c:	eb01001f 	cmp	x0, x1
+    6210:	54000040 	b.eq	6218 <__save_fame+0x558>  // b.none
+    6214:	97fff3c7 	bl	3130 <_ZdlPv@plt>
+    6218:	f947a79c 	ldr	x28, [x28, #3912]
+    621c:	f941c7e0 	ldr	x0, [sp, #904]
+    6220:	f9400381 	ldr	x1, [x28]
+    6224:	eb010000 	subs	x0, x0, x1
+    6228:	d2800001 	mov	x1, #0x0                   	// #0
+    622c:	540007c1 	b.ne	6324 <__save_fame+0x664>  // b.any
+    6230:	52800000 	mov	w0, #0x0                   	// #0
+    6234:	a9417bfd 	ldp	x29, x30, [sp, #16]
+    6238:	a94253f3 	ldp	x19, x20, [sp, #32]
+    623c:	a9435bf5 	ldp	x21, x22, [sp, #48]
+    6240:	a94463f7 	ldp	x23, x24, [sp, #64]
+    6244:	a9456bf9 	ldp	x25, x26, [sp, #80]
+    6248:	a94673fb 	ldp	x27, x28, [sp, #96]
+    624c:	910e43ff 	add	sp, sp, #0x390
+    6250:	d65f03c0 	ret
+    6254:	aa1a03e0 	mov	x0, x26
+    6258:	d2800002 	mov	x2, #0x0                   	// #0
+    625c:	d2800001 	mov	x1, #0x0                   	// #0
+    6260:	97fff40c 	bl	3290 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@plt>
+    6264:	aa0003e1 	mov	x1, x0
+    6268:	910483f9 	add	x25, sp, #0x120
+    626c:	91004322 	add	x2, x25, #0x10
+    6270:	f90093e2 	str	x2, [sp, #288]
+    6274:	f8410422 	ldr	x2, [x1], #16
+    6278:	eb01005f 	cmp	x2, x1
+    627c:	54ffe0c1 	b.ne	5e94 <__save_fame+0x1d4>  // b.any
+    6280:	a9410c02 	ldp	x2, x3, [x0, #16]
+    6284:	a9130fe2 	stp	x2, x3, [sp, #304]
+    6288:	17ffff06 	b	5ea0 <__save_fame+0x1e0>
+    628c:	aa1b03e0 	mov	x0, x27
+    6290:	d2800002 	mov	x2, #0x0                   	// #0
+    6294:	d2800001 	mov	x1, #0x0                   	// #0
+    6298:	97fff3fe 	bl	3290 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@plt>
+    629c:	910603f3 	add	x19, sp, #0x180
+    62a0:	aa0003e2 	mov	x2, x0
+    62a4:	91004261 	add	x1, x19, #0x10
+    62a8:	f900c3e1 	str	x1, [sp, #384]
+    62ac:	f8410401 	ldr	x1, [x0], #16
+    62b0:	eb00003f 	cmp	x1, x0
+    62b4:	54ffe721 	b.ne	5f98 <__save_fame+0x2d8>  // b.any
+    62b8:	a9411444 	ldp	x4, x5, [x2, #16]
+    62bc:	a91917e4 	stp	x4, x5, [sp, #400]
+    62c0:	17ffff39 	b	5fa4 <__save_fame+0x2e4>
+    62c4:	a9410c02 	ldp	x2, x3, [x0, #16]
+    62c8:	a90d0fe2 	stp	x2, x3, [sp, #208]
+    62cc:	17fffeb6 	b	5da4 <__save_fame+0xe4>
+    62d0:	a9411424 	ldp	x4, x5, [x1, #16]
+    62d4:	a90f17e4 	stp	x4, x5, [sp, #240]
+    62d8:	17fffecb 	b	5e04 <__save_fame+0x144>
+    62dc:	a9411424 	ldp	x4, x5, [x1, #16]
+    62e0:	a91517e4 	stp	x4, x5, [sp, #336]
+    62e4:	17ffff06 	b	5efc <__save_fame+0x23c>
+    62e8:	b9402041 	ldr	w1, [x2, #32]
+    62ec:	aa0203e0 	mov	x0, x2
+    62f0:	321e0021 	orr	w1, w1, #0x4
+    62f4:	97fff403 	bl	3300 <_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@plt>
+    62f8:	17ffff96 	b	6150 <__save_fame+0x490>
+    62fc:	a9410c02 	ldp	x2, x3, [x0, #16]
+    6300:	a9090fe2 	stp	x2, x3, [sp, #144]
+    6304:	17ffff3b 	b	5ff0 <__save_fame+0x330>
+    6308:	f940c3e0 	ldr	x0, [sp, #384]
+    630c:	f85e8000 	ldur	x0, [x0, #-24]
+    6310:	8b000260 	add	x0, x19, x0
+    6314:	b9402001 	ldr	w1, [x0, #32]
+    6318:	321e0021 	orr	w1, w1, #0x4
+    631c:	97fff3f9 	bl	3300 <_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@plt>
+    6320:	17ffff9e 	b	6198 <__save_fame+0x4d8>
+    6324:	97fff333 	bl	2ff0 <__stack_chk_fail@plt>
+    6328:	90000000 	adrp	x0, 6000 <__save_fame+0x340>
+    632c:	912fa000 	add	x0, x0, #0xbe8
+    6330:	97fff34c 	bl	3060 <_ZSt20__throw_length_errorPKc@plt>
+    6334:	90000000 	adrp	x0, 6000 <__save_fame+0x340>
+    6338:	912fa000 	add	x0, x0, #0xbe8
+    633c:	97fff349 	bl	3060 <_ZSt20__throw_length_errorPKc@plt>
+    6340:	f940c3e1 	ldr	x1, [sp, #384]
+    6344:	91004262 	add	x2, x19, #0x10
+    6348:	aa0003f3 	mov	x19, x0
+    634c:	eb02003f 	cmp	x1, x2
+    6350:	54000060 	b.eq	635c <__save_fame+0x69c>  // b.none
+    6354:	aa0103e0 	mov	x0, x1
+    6358:	97fff376 	bl	3130 <_ZdlPv@plt>
+    635c:	f940b3e0 	ldr	x0, [sp, #352]
+    6360:	9100437b 	add	x27, x27, #0x10
+    6364:	eb1b001f 	cmp	x0, x27
+    6368:	54000040 	b.eq	6370 <__save_fame+0x6b0>  // b.none
+    636c:	97fff371 	bl	3130 <_ZdlPv@plt>
+    6370:	f940a3e0 	ldr	x0, [sp, #320]
+    6374:	910042d6 	add	x22, x22, #0x10
+    6378:	eb16001f 	cmp	x0, x22
+    637c:	54000040 	b.eq	6384 <__save_fame+0x6c4>  // b.none
+    6380:	97fff36c 	bl	3130 <_ZdlPv@plt>
+    6384:	f94093e0 	ldr	x0, [sp, #288]
+    6388:	91004339 	add	x25, x25, #0x10
+    638c:	eb19001f 	cmp	x0, x25
+    6390:	54000040 	b.eq	6398 <__save_fame+0x6d8>  // b.none
+    6394:	97fff367 	bl	3130 <_ZdlPv@plt>
+    6398:	f94083e0 	ldr	x0, [sp, #256]
+    639c:	9100435a 	add	x26, x26, #0x10
+    63a0:	eb1a001f 	cmp	x0, x26
+    63a4:	54000040 	b.eq	63ac <__save_fame+0x6ec>  // b.none
+    63a8:	97fff362 	bl	3130 <_ZdlPv@plt>
+    63ac:	f94073e0 	ldr	x0, [sp, #224]
+    63b0:	910042b5 	add	x21, x21, #0x10
+    63b4:	eb15001f 	cmp	x0, x21
+    63b8:	54000040 	b.eq	63c0 <__save_fame+0x700>  // b.none
+    63bc:	97fff35d 	bl	3130 <_ZdlPv@plt>
+    63c0:	f94063e0 	ldr	x0, [sp, #192]
+    63c4:	91004318 	add	x24, x24, #0x10
+    63c8:	eb18001f 	cmp	x0, x24
+    63cc:	54000040 	b.eq	63d4 <__save_fame+0x714>  // b.none
+    63d0:	97fff358 	bl	3130 <_ZdlPv@plt>
+    63d4:	f94053e0 	ldr	x0, [sp, #160]
+    63d8:	910042f7 	add	x23, x23, #0x10
+    63dc:	eb17001f 	cmp	x0, x23
+    63e0:	54000040 	b.eq	63e8 <__save_fame+0x728>  // b.none
+    63e4:	97fff353 	bl	3130 <_ZdlPv@plt>
+    63e8:	aa1303e0 	mov	x0, x19
+    63ec:	97fff3cd 	bl	3320 <_Unwind_Resume@plt>
+    63f0:	aa0003f3 	mov	x19, x0
+    63f4:	17ffffe9 	b	6398 <__save_fame+0x6d8>
+    63f8:	aa0003e1 	mov	x1, x0
+    63fc:	aa1303e0 	mov	x0, x19
+    6400:	aa0103f3 	mov	x19, x1
+    6404:	97fff39b 	bl	3270 <_ZNSt14basic_ofstreamIcSt11char_traitsIcEED1Ev@plt>
+    6408:	a94783e1 	ldp	x1, x0, [sp, #120]
+    640c:	91004021 	add	x1, x1, #0x10
+    6410:	eb01001f 	cmp	x0, x1
+    6414:	54fffea0 	b.eq	63e8 <__save_fame+0x728>  // b.none
+    6418:	97fff346 	bl	3130 <_ZdlPv@plt>
+    641c:	17fffff3 	b	63e8 <__save_fame+0x728>
+    6420:	aa0003f4 	mov	x20, x0
+    6424:	91002260 	add	x0, x19, #0x8
+    6428:	97fff39e 	bl	32a0 <_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev@plt>
+    642c:	aa1403e1 	mov	x1, x20
+    6430:	f85e82e0 	ldur	x0, [x23, #-24]
+    6434:	f900c3f7 	str	x23, [sp, #384]
+    6438:	f8206a78 	str	x24, [x19, x0]
+    643c:	f947a2d6 	ldr	x22, [x22, #3904]
+    6440:	91040260 	add	x0, x19, #0x100
+    6444:	aa0103f3 	mov	x19, x1
+    6448:	910042c1 	add	x1, x22, #0x10
+    644c:	f90143e1 	str	x1, [sp, #640]
+    6450:	97fff2e4 	bl	2fe0 <_ZNSt8ios_baseD2Ev@plt>
+    6454:	17ffffed 	b	6408 <__save_fame+0x748>
+    6458:	aa0003e1 	mov	x1, x0
+    645c:	17fffff5 	b	6430 <__save_fame+0x770>
+    6460:	aa0003f3 	mov	x19, x0
+    6464:	17ffffbe 	b	635c <__save_fame+0x69c>
+    6468:	aa0003f3 	mov	x19, x0
+    646c:	17ffffc6 	b	6384 <__save_fame+0x6c4>
+    6470:	aa0003f3 	mov	x19, x0
+    6474:	17ffffd8 	b	63d4 <__save_fame+0x714>
+    6478:	97fff2ea 	bl	3020 <__cxa_begin_catch@plt>
+    647c:	97fff399 	bl	32e0 <__cxa_end_catch@plt>
+    6480:	17ffff50 	b	61c0 <__save_fame+0x500>
+    6484:	aa0003e1 	mov	x1, x0
+    6488:	17ffffed 	b	643c <__save_fame+0x77c>
+    648c:	aa0003f3 	mov	x19, x0
+    6490:	17ffffc7 	b	63ac <__save_fame+0x6ec>
+    6494:	aa0003f3 	mov	x19, x0
+    6498:	17ffffca 	b	63c0 <__save_fame+0x700>
+    649c:	aa0003f3 	mov	x19, x0
+    64a0:	17ffffb4 	b	6370 <__save_fame+0x6b0>
+    64a4:	d503201f 	nop
+    64a8:	d503201f 	nop
+    64ac:	d503201f 	nop
+
+00000000000064b0 <save_raw_frame_data>:
+    64b0:	a9ba7bfd 	stp	x29, x30, [sp, #-96]!
+    64b4:	d2800083 	mov	x3, #0x4                   	// #4
+    64b8:	528e45c2 	mov	w2, #0x722e                	// #29230
+    64bc:	72aeec22 	movk	w2, #0x7761, lsl #16
+    64c0:	910003fd 	mov	x29, sp
+    64c4:	a90153f3 	stp	x19, x20, [sp, #16]
+    64c8:	b0000094 	adrp	x20, 17000 <__FRAME_END__+0xf524>
+    64cc:	9100e3f3 	add	x19, sp, #0x38
+    64d0:	f947a684 	ldr	x4, [x20, #3912]
+    64d4:	91004265 	add	x5, x19, #0x10
+    64d8:	a9038fe5 	stp	x5, x3, [sp, #56]
+    64dc:	aa1303e1 	mov	x1, x19
+    64e0:	f9400085 	ldr	x5, [x4]
+    64e4:	f9002fe5 	str	x5, [sp, #88]
+    64e8:	d2800005 	mov	x5, #0x0                   	// #0
+    64ec:	f90013f5 	str	x21, [sp, #32]
+    64f0:	b9004be2 	str	w2, [sp, #72]
+    64f4:	390133ff 	strb	wzr, [sp, #76]
+    64f8:	97fffdf2 	bl	5cc0 <__save_fame>
+    64fc:	f9401fe1 	ldr	x1, [sp, #56]
+    6500:	91004273 	add	x19, x19, #0x10
+    6504:	2a0003f5 	mov	w21, w0
+    6508:	eb13003f 	cmp	x1, x19
+    650c:	54000060 	b.eq	6518 <save_raw_frame_data+0x68>  // b.none
+    6510:	aa0103e0 	mov	x0, x1
+    6514:	97fff307 	bl	3130 <_ZdlPv@plt>
+    6518:	f947a694 	ldr	x20, [x20, #3912]
+    651c:	f9402fe0 	ldr	x0, [sp, #88]
+    6520:	f9400281 	ldr	x1, [x20]
+    6524:	eb010000 	subs	x0, x0, x1
+    6528:	d2800001 	mov	x1, #0x0                   	// #0
+    652c:	540000c1 	b.ne	6544 <save_raw_frame_data+0x94>  // b.any
+    6530:	2a1503e0 	mov	w0, w21
+    6534:	a94153f3 	ldp	x19, x20, [sp, #16]
+    6538:	f94013f5 	ldr	x21, [sp, #32]
+    653c:	a8c67bfd 	ldp	x29, x30, [sp], #96
+    6540:	d65f03c0 	ret
+    6544:	97fff2ab 	bl	2ff0 <__stack_chk_fail@plt>
+    6548:	f9401fe1 	ldr	x1, [sp, #56]
+    654c:	91004273 	add	x19, x19, #0x10
+    6550:	aa0003f4 	mov	x20, x0
+    6554:	eb13003f 	cmp	x1, x19
+    6558:	54000060 	b.eq	6564 <save_raw_frame_data+0xb4>  // b.none
+    655c:	aa0103e0 	mov	x0, x1
+    6560:	97fff2f4 	bl	3130 <_ZdlPv@plt>
+    6564:	aa1403e0 	mov	x0, x20
+    6568:	97fff36e 	bl	3320 <_Unwind_Resume@plt>
+    656c:	d503201f 	nop
+
+0000000000006570 <save_yuv_frame_data>:
+    6570:	a9ba7bfd 	stp	x29, x30, [sp, #-96]!
+    6574:	d2800083 	mov	x3, #0x4                   	// #4
+    6578:	528f25c2 	mov	w2, #0x792e                	// #31022
+    657c:	72aecea2 	movk	w2, #0x7675, lsl #16
+    6580:	910003fd 	mov	x29, sp
+    6584:	a90153f3 	stp	x19, x20, [sp, #16]
+    6588:	b0000094 	adrp	x20, 17000 <__FRAME_END__+0xf524>
+    658c:	9100e3f3 	add	x19, sp, #0x38
+    6590:	f947a684 	ldr	x4, [x20, #3912]
+    6594:	91004265 	add	x5, x19, #0x10
+    6598:	a9038fe5 	stp	x5, x3, [sp, #56]
+    659c:	aa1303e1 	mov	x1, x19
+    65a0:	f9400085 	ldr	x5, [x4]
+    65a4:	f9002fe5 	str	x5, [sp, #88]
+    65a8:	d2800005 	mov	x5, #0x0                   	// #0
+    65ac:	f90013f5 	str	x21, [sp, #32]
+    65b0:	b9004be2 	str	w2, [sp, #72]
+    65b4:	390133ff 	strb	wzr, [sp, #76]
+    65b8:	97fffdc2 	bl	5cc0 <__save_fame>
+    65bc:	f9401fe1 	ldr	x1, [sp, #56]
+    65c0:	91004273 	add	x19, x19, #0x10
+    65c4:	2a0003f5 	mov	w21, w0
+    65c8:	eb13003f 	cmp	x1, x19
+    65cc:	54000060 	b.eq	65d8 <save_yuv_frame_data+0x68>  // b.none
+    65d0:	aa0103e0 	mov	x0, x1
+    65d4:	97fff2d7 	bl	3130 <_ZdlPv@plt>
+    65d8:	f947a694 	ldr	x20, [x20, #3912]
+    65dc:	f9402fe0 	ldr	x0, [sp, #88]
+    65e0:	f9400281 	ldr	x1, [x20]
+    65e4:	eb010000 	subs	x0, x0, x1
+    65e8:	d2800001 	mov	x1, #0x0                   	// #0
+    65ec:	540000c1 	b.ne	6604 <save_yuv_frame_data+0x94>  // b.any
+    65f0:	2a1503e0 	mov	w0, w21
+    65f4:	a94153f3 	ldp	x19, x20, [sp, #16]
+    65f8:	f94013f5 	ldr	x21, [sp, #32]
+    65fc:	a8c67bfd 	ldp	x29, x30, [sp], #96
+    6600:	d65f03c0 	ret
+    6604:	97fff27b 	bl	2ff0 <__stack_chk_fail@plt>
+    6608:	f9401fe1 	ldr	x1, [sp, #56]
+    660c:	91004273 	add	x19, x19, #0x10
+    6610:	aa0003f4 	mov	x20, x0
+    6614:	eb13003f 	cmp	x1, x19
+    6618:	54000060 	b.eq	6624 <save_yuv_frame_data+0xb4>  // b.none
+    661c:	aa0103e0 	mov	x0, x1
+    6620:	97fff2c4 	bl	3130 <_ZdlPv@plt>
+    6624:	aa1403e0 	mov	x0, x20
+    6628:	97fff33e 	bl	3320 <_Unwind_Resume@plt>
+    662c:	d503201f 	nop
+
+0000000000006630 <_ZN5spdev9VPPCameraD0Ev>:
+    6630:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    6634:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    6638:	910003fd 	mov	x29, sp
+    663c:	f947c021 	ldr	x1, [x1, #3968]
+    6640:	f9000bf3 	str	x19, [sp, #16]
+    6644:	aa0003f3 	mov	x19, x0
+    6648:	91004021 	add	x1, x1, #0x10
+    664c:	f9000001 	str	x1, [x0]
+    6650:	97fff2f8 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    6654:	aa1303e0 	mov	x0, x19
+    6658:	d2805701 	mov	x1, #0x2b8                 	// #696
+    665c:	f9400bf3 	ldr	x19, [sp, #16]
+    6660:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    6664:	17fff2bb 	b	3150 <_ZdlPvm@plt>
+    6668:	d503201f 	nop
+    666c:	d503201f 	nop
+
+0000000000006670 <_ZN5spdev9VPPEncodeD0Ev>:
+    6670:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    6674:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    6678:	910003fd 	mov	x29, sp
+    667c:	f947e021 	ldr	x1, [x1, #4032]
+    6680:	f9000bf3 	str	x19, [sp, #16]
+    6684:	aa0003f3 	mov	x19, x0
+    6688:	91004021 	add	x1, x1, #0x10
+    668c:	f9000001 	str	x1, [x0]
+    6690:	97fff2e8 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    6694:	aa1303e0 	mov	x0, x19
+    6698:	d2808d01 	mov	x1, #0x468                 	// #1128
+    669c:	f9400bf3 	ldr	x19, [sp, #16]
+    66a0:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    66a4:	17fff2ab 	b	3150 <_ZdlPvm@plt>
+    66a8:	d503201f 	nop
+    66ac:	d503201f 	nop
+
+00000000000066b0 <_ZN5spdev9VPPDecodeD0Ev>:
+    66b0:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    66b4:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    66b8:	910003fd 	mov	x29, sp
+    66bc:	f9479c21 	ldr	x1, [x1, #3896]
+    66c0:	f9000bf3 	str	x19, [sp, #16]
+    66c4:	aa0003f3 	mov	x19, x0
+    66c8:	91004021 	add	x1, x1, #0x10
+    66cc:	f9000001 	str	x1, [x0]
+    66d0:	97fff2d8 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    66d4:	aa1303e0 	mov	x0, x19
+    66d8:	d280a501 	mov	x1, #0x528                 	// #1320
+    66dc:	f9400bf3 	ldr	x19, [sp, #16]
+    66e0:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    66e4:	17fff29b 	b	3150 <_ZdlPvm@plt>
+    66e8:	d503201f 	nop
+    66ec:	d503201f 	nop
+
+00000000000066f0 <_ZN5spdev10VPPDisplayD0Ev>:
+    66f0:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    66f4:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    66f8:	910003fd 	mov	x29, sp
+    66fc:	f947b821 	ldr	x1, [x1, #3952]
+    6700:	f9000bf3 	str	x19, [sp, #16]
+    6704:	aa0003f3 	mov	x19, x0
+    6708:	91004021 	add	x1, x1, #0x10
+    670c:	f9000001 	str	x1, [x0]
+    6710:	97fff2c8 	bl	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    6714:	aa1303e0 	mov	x0, x19
+    6718:	d2800e01 	mov	x1, #0x70                  	// #112
+    671c:	f9400bf3 	ldr	x19, [sp, #16]
+    6720:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    6724:	17fff28b 	b	3150 <_ZdlPvm@plt>
+    6728:	d503201f 	nop
+    672c:	d503201f 	nop
+
+0000000000006730 <_ZN5spdev9VPPCameraD1Ev>:
+    6730:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    6734:	f947c021 	ldr	x1, [x1, #3968]
+    6738:	91004021 	add	x1, x1, #0x10
+    673c:	f9000001 	str	x1, [x0]
+    6740:	17fff2bc 	b	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    6744:	d503201f 	nop
+    6748:	d503201f 	nop
+    674c:	d503201f 	nop
+
+0000000000006750 <_ZN5spdev9VPPEncodeD1Ev>:
+    6750:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    6754:	f947e021 	ldr	x1, [x1, #4032]
+    6758:	91004021 	add	x1, x1, #0x10
+    675c:	f9000001 	str	x1, [x0]
+    6760:	17fff2b4 	b	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    6764:	d503201f 	nop
+    6768:	d503201f 	nop
+    676c:	d503201f 	nop
+
+0000000000006770 <_ZN5spdev9VPPDecodeD1Ev>:
+    6770:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    6774:	f9479c21 	ldr	x1, [x1, #3896]
+    6778:	91004021 	add	x1, x1, #0x10
+    677c:	f9000001 	str	x1, [x0]
+    6780:	17fff2ac 	b	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+    6784:	d503201f 	nop
+    6788:	d503201f 	nop
+    678c:	d503201f 	nop
+
+0000000000006790 <_ZN5spdev10VPPDisplayD1Ev>:
+    6790:	b0000081 	adrp	x1, 17000 <__FRAME_END__+0xf524>
+    6794:	f947b821 	ldr	x1, [x1, #3952]
+    6798:	91004021 	add	x1, x1, #0x10
+    679c:	f9000001 	str	x1, [x0]
+    67a0:	17fff2a4 	b	3230 <_ZN5spdev9VPPModuleD2Ev@plt>
+
+Disassembly of section .fini:
+
+00000000000067a4 <_fini>:
+    67a4:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    67a8:	910003fd 	mov	x29, sp
+    67ac:	a8c17bfd 	ldp	x29, x30, [sp], #16
+    67b0:	d65f03c0 	ret
+
